@@ -172,13 +172,18 @@ def initial_layout():
                               html.Div(className='center-container',
                                        children=[html.H3(id='graph-title',
                                                          className='graph-title',
-                                                         children=init_title
+                                                         children=init_title,
                                                          ),
-                                                 dcc.Graph(id='sem-dom-graph',
-                                                           figure=init_fig,
-                                                           config={'scrollZoom': True},
-                                                           style={'height': '100%'}
-                                                           )
+                                                 html.Div(id='graph-box',
+                                                          className='graph-box',
+                                                          children=dcc.Graph(id='sem-dom-graph',
+                                                                             figure=init_fig,
+                                                                             config={'scrollZoom': True,
+                                                                                     'responsive': True},
+                                                                             style={'height': '100%',
+                                                                                    'width': '100%'}
+                                                                             )
+                                                          )
                                                  ]
                                        ),
                               html.Div(className='right-container',

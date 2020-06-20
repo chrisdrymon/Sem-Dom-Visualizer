@@ -82,10 +82,17 @@ body {
 
     .center-container {
         margin: auto;
+        display: block;
+        height: auto;
     }
 
         .graph-title {
             text-align: center;
+        }
+
+        .graph-box {
+            margin: 0px;
+            height: auto;
         }
 
     .right-container {
@@ -140,3 +147,75 @@ h3 {
 h4 {
     font-size:1.5em;
 }
+
+@media only screen and (min-width: 950px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 250px minmax(200px,1fr) 400px;
+    }
+
+    .left-container {
+        background-color: #df9fdf;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: auto auto;
+    }
+
+            .input-container {
+            background-color: #1d3557;
+            padding: 10px;
+            line-height: 50%;
+        }
+
+            .input-label {
+                margin: 0px;
+                padding: 0px;
+                line-height: 100%;
+                color: white;
+            }
+
+        .info-container {
+            background-color: #457b9d;
+            padding: 10px;
+            overflow-y: scroll;
+            color: white;
+            display: inline;
+        }
+
+    .center-container {
+        display: grid;
+        grid-template-rows: auto minmax(200px, 1fr);
+        height: 100vh;
+        margin: 0px;
+    }
+
+        .graph-title {
+            padding: 10px;
+            font-size: 2.5em;
+        }
+
+        .graph-box {
+            margin: 0px;
+            height: 100%;
+        }
+
+    .right-container {
+        height: 100vh;
+        display: grid;
+        align-items: center;
+    }
+
+        .right-box {
+            background-color: #457b9d;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        .sense-box {
+            background-color: #457b9d;
+            padding: 10px;
+            text-align: left;
+            color: white;
+        }
+    }

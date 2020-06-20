@@ -84,6 +84,7 @@ body {
 
     .center-container {
         height: 100vh;
+        margin: 0px;
     }
 
     .right-container {
