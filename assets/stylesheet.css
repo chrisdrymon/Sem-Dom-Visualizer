@@ -46,12 +46,13 @@ table {
 }
 
 /* On to the rest of the style */
+/* Mobile first */
 body {
     font-family: Quicksand;
     }
 
 .grid-container {
-
+    display: block;
 }
 
     .left-container {
@@ -81,7 +82,6 @@ body {
         }
 
     .center-container {
-        margin: auto;
         display: block;
         height: auto;
     }
@@ -114,6 +114,18 @@ body {
             color: white;
             border-top: solid 1px white;
         }
+
+        .mobile-info {
+            background-color: #457b9d;
+            padding: 2px;
+            text-align: left;
+            color: white;
+            border-top: solid 1px white;
+        }
+
+            .info-head {
+                text-align: center;
+            }
 
 .ss {
     vertical-align: super;
@@ -217,5 +229,8 @@ h4 {
             padding: 10px;
             text-align: left;
             color: white;
+        }
+        .mobile-info {
+            display: none;
         }
     }

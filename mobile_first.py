@@ -198,7 +198,21 @@ def initial_layout():
                                                           className='right-box'),
                                                  html.Div(id='longest-path',
                                                           children=init_longest_path,
-                                                          className='right-box')
+                                                          className='right-box'),
+                                                 html.Div(className='mobile-info',
+                                                          children=[html.H3(className='info-head',
+                                                                            children='What is this?'),
+                                                                    dcc.Markdown(what_string_1), html.Br(),
+                                                                    dcc.Markdown(what_string_2), html.Br(),
+                                                                    dcc.Markdown(what_string_3), html.Br(),
+                                                                    html.H3(className='info-head',
+                                                                            children='Why Do This?'),
+                                                                    dcc.Markdown(why_string_1), html.Br(),
+                                                                    html.H3(className='info-head',
+                                                                            children='How I Made It'),
+                                                                    dcc.Markdown(how_string_1)
+                                                                    ]
+                                                          )
                                                  ]
                                        )
                               ]
