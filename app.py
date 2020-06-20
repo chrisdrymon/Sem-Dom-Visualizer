@@ -110,10 +110,7 @@ def make_dash(word):
     # This checks to see if WordNet recognizing the word as a noun. If not, it returns an error.
     if len(wn.synsets(word, pos=wn.NOUN)) == 0:
         err_title = f'Error: WordNet does not recognize "{display_word.capitalize()}" as a noun.'
-        figure = {'data': [{'type': 'sunburst'}],
-                  'layout': {'title': {'text': err_title,
-                                       'font': {'size': 30,
-                                                'color': 'red'}}}}
+        figure = {'data': [{'type': 'sunburst'}]}
     else:
         figure = {'data': [{'type': 'sunburst',
                             'ids': ids,
@@ -121,31 +118,28 @@ def make_dash(word):
                             'parents': parents,
                             'hovertext': ids,
                             'hoverinfo': 'text'}],
-                  'layout': {'title': {'text': f'Semantic Domains of "{display_word.capitalize()}"',
-                                       'x': 0.5,
-                                       'xanchor': 'center',
-                                       'font': {'size': 45}},
-                             'font': {'family': 'Quicksand',
+                  'layout': {'font': {'family': 'Quicksand',
                                       'size': 24},
                              'margin': {'l': 10,
                                         'r': 10,
-                                        'b': 20},
+                                        'b': 10,
+                                        't': 10},
                              'colorway': ['#457b9d', '#e63946']
                              }
                   }
-
+    graph_title = f'Semantic Domains of "{display_word.capitalize()}"'
     base_ss_list = ['The noun "', html.B(f'{display_word}'), '" is a member of', html.H1(str(len(base_synsets))),
                     ' base synsets.']
     unique_paths = ['Unique paths from end nodes to root node:', html.H1(len(basepaths))]
     longest_path = ['Synsets along the longest path from end node to root node (including the end node and root '
                     'node):', html.H1(max_len)]
 
-    return figure, base_ss_list, base_defs, unique_paths, longest_path
+    return graph_title, figure, base_ss_list, base_defs, unique_paths, longest_path
 
 
 # This will allow a layout of "impression" to be shown when the page is first loaded.
 def initial_layout():
-    init_fig, init_ss_list, init_defs, init_paths, init_longest_path = make_dash('impression')
+    init_title, init_fig, init_ss_list, init_defs, init_paths, init_longest_path = make_dash('impression')
     return html.Div(className='grid-container',
                     children=[html.Div(className='left-container',
                                        children=[html.Div(className='input-container',
@@ -176,11 +170,20 @@ def initial_layout():
                                                  ]
                                        ),
                               html.Div(className='center-container',
-                                       children=[dcc.Graph(id='sem-dom-graph',
-                                                           figure=init_fig,
-                                                           config={'scrollZoom': True},
-                                                           style={'height': '100%'}
-                                                           )
+                                       children=[html.H3(id='graph-title',
+                                                         className='graph-title',
+                                                         children=init_title,
+                                                         ),
+                                                 html.Div(id='graph-box',
+                                                          className='graph-box',
+                                                          children=dcc.Graph(id='sem-dom-graph',
+                                                                             figure=init_fig,
+                                                                             config={'scrollZoom': True,
+                                                                                     'responsive': True},
+                                                                             style={'height': '100%',
+                                                                                    'width': '100%'}
+                                                                             )
+                                                          )
                                                  ]
                                        ),
                               html.Div(className='right-container',
@@ -195,7 +198,21 @@ def initial_layout():
                                                           className='right-box'),
                                                  html.Div(id='longest-path',
                                                           children=init_longest_path,
-                                                          className='right-box')
+                                                          className='right-box'),
+                                                 html.Div(className='mobile-info',
+                                                          children=[html.H3(className='info-head',
+                                                                            children='What is this?'),
+                                                                    dcc.Markdown(what_string_1), html.Br(),
+                                                                    dcc.Markdown(what_string_2), html.Br(),
+                                                                    dcc.Markdown(what_string_3), html.Br(),
+                                                                    html.H3(className='info-head',
+                                                                            children='Why Do This?'),
+                                                                    dcc.Markdown(why_string_1), html.Br(),
+                                                                    html.H3(className='info-head',
+                                                                            children='How I Made It'),
+                                                                    dcc.Markdown(how_string_1)
+                                                                    ]
+                                                          )
                                                  ]
                                        )
                               ]
@@ -250,7 +267,8 @@ def random_word(clicks):
 
 # This is how the page is interactive and updated.
 @app.callback(
-    [Output('sem-dom-graph', 'figure'),
+    [Output('graph-title', 'children'),
+     Output('sem-dom-graph', 'figure'),
      Output('base-synset-box', 'children'),
      Output('sense-def-box', 'children'),
      Output('unique-paths', 'children'),
