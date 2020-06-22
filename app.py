@@ -146,6 +146,15 @@ def initial_layout():
                                        children=[html.Div(className='input-container',
                                                           children=[html.H3(className='input-label',
                                                                             children='Text Input'), html.Br(),
+                                                                    dcc.RadioItems(className='radio-buttons',
+                                                                                   options=[
+                                                                                       {'label': 'Ancient Greek',
+                                                                                        'value': 'Greek'},
+                                                                                       {'label': 'English',
+                                                                                        'value': 'English'}
+                                                                                   ],
+                                                                                   value='English'),
+                                                                    html.Br(),
                                                                     dcc.Input(id='input-state',
                                                                               type='text',
                                                                               placeholder='Type a noun',
@@ -220,8 +229,8 @@ def initial_layout():
                     )
 
 
-with open('data/all_nouns.json') as json_file:
-    all_nouns = json.load(json_file)
+with open('data/english_nouns.json') as json_file:
+    english_nouns = json.load(json_file)
 
 # Construct a default sunburst graph. This prevents flickering when loading.
 fig = go.Figure(go.Sunburst())

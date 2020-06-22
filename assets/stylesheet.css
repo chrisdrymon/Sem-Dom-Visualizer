@@ -67,6 +67,10 @@ body {
             line-height: 50%;
         }
 
+            .radio-buttons {
+                color: white;
+            }
+
             .input-label {
                 margin: 0px;
                 padding: 0px;
@@ -160,6 +164,7 @@ h4 {
     font-size:1.5em;
 }
 
+/* Full-Sized */
 @media only screen and (min-width: 950px) {
     .grid-container {
         display: grid;
@@ -215,6 +220,7 @@ h4 {
         height: 100vh;
         display: grid;
         align-items: center;
+        overflow: auto;
     }
 
         .right-box {
