@@ -109,9 +109,10 @@ def make_dash(word):
 
     # This checks to see if WordNet recognizing the word as a noun. If not, it returns an error.
     if len(wn.synsets(word, pos=wn.NOUN)) == 0:
-        err_title = f'Error: WordNet does not recognize "{display_word.capitalize()}" as a noun.'
+        graph_title = f'Error: WordNet does not recognize "{display_word.capitalize()}" as a noun.'
         figure = {'data': [{'type': 'sunburst'}]}
     else:
+        graph_title = f'Semantic Domains of "{display_word.capitalize()}"'
         figure = {'data': [{'type': 'sunburst',
                             'ids': ids,
                             'labels': labels,
@@ -127,7 +128,7 @@ def make_dash(word):
                              'colorway': ['#457b9d', '#e63946']
                              }
                   }
-    graph_title = f'Semantic Domains of "{display_word.capitalize()}"'
+
     base_ss_list = ['The noun "', html.B(f'{display_word}'), '" is a member of', html.H1(str(len(base_synsets))),
                     ' base synsets.']
     unique_paths = ['Unique paths from end nodes to root node:', html.H1(len(basepaths))]
