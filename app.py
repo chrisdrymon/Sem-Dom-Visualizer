@@ -5,7 +5,9 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.exceptions import PreventUpdate
-from dash.dependencies import Input, Output
+from dash.dependencies import Input, Output, State
+import requests
+import os
 import random
 import json
 
@@ -32,13 +34,15 @@ def synset_counting(ss_list, ss_counter, pairs):
 
 
 # Placed this here so it can be run to produce the initial graph
-def make_dash(word):
+def make_dash(word, lingua):
     base_synsets = []
+    base_ss_codes = []
     basepaths = []
     base_defs = [html.H3('Definitions', style={'text-align': 'center'}), html.Br()]
     multiparents = []
     synset_counter = Counter()
     child_parent_pairs = {}
+    priority_lang = 'english'
 
     if word is None:
         raise PreventUpdate
@@ -50,11 +54,30 @@ def make_dash(word):
     word = word.replace(' ', '_')
     display_word = word.replace('_', ' ')
 
-    # Create a list of all base synsets
-    for i, synset in enumerate(wn.synsets(word, pos=wn.NOUN)):
-        for path in synset.hypernym_paths():
-            basepaths.append(path)
-        base_synsets.append(synset)
+    # Check for language
+    if lingua == 'english':
+
+        # Create a list of all base synsets
+        for i, synset in enumerate(wn.synsets(word, pos=wn.NOUN)):
+            for path in synset.hypernym_paths():
+                basepaths.append(path)
+            base_synsets.append(synset)
+
+    else:
+        try:
+            for i, synset in enumerate(greek_nouns_dict[word]['literal']):
+                if synset['language']['abbrev'] == 'Eng' and priority_lang == 'english':
+                    ss_code = synset['semfield']['code']
+                    ss_name = synset['semfield']['english']
+                    if ss_name not in base_synsets:
+                        base_synsets.append(ss_name)
+                    if ss_code not in base_ss_codes:
+                        base_ss_codes.append(ss_code)
+                if synset['language']['abbrev'] == 'Lat'
+        except KeyError:
+            # request from the API
+
+
 
     # Order the base synsets list, grab their definitions, and format them for display in the app
     for i, synset in enumerate(sorted(base_synsets)):
@@ -140,13 +163,14 @@ def make_dash(word):
 
 # This will allow a layout of "impression" to be shown when the page is first loaded.
 def initial_layout():
-    init_title, init_fig, init_ss_list, init_defs, init_paths, init_longest_path = make_dash('impression')
+    init_title, init_fig, init_ss_list, init_defs, init_paths, init_longest_path = make_dash('impression', 'english')
     return html.Div(className='grid-container',
                     children=[html.Div(className='left-container',
                                        children=[html.Div(className='input-container',
                                                           children=[html.H3(className='input-label',
                                                                             children='Text Input'), html.Br(),
-                                                                    dcc.RadioItems(className='radio-buttons',
+                                                                    dcc.RadioItems(id='language-sel',
+                                                                                   className='radio-buttons',
                                                                                    options=[
                                                                                        {'label': 'Ancient Greek',
                                                                                         'value': 'Greek'},
@@ -229,8 +253,14 @@ def initial_layout():
                     )
 
 
-with open('data/english_nouns.json') as json_file:
+with open(os.path.join('data', 'english_nouns.json')) as json_file:
     english_nouns = json.load(json_file)
+
+with open(os.path.join('data', 'greek_nouns.json'), encoding='utf-8') as greek_file:
+    greek_nouns = json.load(greek_file)
+
+with open(os.path.join('data', 'greek_nouns_dict.json'), encoding='utf-8') as greek_dict:
+    greek_nouns_dict = json.load(greek_dict)
 
 # Construct a default sunburst graph. This prevents flickering when loading.
 fig = go.Figure(go.Sunburst())
@@ -266,13 +296,17 @@ app.layout = initial_layout()
 # This runs the randoms word input
 @app.callback(
     Output('input-state', 'value'),
-    [Input('random-button', 'n_clicks')]
+    [Input('random-button', 'n_clicks')],
+    [State('language-sel', 'value')]
 )
-def random_word(clicks):
+def random_word(clicks, lang):
     if clicks is None:
         raise PreventUpdate
     else:
-        return random.choice(all_nouns)
+        if lang == 'english':
+            return random.choice(english_nouns)
+        else:
+            return random.choice(greek_nouns)
 
 
 # This is how the page is interactive and updated.
@@ -283,10 +317,11 @@ def random_word(clicks):
      Output('sense-def-box', 'children'),
      Output('unique-paths', 'children'),
      Output('longest-path', 'children')],
-    [Input('input-state', 'value')]
+    [Input('input-state', 'value')],
+    [State('language-sel', 'value')]
 )
-def update_fig(word):
-    return make_dash(word)
+def update_fig(word, lang):
+    return make_dash(word, lang)
 
 
 if __name__ == '__main__':
