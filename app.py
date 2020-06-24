@@ -10,6 +10,7 @@ import requests
 import os
 import random
 import json
+import pandas as pd
 
 
 # A recursive function for climbing the synset hierarchy and gathering data along the way
@@ -64,20 +65,8 @@ def make_dash(word, lingua):
             base_synsets.append(synset)
 
     else:
-        try:
-            for i, synset in enumerate(greek_nouns_dict[word]['literal']):
-                if synset['language']['abbrev'] == 'Eng' and priority_lang == 'english':
-                    ss_code = synset['semfield']['code']
-                    ss_name = synset['semfield']['english']
-                    if ss_name not in base_synsets:
-                        base_synsets.append(ss_name)
-                    if ss_code not in base_ss_codes:
-                        base_ss_codes.append(ss_code)
-                if synset['language']['abbrev'] == 'Lat'
-        except KeyError:
-            # request from the API
-
-
+        # Create a list of all glosses
+        lemma_df[lemma_df['lemma'] == word]['id']
 
     # Order the base synsets list, grab their definitions, and format them for display in the app
     for i, synset in enumerate(sorted(base_synsets)):
@@ -261,6 +250,14 @@ with open(os.path.join('data', 'greek_nouns.json'), encoding='utf-8') as greek_f
 
 with open(os.path.join('data', 'greek_nouns_dict.json'), encoding='utf-8') as greek_dict:
     greek_nouns_dict = json.load(greek_dict)
+
+with open(os.path.join('data', 'validated_list.json'), encoding='utf-8') as val_file:
+    validated_list = json.load(val_file)
+
+lemma_df = pd.read_csv(os.path.join('data', 'lemma.csv'))
+
+
+
 
 # Construct a default sunburst graph. This prevents flickering when loading.
 fig = go.Figure(go.Sunburst())
