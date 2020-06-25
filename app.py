@@ -6,7 +6,6 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.exceptions import PreventUpdate
 from dash.dependencies import Input, Output, State
-import requests
 import os
 import random
 import json
@@ -37,13 +36,12 @@ def synset_counting(ss_list, ss_counter, pairs):
 # Placed this here so it can be run to produce the initial graph
 def make_dash(word, lingua):
     base_synsets = []
-    base_ss_codes = []
     basepaths = []
     base_defs = [html.H3('Definitions', style={'text-align': 'center'}), html.Br()]
     multiparents = []
     synset_counter = Counter()
     child_parent_pairs = {}
-    priority_lang = 'english'
+    glosses = []
 
     if word is None:
         raise PreventUpdate
@@ -64,88 +62,137 @@ def make_dash(word, lingua):
                 basepaths.append(path)
             base_synsets.append(synset)
 
-    else:
-        # Create a list of all glosses
-        lemma_df[lemma_df['lemma'] == word]['id']
+        # Order the base synsets list, grab their definitions, and format them for display in the app
+        for i, synset in enumerate(sorted(base_synsets)):
+            ss_split = str(synset)[8:].split('.n.')
+            base_defs.append(html.B(ss_split[0].replace('_', ' ')))
+            base_defs.append(html.Span(ss_split[1][:2].lstrip('0'), className='ss'))
+            base_defs.append(' ' + synset.definition())
+            base_defs.append(html.Br())
 
-    # Order the base synsets list, grab their definitions, and format them for display in the app
-    for i, synset in enumerate(sorted(base_synsets)):
-        ss_split = str(synset)[8:].split('.n.')
-        base_defs.append(html.B(ss_split[0].replace('_', ' ')))
-        base_defs.append(html.Span(ss_split[1][:2].lstrip('0'), className='ss'))
-        base_defs.append(' ' + synset.definition())
-        base_defs.append(html.Br())
+        synset_counter, child_parent_pairs = synset_counting(base_synsets, synset_counter, child_parent_pairs)
+        for child in child_parent_pairs:
+            if len(child_parent_pairs[child]) > 1:
+                multiparents.append(child)
 
-    synset_counter, child_parent_pairs = synset_counting(base_synsets, synset_counter, child_parent_pairs)
-    for child in child_parent_pairs:
-        if len(child_parent_pairs[child]) > 1:
-            multiparents.append(child)
-
-    adjusted_paths = []
-    max_len = 0
-    for path in basepaths:
-        # This number will be displayed in the app.
-        if len(path) > max_len:
-            max_len = len(path)
-        # The tricky part here is converting the output of WordNet which sometimes assigns multiple hypernyms to a
-        # single synset into the input for plotly which requires that each synset only have a single parent. So
-        # renaming had to be done to synsets with multiple parents.
-        multi = False
-        revised_path = []
-        multi_suffix = ''
-        for k, item in enumerate(path):
-            if multi:
-                if item in multiparents:
-                    multi_suffix = multi_suffix + '-' + str(path[k-1])
-                    revised_path.append(str(item) + '-' + multi_suffix)
+        adjusted_paths = []
+        max_len = 0
+        for path in basepaths:
+            # This number will be displayed in the app.
+            if len(path) > max_len:
+                max_len = len(path)
+            # The tricky part here is converting the output of WordNet which sometimes assigns multiple hypernyms to a
+            # single synset into the input for plotly which requires that each synset only have a single parent. So
+            # renaming had to be done to synsets with multiple parents.
+            multi = False
+            revised_path = []
+            multi_suffix = ''
+            for k, item in enumerate(path):
+                if multi:
+                    if item in multiparents:
+                        multi_suffix = multi_suffix + '-' + str(path[k-1])
+                        revised_path.append(str(item) + '-' + multi_suffix)
+                    else:
+                        revised_path.append(str(item) + '-' + str(multi_suffix))
                 else:
-                    revised_path.append(str(item) + '-' + str(multi_suffix))
-            else:
-                if item in multiparents:
-                    multi_suffix = str(path[k-1])
-                    revised_path.append(str(item) + '-' + multi_suffix)
-                    multi = True
-                else:
-                    revised_path.append(str(item))
-        adjusted_paths.append(revised_path)
+                    if item in multiparents:
+                        multi_suffix = str(path[k-1])
+                        revised_path.append(str(item) + '-' + multi_suffix)
+                        multi = True
+                    else:
+                        revised_path.append(str(item))
+            adjusted_paths.append(revised_path)
 
-    ids = ["Synset('entity.n.01')"]
-    labels = ['entity']
-    parents = ['']
-    for path in adjusted_paths:
-        for j, node in enumerate(path):
-            if node not in ids:
-                ids.append(node)
-                labels.append(node.split('.n')[0][8:].replace('_', ' '))
-                parents.append(path[j-1])
+        ids = ["Synset('entity.n.01')"]
+        labels = ['entity']
+        parents = ['']
+        for path in adjusted_paths:
+            for j, node in enumerate(path):
+                if node not in ids:
+                    ids.append(node)
+                    labels.append(node.split('.n')[0][8:].replace('_', ' '))
+                    parents.append(path[j-1])
 
-    # This checks to see if WordNet recognizing the word as a noun. If not, it returns an error.
-    if len(wn.synsets(word, pos=wn.NOUN)) == 0:
-        graph_title = f'Error: WordNet does not recognize "{display_word.capitalize()}" as a noun.'
-        figure = {'data': [{'type': 'sunburst'}]}
+        # This checks to see if WordNet recognizing the word as a noun. If not, it returns an error.
+        if len(wn.synsets(word, pos=wn.NOUN)) == 0:
+            graph_title = f'Error: WordNet does not recognize "{display_word.capitalize()}" as a noun.'
+            figure = {'data': [{'type': 'sunburst'}]}
+        else:
+            graph_title = f'Semantic Domains of "{display_word.capitalize()}"'
+            figure = {'data': [{'type': 'sunburst',
+                                'ids': ids,
+                                'labels': labels,
+                                'parents': parents,
+                                'hovertext': ids,
+                                'hoverinfo': 'text'}],
+                      'layout': {'font': {'family': 'Quicksand',
+                                          'size': 24},
+                                 'margin': {'l': 10,
+                                            'r': 10,
+                                            'b': 10,
+                                            't': 10},
+                                 'colorway': ['#457b9d', '#e63946']
+                                 }
+                      }
+
+        base_ss_list = ['The noun "', html.B(f'{display_word}'), '" is a member of', html.H1(str(len(base_synsets))),
+                        ' base synsets.']
+        unique_paths = ['Unique paths from end nodes to root node:', html.H1(len(basepaths))]
+        longest_path = ['Synsets along the longest path from end node to root node (including the end node and root '
+                        'node):', html.H1(max_len)]
+
     else:
-        graph_title = f'Semantic Domains of "{display_word.capitalize()}"'
-        figure = {'data': [{'type': 'sunburst',
-                            'ids': ids,
-                            'labels': labels,
-                            'parents': parents,
-                            'hovertext': ids,
-                            'hoverinfo': 'text'}],
-                  'layout': {'font': {'family': 'Quicksand',
-                                      'size': 24},
-                             'margin': {'l': 10,
-                                        'r': 10,
-                                        'b': 10,
-                                        't': 10},
-                             'colorway': ['#457b9d', '#e63946']
-                             }
-                  }
+        # Find lemma id's from lemma, get synsets from lemma id's, get glosses from the synset dataframe
+        # As it is, this prefers to only show glosses for synsets which are assigned a semfield. If none have a semfield
+        # assigned, then it shows all glosses. This was done because some words have a huge number of glosses.
+        for lemma_id in lemma_df[lemma_df['lemma'] == word]['id'].to_list():
+            for synset_id in list(set(sense_df[sense_df['lemma'] == lemma_id]['synset'].to_list())):
+                small_ss_df = synset_df[(synset_df['id'] == synset_id) & (synset_df['semfield'].notna())]
+                for gloss in small_ss_df['gloss'].to_list():
+                    glosses.append(gloss)
+                for semfield in small_ss_df['semfield'].to_list():
+                    # If there are multiple semantic fields, this separates those up.
+                    if isinstance(semfield, str):
+                        for item in semfield.split(','):
+                            base_synsets.append(int(item))
+                    else:
+                        base_synsets.append(semfield)
+        # In case no glosses are assigned a semantic field:
+        if len(glosses) == 0:
+            for lemma_id in lemma_df[lemma_df['lemma'] == word]['id'].to_list():
+                for synset_id in list(set(sense_df[sense_df['lemma'] == lemma_id]['synset'].to_list())):
+                    for gloss in synset_df[(synset_df['id'] == synset_id) &
+                                           (synset_df['semfield'].isnull())]['gloss'].to_list():
+                        glosses.append(gloss)
 
-    base_ss_list = ['The noun "', html.B(f'{display_word}'), '" is a member of', html.H1(str(len(base_synsets))),
-                    ' base synsets.']
-    unique_paths = ['Unique paths from end nodes to root node:', html.H1(len(basepaths))]
-    longest_path = ['Synsets along the longest path from end node to root node (including the end node and root '
-                    'node):', html.H1(max_len)]
+        for i, definition in enumerate(glosses):
+            base_defs.append(str(i) + '. ' + definition)
+            base_defs.append(html.Br())
+
+        # This checks to see if WordNet recognizing the word as a noun. If not, it returns an error.
+        if word not in greek_nouns:
+            graph_title = f'Error: WordNet does not recognize "{display_word.capitalize()}" as a noun.'
+            figure = {'data': [{'type': 'sunburst'}]}
+        else:
+            graph_title = f'Semantic Domains of "{display_word.capitalize()}"'
+            figure = {'data': [{'type': 'sunburst',
+                                'ids': ids,
+                                'labels': labels,
+                                'parents': parents,
+                                'hovertext': ids,
+                                'hoverinfo': 'text'}],
+                      'layout': {'font': {'family': 'Quicksand',
+                                          'size': 24},
+                                 'margin': {'l': 10,
+                                            'r': 10,
+                                            'b': 10,
+                                            't': 10},
+                                 'colorway': ['#457b9d', '#e63946']
+                                 }
+                      }
+        base_ss_list = ['The noun "', html.B(f'{display_word}'), '" is a member of',
+                        html.H1(str(len(base_synsets))),
+                        ' base synsets.']
 
     return graph_title, figure, base_ss_list, base_defs, unique_paths, longest_path
 
@@ -255,6 +302,9 @@ with open(os.path.join('data', 'validated_list.json'), encoding='utf-8') as val_
     validated_list = json.load(val_file)
 
 lemma_df = pd.read_csv(os.path.join('data', 'lemma.csv'))
+sense_df = pd.read_csv(os.path.join('data', 'literalsense.csv'))
+synset_df = pd.read_csv(os.path.join('data', 'synset.csv'))
+semfield_df = pd.read_csv(os.path.join('data', 'semfield.csv'))
 
 
 
