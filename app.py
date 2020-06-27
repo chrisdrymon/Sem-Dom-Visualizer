@@ -13,6 +13,7 @@ import pandas as pd
 import string
 import requests
 from cltk.corpus.utils.formatter import cltk_normalize
+from cltk.lemmatize.greek.backoff import BackoffGreekLemmatizer
 from greek_accentuation.syllabify import *
 from greek_accentuation.accentuation import *
 
@@ -44,6 +45,11 @@ def deaccent(dastring):
     return dastring.translate(aelphas).translate(hoes).translate(ius).translate(wros).lower()
 
 
+# If a Greek word is given while in Greek mode and the orignal word is not in the list of Greek nouns, this will
+# attempt to normalize the accentuation, try a series of accentuation patterns, and finally try to lemmatize the word.
+# At each step, it will check if the resulting word is in the list of Greek nouns. Accents are easy to mess up in
+# Ancient Greek, so this checks that. It should also allow for the entering of unaccented words, which is somewhat
+# popular.
 def greek_word_check(word):
     original_word = word
     if word.isascii():
@@ -69,7 +75,22 @@ def greek_word_check(word):
             if rebreath('h' + add_accent(s, accentuation)) in greek_nouns:
                 return add_accent(s, accentuation)
     except TypeError:
-        return original_word
+        pass
+    lemmatizer = BackoffGreekLemmatizer()
+    word = lemmatizer.lemmatize([word])[0][1]
+    if word in greek_nouns:
+        return word
+    try:
+        s = syllabify(word)
+        for accentuation in possible_accentuations(s):
+            try_word = lemmatizer.lemmatize([rebreath(add_accent(s, accentuation))])[0][1]
+            if try_word in greek_nouns:
+                return try_word
+            try_word = lemmatizer.lemmatize([rebreath('h' + add_accent(s, accentuation))])[0][1]
+            if try_word in greek_nouns:
+                return try_word
+    except TypeError:
+        pass
     else:
         return original_word
 
