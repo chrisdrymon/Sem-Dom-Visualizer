@@ -20,9 +20,9 @@ from greek_accentuation.accentuation import *
 def deaccent(dastring):
     """Returns an unaccented version of dastring."""
     aeinput = "άἀἁἂἃἄἅἆἇὰάᾀᾁᾂᾃᾄᾅᾆᾇᾰᾱᾲᾳᾴᾶᾷᾈᾉᾊᾋᾌᾍᾎᾏᾼἈἉΆἊἋἌἍἎἏᾸᾹᾺΆέἐἑἒἓἔἕὲέἘἙἚἛἜἝΈῈΈ"
-    aeoutput ="αααααααααααᾳᾳᾳᾳᾳᾳᾳᾳααᾳᾳᾳαᾳᾼᾼᾼᾼᾼᾼᾼᾼᾼΑΑΑΑΑΑΑΑΑΑΑΑΑεεεεεεεεεΕΕΕΕΕΕΕΕΕ"
+    aeoutput = "αααααααααααᾳᾳᾳᾳᾳᾳᾳᾳααᾳᾳᾳαᾳᾼᾼᾼᾼᾼᾼᾼᾼᾼΑΑΑΑΑΑΑΑΑΑΑΑΑεεεεεεεεεΕΕΕΕΕΕΕΕΕ"
     hoinput = "ᾘᾙᾚᾛᾜᾝᾞᾟῌΉῊΉἨἩἪἫἬἭἮἯήἠἡἢἣἤἥἦἧὴήῆᾐᾑᾒᾓᾔᾕᾖᾗῂῃῄῇὀὁὂὃὄὅόὸόΌὈὉὊὋὌὍῸΌ"
-    hooutput ="ῌῌῌῌῌῌῌῌῌΗΗΗΗΗΗΗΗΗΗΗηηηηηηηηηηηηῃῃῃῃῃῃῃῃῃῃῃῃοοοοοοοοοΟΟΟΟΟΟΟΟΟ"
+    hooutput = "ῌῌῌῌῌῌῌῌῌΗΗΗΗΗΗΗΗΗΗΗηηηηηηηηηηηηῃῃῃῃῃῃῃῃῃῃῃῃοοοοοοοοοΟΟΟΟΟΟΟΟΟ"
     iuinput = "ΊῘῙῚΊἸἹἺἻἼἽἾἿΪϊίἰἱἲἳἴἵἶἷΐὶίῐῑῒΐῖῗΫΎὙὛὝὟϓϔῨῩῪΎὐὑὒὓὔὕὖὗΰϋύὺύῠῡῢΰῦῧ"
     iuoutput = "ΙΙΙΙΙΙΙΙΙΙΙΙΙΙιιιιιιιιιιιιιιιιιιιΥΥΥΥΥΥΥΥΥΥΥΥυυυυυυυυυυυυυυυυυυυ"
     wrinput = "ώὠὡὢὣὤὥὦὧὼῶώᾠᾡᾢᾣᾤᾥᾦᾧῲῳῴῷΏὨὩὪὫὬὭὮὯῺΏᾨᾩᾪᾫᾬᾭᾮᾯῼῤῥῬ"
@@ -99,7 +99,6 @@ def eng_synset_counting(ss_list, ss_counter, pairs):
 def make_dash(word, lingua):
     base_synsets = []
     basepaths = []
-    base_defs = [html.H3('Definitions', style={'text-align': 'center'}), html.Br()]
     multiparents = []
     synset_counter = Counter()
     child_parent_pairs = {}
@@ -114,6 +113,8 @@ def make_dash(word, lingua):
     # Check for language
     if lingua == 'english':
 
+        right_box_2 = [html.H3('Definitions', style={'text-align': 'center'}), html.Br()]
+
         # WordNet can handle some multiword phrases, but they need underscores instead of spaces
         word = word.replace(' ', '_')
         show_word = word.replace('_', ' ')
@@ -127,10 +128,10 @@ def make_dash(word, lingua):
         # Order the base synsets list, grab their definitions, and format them for display in the app
         for i, synset in enumerate(sorted(base_synsets)):
             ss_split = str(synset)[8:].split('.n.')
-            base_defs.append(html.B(ss_split[0].replace('_', ' ')))
-            base_defs.append(html.Span(ss_split[1][:2].lstrip('0'), className='ss'))
-            base_defs.append(' ' + synset.definition())
-            base_defs.append(html.Br())
+            right_box_2.append(html.B(ss_split[0].replace('_', ' ')))
+            right_box_2.append(html.Span(ss_split[1][:2].lstrip('0'), className='ss'))
+            right_box_2.append(' ' + synset.definition())
+            right_box_2.append(html.Br())
 
         synset_counter, child_parent_pairs = eng_synset_counting(base_synsets, synset_counter, child_parent_pairs)
         for child in child_parent_pairs:
@@ -197,11 +198,13 @@ def make_dash(word, lingua):
                                  }
                       }
 
-        base_ss_list = ['The noun "', html.B(f'{show_word}'), '" is a member of', html.H1(str(len(base_synsets))),
-                        ' base synsets.']
-        unique_paths = ['Unique paths from end nodes to root node:', html.H1(len(basepaths))]
-        longest_path = ['Synsets along the longest path from end node to root node (including the end node and root '
-                        'node):', html.H1(max_len)]
+        right_box_1 = ['The noun "', html.B(f'{show_word}'), '" is a member of', html.H1(str(len(base_synsets))),
+                       ' base synsets.']
+        right_box_3 = ['Unique paths from end nodes to root node:', html.H1(len(basepaths))]
+        right_box_4 = ['Synsets along the longest path from end node to root node (including the end node and root '
+                       'node):', html.H1(max_len)]
+        box2c = 'sense-box'
+        box3c = 'right-box'
 
     # If Greek is the language..
     else:
@@ -212,7 +215,7 @@ def make_dash(word, lingua):
         labels = []
         codes = []
         parents = []
-
+        right_box_3 = [html.H3('Definitions', style={'text-align': 'center'}), html.Br()]
         word = greek_word_check(word)
 
         # WordNet can handle some multiword phrases, but they need underscores instead of spaces
@@ -245,12 +248,12 @@ def make_dash(word, lingua):
                         glosses.append(gloss)
 
         if len(glosses) == 0:
-            base_defs.append(f'No definitions available for {show_word}')
+            right_box_3.append(f'No definitions available for {show_word}')
 
         else:
             for i, definition in enumerate(glosses):
-                base_defs.append(str(i+1) + '. ' + definition)
-                base_defs.append(html.Br())
+                right_box_3.append(str(i+1) + '. ' + definition)
+                right_box_3.append(html.Br())
 
         # Convert synsets to ids, labels, parents, and codes (which will be mouse hover data)
         for ssid in base_synsets:
@@ -274,7 +277,7 @@ def make_dash(word, lingua):
         if word not in greek_nouns:
             graph_title = f'Error: Ancient Greek WordNet does not recognize "{show_word.capitalize()}" as a noun.'
             figure = {'data': [{'type': 'sunburst'}]}
-            longest_path = [f'No pronuncation data for {show_word}.']
+            right_box_1 = [f'No pronuncation data for {show_word}.']
         else:
             graph_title = f'Semantic Domains of "{show_word.capitalize()}"'
             figure = {'data': [{'type': 'sunburst',
@@ -294,35 +297,38 @@ def make_dash(word, lingua):
                                  }
                       }
             if pd.notna(lillemma.iloc[0]['pronunciation']):
-                longest_path = [f'{show_word} is pronounced', html.Br(), html.H1(lillemma.iloc[0]['pronunciation'])]
+                right_box_1 = [f'{show_word} is pronounced', html.Br(), html.H1(lillemma.iloc[0]['pronunciation'])]
             else:
-                longest_path = [f'No pronuncation data for {show_word}.']
+                right_box_1 = [f'No pronuncation data for {show_word}.']
         # Checks if word has been validated.
         if word not in validated_list:
-            base_ss_list = ['The definitions of ', html.B(f'{show_word} '), html.Br(),
-                            html.B('have not yet been manually validated.'), html.Br(),
-                            'Thus the definitions and domains given will heavily rely on information from modern '
-                            'English. ',
-                            html.B('This is will likely produce some very inaccurate results. '),
-                            'Currently, few Ancient Greek words have been validated.']
+            right_box_2 = ['The definitions of ', html.B(f'{show_word} '), html.Br(),
+                           html.B('have not yet been manually validated.'), html.Br(),
+                           'Thus the definitions and domains given will heavily rely on information from modern '
+                           'English. ',
+                           html.B('This is will likely produce some very inaccurate results. '),
+                           'Currently, few Ancient Greek words have been validated.']
         else:
-            base_ss_list = ['The definitions of ', html.B(f'{show_word}'), html.Br(),
-                            html.B('have been validated.')]
+            right_box_2 = ['The definitions of ', html.B(f'{show_word}'), html.Br(),
+                           html.B('have been validated.')]
 
         # Checks is word has semfield data.
         if len(base_synsets) == 0:
-            unique_paths = [f'There is no semantic field data on {show_word}.']
+            right_box_4 = [f'There is no semantic field data on {show_word}.']
         else:
-            unique_paths = ['The noun "', html.B(f'{show_word}'), '" is a member of',
-                            html.H1(str(len(base_synsets))),
-                            ' outer semfields.']
+            right_box_4 = ['The noun "', html.B(f'{show_word}'), '" is a member of',
+                           html.H1(str(len(base_synsets))),
+                           ' outer semfields.']
+        box2c = 'right-box'
+        box3c = 'sense-box'
 
-    return graph_title, figure, base_ss_list, base_defs, unique_paths, longest_path
+    return graph_title, figure, right_box_1, right_box_2, box2c, right_box_3, box3c, right_box_4
 
 
 # This will allow a layout of "impression" to be shown when the page is first loaded.
 def initial_layout():
-    init_title, init_fig, init_ss_list, init_defs, init_paths, init_longest_path = make_dash('impression', 'english')
+    init_title, init_fig, init_ss_list, init_defs, b2c, init_paths, b3c, init_longest_path = \
+        make_dash('impression', 'english')
     return html.Div(className='grid-container',
                     children=[html.Div(className='left-container',
                                        children=[html.Div(className='input-container',
@@ -380,16 +386,16 @@ def initial_layout():
                                                  ]
                                        ),
                               html.Div(className='right-container',
-                                       children=[html.Div(id='base-synset-box',
+                                       children=[html.Div(id='right-box-1',
                                                           children=init_ss_list,
                                                           className='right-box'),
-                                                 html.Div(id='sense-def-box',
+                                                 html.Div(id='right-box-2',
                                                           children=init_defs,
-                                                          className='sense-box'),
-                                                 html.Div(id='unique-paths',
+                                                          className=b2c),
+                                                 html.Div(id='right-box-3',
                                                           children=init_paths,
-                                                          className='right-box'),
-                                                 html.Div(id='longest-path',
+                                                          className=b3c),
+                                                 html.Div(id='right-box-4',
                                                           children=init_longest_path,
                                                           className='right-box'),
                                                  html.Div(className='mobile-info',
@@ -480,10 +486,12 @@ def random_word(clicks, lang):
 @app.callback(
     [Output('graph-title', 'children'),
      Output('sem-dom-graph', 'figure'),
-     Output('base-synset-box', 'children'),
-     Output('sense-def-box', 'children'),
-     Output('unique-paths', 'children'),
-     Output('longest-path', 'children')],
+     Output('right-box-1', 'children'),
+     Output('right-box-2', 'children'),
+     Output('right-box-2', 'className'),
+     Output('right-box-3', 'children'),
+     Output('right-box-3', 'className'),
+     Output('right-box-4', 'children')],
     [Input('input-state', 'value')],
     [State('language-sel', 'value')]
 )
