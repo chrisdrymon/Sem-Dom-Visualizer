@@ -527,10 +527,8 @@ def update_fig(word, lang):
     [Input('language-sel', 'value')]
 )
 def change_language(language):
-    if info_panel_status == language:
-        raise PreventUpdate
-    elif language == 'english':
-        return [html.H3(className='info-head',
+    if language == 'english':
+        return [[html.H3(className='info-head',
                         children='What is this?'),
                 dcc.Markdown(what_string_1), html.Br(),
                 dcc.Markdown(what_string_2), html.Br(),
@@ -541,7 +539,7 @@ def change_language(language):
                 html.H3(className='info-head',
                         children='How I Made It'),
                 dcc.Markdown(how_string_1)
-                ]
+                ]]
     else:
         return [html.H3(className='info-head',
                         children=html.H3("Don't know Greek? Type an English word and we'll try our best to translate "
