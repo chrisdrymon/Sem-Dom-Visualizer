@@ -374,6 +374,7 @@ def initial_layout():
                                                                                 children='Give Me a Random Word')]
                                                           ),
                                                  html.Div(className='info-container',
+                                                          id='info-container',
                                                           children=[html.H3(className='info-head',
                                                                             children='What is this?'),
                                                                     dcc.Markdown(what_string_1), html.Br(),
@@ -518,6 +519,33 @@ def random_word(clicks, lang):
 )
 def update_fig(word, lang):
     return make_dash(word, lang)
+
+
+# This refreshes the left info panel
+@app.callback(
+    [Output('info-container', 'children')],
+    [Input('language-sel', 'value')]
+)
+def change_language(language):
+    if info_panel_status == language:
+        raise PreventUpdate
+    elif language == 'english':
+        return [html.H3(className='info-head',
+                        children='What is this?'),
+                dcc.Markdown(what_string_1), html.Br(),
+                dcc.Markdown(what_string_2), html.Br(),
+                dcc.Markdown(what_string_3), html.Br(),
+                html.H3(className='info-head',
+                        children='Why Do This?'),
+                dcc.Markdown(why_string_1), html.Br(),
+                html.H3(className='info-head',
+                        children='How I Made It'),
+                dcc.Markdown(how_string_1)
+                ]
+    else:
+        return [html.H3(className='info-head',
+                        children=html.H3("Don't know Greek? Type an English word and we'll try our best to translate "
+                                         "it into an Ancient Greek noun."))]
 
 
 if __name__ == '__main__':
