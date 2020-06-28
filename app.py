@@ -529,21 +529,47 @@ def update_fig(word, lang):
 def change_language(language):
     if language == 'english':
         return [[html.H3(className='info-head',
-                        children='What is this?'),
-                dcc.Markdown(what_string_1), html.Br(),
-                dcc.Markdown(what_string_2), html.Br(),
-                dcc.Markdown(what_string_3), html.Br(),
-                html.H3(className='info-head',
-                        children='Why Do This?'),
-                dcc.Markdown(why_string_1), html.Br(),
-                html.H3(className='info-head',
-                        children='How I Made It'),
-                dcc.Markdown(how_string_1)
-                ]]
+                         children='What is this?'),
+                 dcc.Markdown(what_string_1), html.Br(),
+                 dcc.Markdown(what_string_2), html.Br(),
+                 dcc.Markdown(what_string_3), html.Br(),
+                 html.H3(className='info-head',
+                         children='Why Do This?'),
+                 dcc.Markdown(why_string_1), html.Br(),
+                 html.H3(className='info-head',
+                         children='How I Made It'),
+                 dcc.Markdown(how_string_1)
+                 ]]
     else:
-        return [html.H3(className='info-head',
-                        children=html.H3("Don't know Greek? Type an English word and we'll try our best to translate "
-                                         "it into an Ancient Greek noun."))]
+        return [[html.H5(className='info-head',
+                         children=html.H5("Don't know Greek? Type an English word and we'll try our best to translate "
+                                          "it into an Ancient Greek noun!")),
+                html.Br(),
+                dcc.Markdown("""This operates similarly to the English version. Since Greek accents can be a challenge, 
+                we will try various accentuation patterns if the initial entry is not found. This will also attempt to 
+                lemmatize your entry if it is not found among the various accentuation patterns."""),
+                html.Br(),
+                dcc.Markdown("""This project relies upon Ancient Greek WordNet which is far from complete. Data is 
+                frequently unavailable. In place of the hierarchy of 
+                semantic domains found in English WordNet are broad semantic fields which are based off of the dewey 
+                decimal system. Additionally, almost none of the definitions (more appropriately, they are "glosses") 
+                of the synsets have been manually checked and verified as being correct. Instead, to quickly create 
+                something functional, a method was devised by which the synsets of modern English words could be 
+                automatically applied to appropriate Ancient Greek words. This was a huge step forward. However, it 
+                means that many glosses are unreliable and anachronistic. Use the unvalidated information with 
+                caution."""),
+                html.Br(),
+                dcc.Markdown("""In addition to the resources used to create the English visualization, the Ancient 
+                Greek version uses:"""),
+                html.Br(),
+                dcc.Markdown("""
+                * [Ancient Greek WordNet](https://greekwordnet.chs.harvard.edu/) which is hosted by Harvard's Center 
+                for Hellenistic Studies
+                
+                * [The Classical Language ToolKit](http://cltk.org/) created by Kyle P. Johnson et al.
+                
+                * James Tauber's [Greek Accentuation Library](https://github.com/jtauber/greek-accentuation)""")
+                 ]]
 
 
 if __name__ == '__main__':
