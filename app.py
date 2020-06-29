@@ -12,6 +12,7 @@ import json
 import pandas as pd
 import string
 import requests
+import re
 from cltk.corpus.utils.formatter import cltk_normalize
 from cltk.lemmatize.greek.backoff import BackoffGreekLemmatizer
 from greek_accentuation.syllabify import *
@@ -19,7 +20,7 @@ from greek_accentuation.accentuation import *
 
 
 def deaccent(dastring):
-    """Returns an unaccented version of dastring."""
+    """Returns an unaccented version of a string."""
     aeinput = "άἀἁἂἃἄἅἆἇὰάᾀᾁᾂᾃᾄᾅᾆᾇᾰᾱᾲᾳᾴᾶᾷᾈᾉᾊᾋᾌᾍᾎᾏᾼἈἉΆἊἋἌἍἎἏᾸᾹᾺΆέἐἑἒἓἔἕὲέἘἙἚἛἜἝΈῈΈ"
     aeoutput = "αααααααααααᾳᾳᾳᾳᾳᾳᾳᾳααᾳᾳᾳαᾳᾼᾼᾼᾼᾼᾼᾼᾼᾼΑΑΑΑΑΑΑΑΑΑΑΑΑεεεεεεεεεΕΕΕΕΕΕΕΕΕ"
     hoinput = "ᾘᾙᾚᾛᾜᾝᾞᾟῌΉῊΉἨἩἪἫἬἭἮἯήἠἡἢἣἤἥἦἧὴήῆᾐᾑᾒᾓᾔᾕᾖᾗῂῃῄῇὀὁὂὃὄὅόὸόΌὈὉὊὋὌὍῸΌ"
@@ -51,6 +52,8 @@ def deaccent(dastring):
 # Ancient Greek, so this checks that. It should also allow for the entering of unaccented words, which is somewhat
 # popular.
 def greek_word_check(word):
+    """If the initial word is not found in the list of available Greek nouns, then this will attempt to find a suitable
+    word by accent normalization, altering accentuation patterns, and lemmatization."""
     original_word = word
     if word.isascii():
         try:
@@ -95,8 +98,8 @@ def greek_word_check(word):
         return original_word
 
 
-# A recursive function for climbing the synset hierarchy and gathering data along the way
 def eng_synset_counting(ss_list, ss_counter, pairs):
+    """A recursive function for climbing the synset hierarchy and recording the child-parent pairs."""
     next_list = []
     if len(ss_list) == 0:
         return ss_counter, pairs
@@ -116,8 +119,8 @@ def eng_synset_counting(ss_list, ss_counter, pairs):
         return eng_synset_counting(next_list, ss_counter, pairs)
 
 
-# Placed this here so it can be run to produce the initial graph
 def make_dash(word, lingua):
+    """This updates the app's figure and panels when a new entry is given."""
     base_synsets = []
     basepaths = []
     multiparents = []
@@ -220,7 +223,7 @@ def make_dash(word, lingua):
                       }
 
         right_box_1 = ['The noun "', html.B(f'{show_word}'), '" is a member of', html.H1(str(len(base_synsets))),
-                       ' base synsets.']
+                       ' end node synsets.']
         right_box_3 = ['Unique paths from end nodes to root node:', html.H1(len(basepaths))]
         right_box_4 = ['Synsets along the longest path from end node to root node (including the end node and root '
                        'node):', html.H1(max_len)]
@@ -269,13 +272,11 @@ def make_dash(word, lingua):
                     for gloss in synset_df[(synset_df['id'] == synset_id) &
                                            (synset_df['semfield'].isnull())]['gloss'].to_list():
                         glosses.append(gloss)
-
-        if len(glosses) == 0:
             right_box_3.append(f'No definitions available for {show_word}.')
             box3c = 'right-box'
         else:
             for i, definition in enumerate(glosses):
-                right_box_3.append(str(i+1) + '. ' + definition)
+                right_box_3.append(str(i+1) + '. ' + re.split('[:;] "', definition)[0])
                 right_box_3.append(html.Br())
 
         # Convert synsets to ids, labels, parents, and codes (which will be mouse hover data)
@@ -296,7 +297,7 @@ def make_dash(word, lingua):
                 codes.append(lilsf_df.iloc[0]['code'])
                 parents.append('')
 
-        # This checks to see if WordNet recognizing the word as a noun. If not, it returns an error.
+        # This checks to see if WordNet recognizing the word as a noun. If not, it displays an error instead of a graph.
         if word not in greek_nouns:
             graph_title = f'Error: Ancient Greek WordNet does not recognize "{show_word.capitalize()}" as a noun.'
             figure = {'data': [{'type': 'sunburst'}]}
@@ -355,10 +356,10 @@ def initial_layout():
                                                                     dcc.RadioItems(id='language-sel',
                                                                                    className='radio-buttons',
                                                                                    options=[
-                                                                                       {'label': 'Ancient Greek',
-                                                                                        'value': 'greek'},
                                                                                        {'label': 'English',
-                                                                                        'value': 'english'}
+                                                                                        'value': 'english'},
+                                                                                       {'label': 'Ancient Greek',
+                                                                                        'value': 'greek'}
                                                                                    ],
                                                                                    value='english'),
                                                                     html.Br(),
@@ -418,6 +419,7 @@ def initial_layout():
                                                           children=init_longest_path,
                                                           className='right-box'),
                                                  html.Div(className='mobile-info',
+                                                          id='mobile-info',
                                                           children=[html.H3(className='info-head',
                                                                             children='What is this?'),
                                                                     dcc.Markdown(what_string_1), html.Br(),
@@ -455,22 +457,19 @@ sense_df = pd.read_csv(os.path.join('data', 'literalsense.csv'))
 synset_df = pd.read_csv(os.path.join('data', 'synset.csv'))
 semfield_df = pd.read_csv(os.path.join('data', 'semfield.csv'))
 
-
-
 # Construct a default sunburst graph. This prevents flickering when loading.
 fig = go.Figure(go.Sunburst())
 
 # Write out markdown text strings that will be used in the app
-what_string_1 = '''This is an interactive semantic domains visualizer (click on it!). Given an English noun, this will 
-display the 
-hierarchy of semantic domains that word falls under according to [English WordNet](https://wordnet.princeton.edu/).'''
-what_string_2 = '''Semantic domains are categories of meaning which are filled up by words 
-which fit that meaning. This page, by default, displays the semantic domains for the word "impression." On the outer 
-edges, 
-you can see the end node domains that contain the various meanings of the word "impression."'''
-what_string_3 = '''These domains are arranged in a hierarchy. An impression can be a depression which is a 
-concave shape which is a solid which is a shape and so on until one works their way up to the root node "entity." All 
-nouns are eventually entities.'''
+what_string_1 = '''This is an interactive semantic domains visualizer (click on the graph!). Given an English noun, 
+this will display the hierarchy of semantic domains that word falls under according to 
+[English WordNet](https://wordnet.princeton.edu/).'''
+what_string_2 = '''Semantic domains are categories of meaning which are filled up by words which fit that meaning. This 
+page, by default, displays the semantic domains for the word "impression." On the outer edges, you can see the end node 
+domains that contain the various meanings of the word "impression."'''
+what_string_3 = '''These domains are arranged in a hierarchy. An impression can be a depression which is a concave 
+shape which is a solid which is a shape and so on until one works their way up to the root node "entity." All nouns are 
+eventually entities.'''
 why_string_1 = '''This is one step involved in a more complex semantic preferences project. I thought it was fun to 
 look at in its own right so I shared it here. It also provided an opportunity to solve a deceptively tricky problem 
 necessary for properly displaying the semantic domains of the semantic preferences project: WordNet will sometimes 
@@ -483,7 +482,7 @@ how_string_1 = '''This project was written in Python utilizing Princeton's
 front end web app was made with [Dash](https://plotly.com/dash/) while the semantic domains visualizations were created 
 using [Plotly](https://plotly.com/).'''
 
-# Run the server
+# Run the server. This is how we choose what the initially loaded graph will be.
 app = dash.Dash(__name__)
 app.layout = initial_layout()
 
@@ -504,7 +503,7 @@ def random_word(clicks, lang):
             return random.choice(pro_words)
 
 
-# This is how the page is interactive and updated.
+# This is how the page is updated after entering a new word.
 @app.callback(
     [Output('graph-title', 'children'),
      Output('sem-dom-graph', 'figure'),
@@ -521,55 +520,57 @@ def update_fig(word, lang):
     return make_dash(word, lang)
 
 
-# This refreshes the left info panel
+# This refreshes the left info panel upon changing the language radio selector.
 @app.callback(
-    [Output('info-container', 'children')],
+    [Output('info-container', 'children'),
+     Output('mobile-info', 'children')],
     [Input('language-sel', 'value')]
 )
 def change_language(language):
     if language == 'english':
-        return [[html.H3(className='info-head',
-                         children='What is this?'),
-                 dcc.Markdown(what_string_1), html.Br(),
-                 dcc.Markdown(what_string_2), html.Br(),
-                 dcc.Markdown(what_string_3), html.Br(),
-                 html.H3(className='info-head',
-                         children='Why Do This?'),
-                 dcc.Markdown(why_string_1), html.Br(),
-                 html.H3(className='info-head',
-                         children='How I Made It'),
-                 dcc.Markdown(how_string_1)
-                 ]]
+        div = [html.H3(className='info-head',
+                       children='What is this?'),
+               dcc.Markdown(what_string_1), html.Br(),
+               dcc.Markdown(what_string_2), html.Br(),
+               dcc.Markdown(what_string_3), html.Br(),
+               html.H3(className='info-head',
+                       children='Why Do This?'),
+               dcc.Markdown(why_string_1), html.Br(),
+               html.H3(className='info-head',
+                       children='How I Made It'),
+               dcc.Markdown(how_string_1)
+               ]
+        return div, div
     else:
-        return [[html.H5(className='info-head',
-                         children=html.H5("Don't know Greek? Type an English word and we'll try our best to translate "
-                                          "it into an Ancient Greek noun!")),
-                html.Br(),
-                dcc.Markdown("""This operates similarly to the English version. Since Greek accents can be a challenge, 
-                we will try various accentuation patterns if the initial entry is not found. This will also attempt to 
-                lemmatize your entry if it is not found among the various accentuation patterns."""),
-                html.Br(),
-                dcc.Markdown("""This project relies upon Ancient Greek WordNet which is far from complete. Data is 
-                frequently unavailable. In place of the hierarchy of 
-                semantic domains found in English WordNet are broad semantic fields which are based off of the dewey 
-                decimal system. Additionally, almost none of the definitions (more appropriately, they are "glosses") 
-                of the synsets have been manually checked and verified as being correct. Instead, to quickly create 
-                something functional, a method was devised by which the synsets of modern English words could be 
-                automatically applied to appropriate Ancient Greek words. This was a huge step forward. However, it 
-                means that many glosses are unreliable and anachronistic. Use the unvalidated information with 
-                caution."""),
-                html.Br(),
-                dcc.Markdown("""In addition to the resources used to create the English visualization, the Ancient 
-                Greek version uses:"""),
-                html.Br(),
-                dcc.Markdown("""
-                * [Ancient Greek WordNet](https://greekwordnet.chs.harvard.edu/) which is hosted by Harvard's Center 
-                for Hellenistic Studies
+        div = [html.H5(className='info-head',
+                       children=html.H5("Don't know Greek? Type an English word and we'll try our best to translate "
+                                        "it into an Ancient Greek noun!")),
+               html.Br(),
+               dcc.Markdown("""Since Greek accents can be a challenge, we will try a series of accentuation patterns and 
+               lemmatization if the initial entry is not found."""),
+               html.Br(),
+               dcc.Markdown("""This project relies upon Ancient Greek WordNet which is far from complete. Data 
+               is 
+               *frequently unavailable*. In place of the hierarchy of semantic domains found in English WordNet, Ancient 
+               Greek WordNet offers broad semantic fields which are based on the _dewey 
+               decimal system_. Additionally, **almost none of the definitions of the synsets have been manually 
+               verified for accuracy**. In order to quickly create 
+               something functional, a method was devised by which the synsets of modern English words could be 
+               automatically applied to appropriate Ancient Greek words. This was a huge step forward but is prone to 
+               frequent error. Use the unvalidated information with caution.""", dedent=True),
+               html.Br(),
+               dcc.Markdown("""In addition to the resources used to create the English visualization, the Ancient 
+               Greek version uses:"""),
+               html.Br(),
+               dcc.Markdown("""
+               * [Ancient Greek WordNet](https://greekwordnet.chs.harvard.edu/) which is hosted by Harvard's Center 
+               for Hellenistic Studies
                 
-                * [The Classical Language ToolKit](http://cltk.org/) created by Kyle P. Johnson et al.
-                
-                * James Tauber's [Greek Accentuation Library](https://github.com/jtauber/greek-accentuation)""")
-                 ]]
+               * [The Classical Language ToolKit](http://cltk.org/) created by Kyle P. Johnson et al.
+               
+               * James Tauber's [Greek Accentuation Library](https://github.com/jtauber/greek-accentuation)""")
+               ]
+        return div, div
 
 
 if __name__ == '__main__':
