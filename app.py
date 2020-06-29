@@ -237,6 +237,8 @@ def make_dash(word, lingua):
         codes = []
         parents = []
         right_box_3 = [html.H3('Definitions', style={'text-align': 'center'}), html.Br()]
+        box2c = 'right-box'
+        box3c = 'sense-box'
         word = greek_word_check(word)
 
         # WordNet can handle some multiword phrases, but they need underscores instead of spaces
@@ -269,8 +271,8 @@ def make_dash(word, lingua):
                         glosses.append(gloss)
 
         if len(glosses) == 0:
-            right_box_3.append(f'No definitions available for {show_word}')
-
+            right_box_3.append(f'No definitions available for {show_word}.')
+            box3c = 'right-box'
         else:
             for i, definition in enumerate(glosses):
                 right_box_3.append(str(i+1) + '. ' + definition)
@@ -298,7 +300,7 @@ def make_dash(word, lingua):
         if word not in greek_nouns:
             graph_title = f'Error: Ancient Greek WordNet does not recognize "{show_word.capitalize()}" as a noun.'
             figure = {'data': [{'type': 'sunburst'}]}
-            right_box_1 = [f'No pronuncation data for {show_word}.']
+            right_box_1 = [f'No pronunciation data for {show_word}.']
         else:
             graph_title = f'Semantic Domains of "{show_word.capitalize()}"'
             figure = {'data': [{'type': 'sunburst',
@@ -321,14 +323,11 @@ def make_dash(word, lingua):
                 right_box_1 = [f'{show_word} is pronounced', html.Br(), html.H1(lillemma.iloc[0]['pronunciation'])]
             else:
                 right_box_1 = [f'No pronuncation data for {show_word}.']
+
         # Checks if word has been validated.
         if word not in validated_list:
             right_box_2 = ['The definitions of ', html.B(f'{show_word} '), html.Br(),
-                           html.B('have not yet been manually validated.'), html.Br(),
-                           'Thus the definitions and domains given will heavily rely on information from modern '
-                           'English. ',
-                           html.B('This is will likely produce some very inaccurate results. '),
-                           'Currently, few Ancient Greek words have been validated.']
+                           html.B('have not been validated.')]
         else:
             right_box_2 = ['The definitions of ', html.B(f'{show_word}'), html.Br(),
                            html.B('have been validated.')]
@@ -340,8 +339,6 @@ def make_dash(word, lingua):
             right_box_4 = ['The noun "', html.B(f'{show_word}'), '" is a member of',
                            html.H1(str(len(base_synsets))),
                            ' outer semfields.']
-        box2c = 'right-box'
-        box3c = 'sense-box'
 
     return graph_title, figure, right_box_1, right_box_2, box2c, right_box_3, box3c, right_box_4
 
@@ -449,13 +446,16 @@ with open(os.path.join('data', 'greek_nouns_dict.json'), encoding='utf-8') as gr
 with open(os.path.join('data', 'validated_list.json'), encoding='utf-8') as val_file:
     validated_list = json.load(val_file)
 
+with open(os.path.join('data', 'pro_words.json'), encoding='utf-8') as pro_file:
+    pro_words = json.load(pro_file)
+
 lemma_df = pd.read_csv(os.path.join('data', 'lemma.csv'))
 greek_nouns = lemma_df['lemma'].to_numpy()
 sense_df = pd.read_csv(os.path.join('data', 'literalsense.csv'))
 synset_df = pd.read_csv(os.path.join('data', 'synset.csv'))
 semfield_df = pd.read_csv(os.path.join('data', 'semfield.csv'))
 
-info_panel_status = 'english'
+
 
 # Construct a default sunburst graph. This prevents flickering when loading.
 fig = go.Figure(go.Sunburst())
@@ -501,7 +501,7 @@ def random_word(clicks, lang):
         if lang == 'english':
             return random.choice(english_nouns)
         else:
-            return random.choice(greek_nouns)
+            return random.choice(pro_words)
 
 
 # This is how the page is interactive and updated.
