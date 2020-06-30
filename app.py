@@ -453,7 +453,8 @@ with open(os.path.join('data', 'pro_words.json'), encoding='utf-8') as pro_file:
 
 lemma_df = pd.read_csv(os.path.join('data', 'lemma.csv'))
 greek_nouns = lemma_df['lemma'].to_numpy()
-sense_df = pd.read_csv(os.path.join('data', 'literalsense.csv'))
+sense_df = pd.read_csv(os.path.join('data', 'literalsense.csv'), dtype={'id': int, 'lemma': int, 'synset': int,
+                                                                        'period': str, 'genre': str, 'notes': str})
 synset_df = pd.read_csv(os.path.join('data', 'synset.csv'))
 semfield_df = pd.read_csv(os.path.join('data', 'semfield.csv'))
 
