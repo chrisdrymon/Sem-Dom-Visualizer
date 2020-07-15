@@ -1,1653 +1,1653 @@
-id,english,code,hypers,hypons
-1345,"Computer Science, Information & General Works",0.0,,"1346,1373,1382,1390,1401,1411,1422,1431,1441"
-1346,"Computer Science, Knowledge & Systems",0.0,1345.0,"1355,2924,1368,1360,1354,1353,1347"
-1347,Knowledge,1.0,1346.0,"1352,1351,1350,1349,1348"
-1348,Intellectual life,1.1,1347.0,
-1349,Scholarship and learning,1.2,1347.0,
-1350,Humanities,1.3,1347.0,
-1351,Research,1.4,1347.0,
-1352,Controversial knowledge,1.9,1347.0,
-1353,The book,2.0,1346.0,
-1354,Systems,3.0,1346.0,
-1355,Data Processing & Computer Science,4.0,1346.0,"1359,1358,1357,1356"
-1356,"Systems analysis and design, computer architecture",4.2,1355.0,
-1357,Storage,4.5,1355.0,
-1358,Interfacing and communications,4.6,1355.0,
-1359,Peripherals,4.7,1355.0,
-1360,"Computer Programming, Programs & Data",5.0,1346.0,"1367,1366,1365,1364,1363,1362,1361"
-1361,Programming,5.1,1360.0,
-1362,Programming for specific types of computers,5.2,1360.0,
-1363,Programs,5.3,1360.0,
-1364,Systems programming and programs,5.4,1360.0,
-1365,Microprogramming and microprograms,5.6,1360.0,
-1366,Data in computer systems,5.7,1360.0,
-1367,Data security,5.8,1360.0,
-1368,Special Computer Methods,6.0,1346.0,"1372,1371,1370,1369"
-1369,Artificial intelligence,6.3,1368.0,
-1370,Computer pattern recognition,6.4,1368.0,
-1371,Computer sound synthesis,6.5,1368.0,
-1372,Computer graphics,6.6,1368.0,
-1373,Bibliographies,10.0,1345.0,"1375,1376,1377,1378,1379,1380,1381,2935,1374"
-1374,Bibliography,10.0,1373.0,
-1375,Bibliographies of individuals,12.0,1373.0,
-1376,Of anonymous & pseudonymous works,14.0,1373.0,
-1377,Bibliographies of works from specific places,15.0,1373.0,
-1378,Bibliographies of works on specific subjects,16.0,1373.0,
-1379,General subject catalogs,17.0,1373.0,
-1380,"Catalogs arranged by author, date, etc.",18.0,1373.0,
-1381,Dictionary catalogs,19.0,1373.0,
-1382,Library & Information Sciences,20.0,1345.0,"1387,2936,1389,1388,1386,1385,1384,1383"
-1383,Library relationships,21.0,1382.0,
-1384,Administration of physical plant,22.0,1382.0,
-1385,Personnel management,23.0,1382.0,
-1386,Library operations,25.0,1382.0,
-1387,Libraries for specific subjects,26.0,1382.0,
-1388,General libraries,27.0,1382.0,
-1389,Reading & use of other information media,28.0,1382.0,
-1390,Encyclopedias & Books Of Facts,30.0,1345.0,"1392,1393,1394,1395,1397,1398,1399,1391,1400,1396"
-1391,General encyclopedic works,30.0,1390.0,
-1392,Encyclopedias in American English,31.0,1390.0,
-1393,Encyclopedias in English,32.0,1390.0,
-1394,In other Germanic languages,33.0,1390.0,
-1395,"Encyclopedias in French, Occitan & Catalan",34.0,1390.0,
-1396,"In Italian, Romanian & related languages",35.0,1390.0,
-1397,Encyclopedias in Spanish & Portuguese,36.0,1390.0,
-1398,Encyclopedias in Slavic languages,37.0,1390.0,
-1399,Encyclopedias in Scandinavian languages,38.0,1390.0,
-1400,Encyclopedias in other languages,39.0,1390.0,
-1401,"Magazines, Journals & Serials",50.0,1345.0,"1403,1404,1407,1405,1406,1408,1409,1410,1402"
-1402,General serial publications,50.0,1401.0,
-1403,Serials in American English,51.0,1401.0,
-1404,Serials in English,52.0,1401.0,
-1405,Serials in other Germanic languages,53.0,1401.0,
-1406,"Serials in French, Occitan & Catalan",54.0,1401.0,
-1407,Serials in Spanish & Portuguese,56.0,1401.0,
-1408,Serials in Slavic languages,57.0,1401.0,
-1409,Serials in Scandinavian languages,58.0,1401.0,
-1410,Serials in other languages,59.0,1401.0,
-1411,"Associations, Organizations & Museums",60.0,1345.0,"1419,1413,1414,1416,1417,1412,1418,1420,1421,1415"
-1412,General organizations & museum science,60.0,1411.0,
-1413,Organizations in North America,61.0,1411.0,
-1414,Organizations in British isles; in England,62.0,1411.0,
-1415,Organizations in central Europe; in Germany,63.0,1411.0,
-1416,Organizations in France & Monaco,64.0,1411.0,
-1417,Organizations in Italy & adjacent islands,65.0,1411.0,
-1418,In iberian peninsula & adjacent islands,66.0,1411.0,
-1419,Organizations in eastern Europe; in Russia,67.0,1411.0,
-1420,Organizations in other geographic areas,68.0,1411.0,
-1421,Museum science,69.0,1411.0,
-1422,"News Media, Journalism & Publishing",70.0,1345.0,"1425,1428,1423,1426,1427,1429,1424,1430,2937"
-1423,Newspapers in North America,71.0,1422.0,
-1424,Newspapers in British isles; in England,72.0,1422.0,
-1425,Newspapers in central Europe; in Germany,73.0,1422.0,
-1426,Newspapers in France & Monaco,74.0,1422.0,
-1427,Newspapers in Italy & adjacent islands,75.0,1422.0,
-1428,Newspapers in eastern Europe; in Russia,77.0,1422.0,
-1429,Newspapers in Scandinavia,78.0,1422.0,
-1430,Newspapers in other geographic areas,79.0,1422.0,
-1431,Quotations,80.0,1345.0,"1435,1437,1438,1439,1433,1434,1432,1436,1440"
-1432,General collections,80.0,1431.0,
-1433,Collections in American English,81.0,1431.0,
-1434,Collections in English,82.0,1431.0,
-1435,Collections in other Germanic languages,83.0,1431.0,
-1436,"Collections in French, Occitan & Catalan",84.0,1431.0,
-1437,Collections in Spanish & Portuguese,86.0,1431.0,
-1438,Collections in Slavic languages,87.0,1431.0,
-1439,Collections in Scandinavian languages,88.0,1431.0,
-1440,Collections in other languages,89.0,1431.0,
-1441,Manuscripts & Rare Books,90.0,1345.0,"1442,1443,1444,1445,1446,1447,1448,1450,2938,1449"
-1442,Manuscripts,91.0,1441.0,
-1443,Block books,92.0,1441.0,
-1444,Incunabula,93.0,1441.0,
-1445,Printed books,94.0,1441.0,
-1446,Books notable for bindings,95.0,1441.0,
-1447,Books notable for illustrations,96.0,1441.0,
-1448,Books notable for ownership or origin,97.0,1441.0,
-1449,"Prohibited works, forgeries & hoaxes",98.0,1441.0,
-1450,Books notable for format,99.0,1441.0,
-1451,Philosophy & Psychology,100.0,,"1452,1459,1468,1477,1502,1527,1535,1555,1491,1545"
-1452,Philosophy,100.0,1451.0,"2925,1458,1457,1456,1455,1454,1453"
-1453,Theory of philosophy,101.0,1452.0,
-1454,Miscellany,102.0,1452.0,
-1455,Dictionaries & encyclopedias,103.0,1452.0,
-1456,Serial publications,105.0,1452.0,
-1457,Organizations & management,106.0,1452.0,
-1458,"Education, research & related topics",107.0,1452.0,
-1459,Metaphysics,110.0,1451.0,"1460,1461,1462,1463,1464,1465,1466,1467,2939"
-1460,Ontology,111.0,1459.0,
-1461,Cosmology,113.0,1459.0,
-1462,Space,114.0,1459.0,
-1463,Time,115.0,1459.0,
-1464,Change,116.0,1459.0,
-1465,Structure,117.0,1459.0,
-1466,Force & energy,118.0,1459.0,
-1467,Number & quantity,119.0,1459.0,
-1468,Epistemology,120.0,1451.0,"1470,1471,1472,1473,1474,1475,1476,2940,1469"
-1469,"Epistemology, causation & humankind",120.0,1468.0,
-1470,Causation,122.0,1468.0,
-1471,Determinism & indeterminism,123.0,1468.0,
-1472,Teleology,124.0,1468.0,
-1473,The self,126.0,1468.0,
-1474,The unconscious & the subconscious,127.0,1468.0,
-1475,Humankind,128.0,1468.0,
-1476,Origin & destiny of individual souls,129.0,1468.0,
-1477,Parapsychology & Occultism,130.0,1451.0,"2941,1490,1489,1488,1487,1479,1478"
-1478,Parapsychological & occult methods,131.0,1477.0,
-1479,Specific Topics In Parapsychology & Occultism,133.0,1477.0,"1486,1485,1484,1483,1482,1481,1480"
-1480,Apparitions,133.1,1479.0,
-1481,Divinatory arts,133.3,1479.0,
-1482,Demonology and witchcraft,133.4,1479.0,
-1483,Astrology,133.5,1479.0,
-1484,Palmistry,133.6,1479.0,
-1485,Psychic phenomena,133.8,1479.0,
-1486,Spiritualism,133.9,1479.0,
-1487,Dreams & mysteries,135.0,1477.0,
-1488,Divinatory graphology,137.0,1477.0,
-1489,Physiognomy,138.0,1477.0,
-1490,Phrenology,139.0,1477.0,
-1491,Philosophical Schools Of Thought,140.0,1451.0,"1492,1493,1494,1495,1496,1497,1498,1499,1500,1501"
-1492,Specific philosophical schools,140.0,1491.0,
-1493,Idealism & related systems,141.0,1491.0,
-1494,Critical philosophy,142.0,1491.0,
-1495,Bergsonism & intuitionism,143.0,1491.0,
-1496,Humanism & related systems,144.0,1491.0,
-1497,Sensationalism,145.0,1491.0,
-1498,Naturalism & related systems,146.0,1491.0,
-1499,Pantheism & related systems,147.0,1491.0,
-1500,"Eclecticism, liberalism & traditionalism",148.0,1491.0,
-1501,Other philosophical systems,149.0,1491.0,
-1502,Psychology,150.0,1451.0,"2942,1526,1525,1524,1518,1509,1503"
-1503,"Perception, Movement, Emotions & Drives",152.0,1502.0,"1505,1508,1507,1506,1504"
-1504,Sensory perception,152.1,1503.0,
-1505,"Movements and motor functions, facial expressions, laterality",152.3,1503.0,
-1506,Emotions and feelings,152.4,1503.0,
-1507,Physiological drives,152.5,1503.0,
-1508,"Quantitative threshold, discrimination, reaction-time studies",152.8,1503.0,
-1509,Mental Processes & Intelligence,153.0,1502.0,"1517,1516,1515,1514,1513,1512,1511,1510"
-1510,Memory and learning,153.1,1509.0,
-1511,Formation and association of ideas,153.2,1509.0,
-1512,Imagination and imagery,153.3,1509.0,
-1513,Knowledge (cognition),153.4,1509.0,
-1514,Communication,153.6,1509.0,
-1515,Perceptual processes,153.7,1509.0,
-1516,Will (volition),153.8,1509.0,
-1517,Intelligence and aptitudes,153.9,1509.0,
-1518,Subconscious & Altered States,154.0,1502.0,"1523,1522,1521,1520,1519"
-1519,The subconscious,154.2,1518.0,
-1520,"Daydreams, fantasies, reveries",154.3,1518.0,
-1521,Altered states of concsiousness,154.4,1518.0,
-1522,Sleep phenomena,154.6,1518.0,
-1523,Hypnotism,154.7,1518.0,
-1524,Differential & developmental psychology,155.0,1502.0,
-1525,Comparative psychology,156.0,1502.0,
-1526,Applied psychology,158.0,1502.0,
-1527,Philosophical Logic,160.0,1451.0,"2943,1534,1533,1532,1531,1530,1529,1528"
-1528,Induction,161.0,1527.0,
-1529,Deduction,162.0,1527.0,
-1530,Fallacies & sources of error,165.0,1527.0,
-1531,Syllogisms,166.0,1527.0,
-1532,Hypotheses,167.0,1527.0,
-1533,Argument & persuasion,168.0,1527.0,
-1534,Analogy,169.0,1527.0,
-1535,Ethics,170.0,1451.0,"1537,1538,1539,1540,1541,1542,1543,1536,1544,2944"
-1536,Ethical systems,171.0,1535.0,
-1537,Political ethics,172.0,1535.0,
-1538,Ethics of family relationships,173.0,1535.0,
-1539,Occupational ethics,174.0,1535.0,
-1540,Ethics of recreation & leisure,175.0,1535.0,
-1541,Ethics of sex & reproduction,176.0,1535.0,
-1542,Ethics of social relations,177.0,1535.0,
-1543,Ethics of consumption,178.0,1535.0,
-1544,Other ethical norms,179.0,1535.0,
-1545,"Ancient, Medieval & Eastern Philosophy",180.0,1451.0,"1547,1551,1546,1548,1549,1550,1552,1553,1554,2945"
-1546,Eastern philosophy,181.0,1545.0,
-1547,Pre-Socratic Greek philosophies,182.0,1545.0,
-1548,Socratic & related philosophies,183.0,1545.0,
-1549,Platonic philosophy,184.0,1545.0,
-1550,Aristotelian philosophy,185.0,1545.0,
-1551,Skeptic & Neoplatonic philosophies,186.0,1545.0,
-1552,Epicurean philosophy,187.0,1545.0,
-1553,Stoic philosophy,188.0,1545.0,
-1554,Medieval western philosophy,189.0,1545.0,
-1555,Modern Western Philosophy,190.0,1451.0,"1559,1557,1563,1556,1561,1560,1562,1564,1558,2946"
-1556,Philosophy of United States & Canada,191.0,1555.0,
-1557,Philosophy of British isles,192.0,1555.0,
-1558,Philosophy of Germany & Austria,193.0,1555.0,
-1559,Philosophy of France,194.0,1555.0,
-1560,Philosophy of Italy,195.0,1555.0,
-1561,Philosophy of Spain & Portugal,196.0,1555.0,
-1562,Philosophy of former Soviet Union,197.0,1555.0,
-1563,Philosophy of Scandinavia,198.0,1555.0,
-1564,Philosophy in other geographic areas,199.0,1555.0,
-1565,Religion,200.0,,"1625,1575,1581,1608,1616,1633,1644,1655,1665,2926"
-1566,Religious mythology & social theology,201.0,1565.0,
-1567,Doctrines,202.0,1565.0,
-1568,Public worship & other practices,203.0,1565.0,
-1569,"Religious experience, life & practice",204.0,1565.0,
-1570,Religious ethics,205.0,1565.0,
-1571,Leaders & organization,206.0,1565.0,
-1572,Missions & religious education,207.0,1565.0,
-1573,Sources,208.0,1565.0,
-1574,Sects & reform movements,209.0,1565.0,
-1575,Philosophy & Theory Of Religion,210.0,1565.0,"2947,2882,1580,1579,1578,1577,1576"
-1576,Concepts of god,211.0,1575.0,
-1577,"Existence, knowability & attributes of god",212.0,1575.0,
-1578,Creation,213.0,1575.0,
-1579,Theodicy,214.0,1575.0,
-1580,Science & religion,215.0,1575.0,
-1581,The Bible,220.0,1565.0,"1591,1595,1592,1593,1594,1582,1596,1605,1606,1607"
-1582,Bible,220.0,1581.0,"1590,1583,1589,1588,1587,1586,1585,1584"
-1583,Origins and authenticity,220.1,1582.0,
-1584,Encyclopedias and topical dictionaries,220.3,1582.0,
-1585,"Original texts, early versions, early translations",220.4,1582.0,
-1586,Modern versions and translations,220.5,1582.0,
-1587,Interpretation and criticism (exegesis),220.6,1582.0,
-1588,Commentaries,220.7,1582.0,
-1589,Nonreligious subjects treated in bible,220.8,1582.0,
-1590,"Geography, history, chronology, persons of bible lands in bible times",220.9,1582.0,
-1591,Old Testament (Tanakh),221.0,1581.0,
-1592,Historical books of Old Testament,222.0,1581.0,
-1593,Poetic books of Old Testament,223.0,1581.0,
-1594,Prophetic books of Old Testament,224.0,1581.0,
-1595,New Testament,225.0,1581.0,
-1596,Gospels & Acts,226.0,1581.0,"1604,1603,1602,1601,1600,1599,1598,1597"
-1597,Matthew,226.2,1596.0,
-1598,Mark,226.3,1596.0,
-1599,Luke,226.4,1596.0,
-1600,John,226.5,1596.0,
-1601,Acts of the apostles,226.6,1596.0,
-1602,Miracles,226.7,1596.0,
-1603,Parables,226.8,1596.0,
-1604,Sermon on the mount,226.9,1596.0,
-1605,Epistles,227.0,1581.0,
-1606,Revelation (apocalypse),228.0,1581.0,
-1607,Apocrypha & pseudepigrapha,229.0,1581.0,
-1608,Christianity & Christian Theology,230.0,1565.0,"2948,1615,1614,1613,1612,1611,1609,1610"
-1609,God,231.0,1608.0,
-1610,Jesus Christ & his family,232.0,1608.0,
-1611,Salvation & grace,234.0,1608.0,
-1612,Spiritual beings,235.0,1608.0,
-1613,Eschatology,236.0,1608.0,
-1614,Creeds & catechisms,238.0,1608.0,
-1615,Apologetics & polemics,239.0,1608.0,
-1616,Christian Practice & Observance,240.0,1565.0,"1623,1624,1622,1620,1619,1618,1617,1621"
-1617,Christian moral & devotional theology,240.0,1616.0,
-1618,Christian ethics,241.0,1616.0,
-1619,Devotional literature,242.0,1616.0,
-1620,Evangelistic writings for individuals,243.0,1616.0,
-1621,Use of art in Christianity,246.0,1616.0,
-1622,Church furnishings & articles,247.0,1616.0,
-1623,"Christian experience, practice & life",248.0,1616.0,
-1624,Christian observances in family life,249.0,1616.0,
-1625,Christian pastoral practices & religious orders,250.0,1626.0,
-1626,Christian Orders & Local Church,250.0,1565.0,"1632,1631,1630,1629,1628,1627,1626"
-1627,Preaching,251.0,1625.0,
-1628,Texts of sermons,252.0,1625.0,
-1629,Pastoral office & work,253.0,1625.0,
-1630,Parish administration,254.0,1625.0,
-1631,Religious congregations & orders,255.0,1625.0,
-1632,Pastoral care of families & kinds of persons,259.0,1625.0,
-1633,Christian social and ecclesiastical theology,260.0,1634.0,
-1634,Social & Ecclesiastical Theology,260.0,1565.0,"1633,1635,1636,1638,1639,1640,1641,1642,1643,1637"
-1635,Social theology,261.0,1633.0,
-1636,Ecclesiology,262.0,1633.0,
-1637,"Days, times & places of observance",263.0,1633.0,
-1638,Public worship,264.0,1633.0,
-1639,"Sacraments, other rites & acts",265.0,1633.0,
-1640,Missions,266.0,1633.0,
-1641,Associations for religious work,267.0,1633.0,
-1642,Religious education,268.0,1633.0,
-1643,Spiritual renewal,269.0,1633.0,
-1644,History Of Christianity,270.0,1565.0,"1649,1651,1650,1652,1653,1654,1646,1647,1648,1645"
-1645,"History, geographic treatment, biography of Christianity",270.0,1644.0,
-1646,Religious orders in church history,271.0,1644.0,
-1647,Persecutions in church history,272.0,1644.0,
-1648,Doctrinal controversies & heresies,273.0,1644.0,
-1649,History of Christianity in Europe,274.0,1644.0,
-1650,History of Christianity in Asia,275.0,1644.0,
-1651,History of Christianity in Africa,276.0,1644.0,
-1652,History of Christianity in North America,277.0,1644.0,
-1653,History of Christianity in South America,278.0,1644.0,
-1654,History of Christianity in other areas,279.0,1644.0,
-1655,Christian Denominations,280.0,1565.0,"1662,1661,1657,1658,1659,1660,1663,1664,1656"
-1656,Denominations and sects of Christian church,280.0,1655.0,
-1657,Early church & eastern churches,281.0,1655.0,
-1658,Roman catholic church,282.0,1655.0,
-1659,Anglican churches,283.0,1655.0,
-1660,Protestants of continental origin,284.0,1655.0,
-1661,"Presbyterian, Reformed & Congregational",285.0,1655.0,
-1662,"Baptist, Disciples of Christ & Adventist",286.0,1655.0,
-1663,Methodist & related churches,287.0,1655.0,
-1664,Other denominations & sects,289.0,1655.0,
-1665,Other Religions,290.0,1565.0,"2949,1672,1670,1669,1667,1668,1671,1666"
-1666,Greek & Roman religion,292.0,1665.0,
-1667,Germanic religion,293.0,1665.0,
-1668,Religions of Indic origin,294.0,1665.0,
-1669,Zoroastrianism,295.0,1665.0,
-1670,Judaism,296.0,1665.0,
-1671,"Islam, Babism & Bahai faith",297.0,1665.0,
-1672,Religions not provided for elsewhere,299.0,1665.0,
-1673,Social Sciences,300.0,,"1710,1718,1753,1802,1819,1862,1898,1930,1952,1674"
-1674,"Social Sciences, Sociology & Anthropology",300.0,1673.0,"2928,1706,1698,1689,1684,1680,1675,1676"
-1675,Sociology & anthropology,301.0,1674.0,
-1676,Social Interaction,302.0,1674.0,"2988,1679,1678,1677"
-1677,Social interaction within groups,302.3,1676.0,
-1678,Social interaction between groups,302.4,1676.0,
-1679,Relation of the individual to society,302.5,1676.0,
-1680,Social Processes,303.0,1674.0,"1683,1682,1681"
-1681,Coordination and control,303.3,1680.0,
-1682,Social change,303.4,1680.0,
-1683,Conflict,303.6,1680.0,
-1684,Factors Affecting Social Behavior,304.0,1674.0,"1688,1687,1686,1685"
-1685,Human ecology,304.2,1684.0,
-1686,Genetic factors,304.5,1684.0,
-1687,Population,304.6,1684.0,
-1688,Movement of people,304.8,1684.0,
-1689,Social Groups,305.0,1674.0,"1697,1696,1695,1694,1693,1692,1691,1690"
-1690,Age groups,305.2,1689.0,
-1691,Men and women,305.3,1689.0,
-1692,Women,305.4,1689.0,
-1693,Social classes,305.5,1689.0,
-1694,Religious groups,305.6,1689.0,
-1695,Language groups,305.7,1689.0,
-1696,"Racial, ethnic, national groups",305.8,1689.0,
-1697,Occupational and miscellaneous groups,305.9,1689.0,
-1698,Culture & Institutions,306.0,1674.0,"1703,1705,1704,1702,1701,1700,1699"
-1699,Political institutions,306.2,1698.0,
-1700,Economic institutions,306.3,1698.0,
-1701,Specific types of culture,306.4,1698.0,
-1702,Religious institutions,306.6,1698.0,
-1703,Institutions pertaining to relations of the sexes,306.7,1698.0,
-1704,Marriage and family,306.8,1698.0,
-1705,Institutions pertaining to death,306.9,1698.0,
-1706,Communities,307.0,1674.0,"1709,1708,1707,1687"
-1707,Community planning and development,307.1,1706.0,
-1708,Community structure,307.3,1706.0,
-1709,Specific kinds of communities,307.7,1706.0,
-1710,Statistics,310.0,1673.0,"1717,1711,1716,1715,1713,1714,1712"
-1711,Collections of general statistics,310.0,1710.0,
-1712,General statistics of Europe,314.0,1710.0,
-1713,General statistics of Asia,315.0,1710.0,
-1714,General statistics of Africa,316.0,1710.0,
-1715,General statistics of North America,317.0,1710.0,
-1716,General statistics of South America,318.0,1710.0,
-1717,General statistics of other areas,319.0,1710.0,
-1718,Political Science,320.0,1673.0,"1725,1730,1732,1738,1745,1746,1747,1750,2950"
-1719,The state,320.1,2950.0,
-1720,Comparative,320.3,2950.0,
-1721,Structure and functions of government,320.4,2950.0,
-1722,Political ideologies,320.5,2950.0,
-1723,Local government,320.8,2950.0,
-1724,Political situation and conditions,320.9,2950.0,
-1725,Systems Of Governments & States,321.0,1718.0,"1729,1728,1727,1726"
-1726,Pure democracy,321.4,1725.0,
-1727,Elitist systems,321.5,1725.0,
-1728,Democratic systems,321.8,1725.0,
-1729,Authoritarian systems,321.9,1725.0,
-1730,Relation Of State To Organized Groups,322.0,1718.0,1731
-1731,Political action groups,322.4,1730.0,
-1732,Civil & Political Rights,323.0,1718.0,"1733,1737,1736,1735,1734"
-1733,"Civil rights of non-dominant aggregates, political rights of non-dominant aggregates",323.1,1732.0,
-1734,Civil and political rights of other social aggregates,323.3,1732.0,
-1735,Specific civil rights; limitation and suspension of civil rights,323.4,1732.0,
-1736,Political rights,323.5,1732.0,
-1737,Citizenship and related topics,323.6,1732.0,
-1738,The Political Process,324.0,1718.0,"1744,1742,1743,1741,1740,1739"
-1739,"International party organizations, auxiliaries, activities",324.1,1738.0,
-1740,Political parties,324.2,1738.0,
-1741,Nomination of candidates,324.5,1738.0,
-1742,Election systems and procedures; suffrage,324.6,1738.0,
-1743,Conduct of election campaigns,324.7,1738.0,
-1744,Historical and geographic treatment of elections,324.9,1738.0,
-1745,International migration & colonization,325.0,1718.0,
-1746,Slavery & emancipation,326.0,1718.0,
-1747,International Relations,327.0,1718.0,"1749,1748"
-1748,General topics of international relations; spies,327.1,1747.0,
-1749,Diplomacy,327.2,1747.0,
-1750,The Legislative Process,328.0,1718.0,"1752,1751"
-1751,Initiative and referendum,328.2,1750.0,
-1752,Legislative bodies,328.3,1750.0,
-1753,Economics,330.0,1673.0,"1756,1765,1772,1780,1781,1782,1786,1787,1797,2951"
-1754,Systems and theories,330.1,1753.0,
-1755,Economic situation and conditions,330.9,1753.0,
-1756,Labor Economics,331.0,1753.0,"1764,1763,1762,1761,1760,1759,1758,1757"
-1757,Labor force and market,331.1,1756.0,
-1758,Compensation and other conditions of employment,331.2,1756.0,
-1759,Workers of specific age groups,331.3,1756.0,
-1760,Women workers,331.4,1756.0,
-1761,Special categories of workers other than by age or sex,331.5,1756.0,
-1762,"Categories of workers by racial, ethnic, national origin",331.6,1756.0,
-1763,Labor by industry and occupation,331.7,1756.0,
-1764,"Labor unions, labor-management bargaining and disputes",331.8,1756.0,
-1765,Financial Economics,332.0,1753.0,"1771,1770,1769,1768,1767,1766"
-1766,Banks and banking,332.1,1765.0,
-1767,Credit and loan institutions,332.3,1765.0,
-1768,Money,332.4,1765.0,
-1769,Stocks,332.6,1765.0,
-1770,Credit,332.7,1765.0,
-1771,Interest and discount,332.8,1765.0,
-1772,Economics Of Land & Energy,333.0,1753.0,"1773,1779,1778,1777,1776,1775,1774"
-1773,Public ownership and control of land and other natural resources,333.1,1772.0,
-1774,Ownership and control of land and natural resources by nongovernmental groups,333.2,1772.0,
-1775,Individual (private) ownership and control of land and other natural resources,333.3,1772.0,
-1776,Rental and leasing of land and other natural resources,333.5,1772.0,
-1777,Natural resources and energy,333.7,1772.0,
-1778,Subsurface resources,333.8,1772.0,
-1779,Other natural resources,333.9,1772.0,
-1780,Cooperatives,334.0,1753.0,
-1781,Socialism & related systems,335.0,1753.0,
-1782,Public Finance,336.0,1753.0,"1785,1784,1783"
-1783,Nontax revenues,336.1,1782.0,
-1784,Taxes and taxation,336.2,1782.0,
-1785,"Public borrowing, debt, expenditure",336.3,1782.0,
-1786,International economics,337.0,1753.0,
-1787,Production,338.0,1753.0,"1788,1789,1790,1791,1792,1793,1794,1795,1796"
-1788,Agriculture,338.1,1787.0,
-1789,Extraction of minerals,338.2,1787.0,
-1790,Other extractive industries,338.3,1787.0,
-1791,Secondary industries and services,338.4,1787.0,
-1792,General production economics,338.5,1787.0,
-1793,Organization of production,338.6,1787.0,
-1794,Business enterprises and their structure,338.7,1787.0,
-1795,"Combinations, trusts",338.8,1787.0,
-1796,Economic development and growth,338.9,1787.0,
-1797,Macroeconomics & Related Topics,339.0,1753.0,"1799,1801,1800,1798"
-1798,Distribution of income and wealth,339.2,1797.0,
-1799,"National product, wealth, income accounts and accounting",339.3,1797.0,
-1800,"Factors affecting national product, wealth, income",339.4,1797.0,
-1801,Macroeconomic policy,339.5,1797.0,
-1802,Law,340.0,1673.0,"1805,1811,1812,1813,1814,1815,1816,1817,1818,2952"
-1803,Legal systems,340.5,1802.0,
-1804,Conflict of laws,340.9,1802.0,
-1805,Law Of Nations,341.0,1802.0,"1810,1809,1808,1807,1806"
-1806,Law regarding relations between states,341.3,1805.0,
-1807,Law regarding jurisdiction and jurisdictional relations of states,341.4,1805.0,
-1808,Law of disputes and conflicts between states,341.5,1805.0,
-1809,Law of war,341.6,1805.0,
-1810,Law of international cooperation,341.7,1805.0,
-1811,Constitutional & administrative law,342.0,1802.0,
-1812,"Military, tax, trade & industrial law",343.0,1802.0,
-1813,"Labor, social, education & cultural law",344.0,1802.0,
-1814,Criminal law,345.0,1802.0,
-1815,Private law,346.0,1802.0,
-1816,Civil procedure & courts,347.0,1802.0,
-1817,"Laws, regulations & cases",348.0,1802.0,
-1818,Law of specific jurisdictions & areas,349.0,1802.0,
-1819,Public Administration & Military Science,350.0,1673.0,"1820,1827,1837,1838,1847,1848,1849,1852,1836,2953"
-1820,Public Administration,351.0,1819.0,"1824,2991,1826,1825,1823,1822,1821"
-1821,Civil service examinations,351.3,1820.0,
-1822,Government work force,351.4,1820.0,
-1823,Pensions,351.5,1820.0,
-1824,Civil service system (merit system),351.6,1820.0,
-1825,Administration of specific fields,351.8,1820.0,
-1826,Malfunctioning of administration,351.9,1820.0,
-1827,General Considerations Of Public Administration,352.0,1819.0,"1835,1834,1833,1832,1831,1830,1829,1828"
-1828,Property and financial management and related topics,352.1,1827.0,
-1829,Police,352.2,1827.0,
-1830,Fire and accident protection,352.3,1827.0,
-1831,Safeguarding public health,352.4,1827.0,
-1832,Regulation and control of public buildings,352.5,1827.0,
-1833,Environmental sanitation and related activities,352.6,1827.0,
-1834,Housing and public works,352.7,1827.0,
-1835,Miscellaneous fields,352.9,1827.0,
-1836,Specific fields of public administration,353.0,1819.0,
-1837,Administration of economy & environment,354.0,1819.0,
-1838,Military Science,355.0,1819.0,"1845,1846,1844,1843,1842,1841,1840,1839"
-1839,Military life and customs,355.1,1838.0,
-1840,Military resources,355.2,1838.0,
-1841,Organization and personnel of military forces,355.3,1838.0,
-1842,Military operations,355.4,1838.0,
-1843,Military training,355.5,1838.0,
-1844,Military administration,355.6,1838.0,
-1845,Military installations and reservations,355.7,1838.0,
-1846,Military equipment and supplies (matériel),355.8,1838.0,
-1847,Infantry forces & warfare,356.0,1819.0,
-1848,Mounted forces & warfare,357.0,1819.0,
-1849,Air & Other Specialized Forces,358.0,1819.0,"1851,1850"
-1850,Guided missile forces and warfare,358.1,1849.0,
-1851,Air forces and warfare,358.4,1849.0,
-1852,Sea Forces & Warfare,359.0,1819.0,"1853,1854,1855,1856,1857,1858,1859,1860,1861"
-1853,Naval life and customs,359.1,1852.0,
-1854,Naval resources,359.2,1852.0,
-1855,Organization and personnel of naval forces,359.3,1852.0,
-1856,Naval operations,359.4,1852.0,
-1857,Naval training,359.5,1852.0,
-1858,Naval administration,359.6,1852.0,
-1859,Naval installations and reservations,359.7,1852.0,
-1860,Naval equipment and supplies (matériel),359.8,1852.0,
-1861,Specialized combat forces; engineering and related forces,359.9,1852.0,
-1862,Social Problems & Social Services,360.0,1673.0,"1864,1872,1876,1886,1893,1894,1895,1896,1863,1897"
-1863,Social problems & services; associations,360.0,1862.0,
-1864,Social Problems & Social Welfare In General,361.0,1862.0,"1871,1870,1869,1868,1867,1866,1865"
-1865,Social problems,361.1,1864.0,
-1866,Social action,361.2,1864.0,
-1867,Social work,361.3,1864.0,
-1868,Group work,361.4,1864.0,
-1869,Governmental action,361.6,1864.0,
-1870,Private action,361.7,1864.0,
-1871,Community action,361.8,1864.0,
-1872,Social Welfare Problems & Services,362.0,1862.0,"1875,1874,1873"
-1873,Physical illness,362.1,1872.0,
-1874,Mental and emotional illnesses and disturbances,362.2,1872.0,
-1875,Mental retardation,362.3,1872.0,
-1876,Other Social Problems & Services,363.0,1862.0,"1877,1878,1879,1880,1881,1882,1883,1884,1885"
-1877,Public safety programs,363.1,1876.0,
-1878,Policy services,363.2,1876.0,
-1879,Other aspects of public safety,363.3,1876.0,
-1880,Controversies related to public morals and customs,363.4,1876.0,
-1881,Housing,363.5,1876.0,
-1882,Public utilities and related services,363.6,1876.0,
-1883,Environmental problems and services; ecology; pollution,363.7,1876.0,
-1884,Food supply,363.8,1876.0,
-1885,Population problems,363.9,1876.0,
-1886,Criminology,364.0,1862.0,"1892,1891,1890,1889,1888,1887"
-1887,Criminal offenses,364.1,1886.0,
-1888,Causes of crime and delinquency,364.2,1886.0,
-1889,Offenders,364.3,1886.0,
-1890,Prevention of crime and delinquency,364.4,1886.0,
-1891,Penology,364.6,1886.0,
-1892,Discharged offenders,364.8,1886.0,
-1893,Penal & related institutions,365.0,1862.0,
-1894,Associations,366.0,1862.0,
-1895,General clubs,367.0,1862.0,
-1896,Insurance,368.0,1862.0,
-1897,Miscellaneous kinds of associations,369.0,1862.0,
-1898,Education,370.0,1673.0,"2954,1926,1922,1921,1920,1919,1911,1901"
-1899,"Philosophy, theories, general aspects",370.1,1898.0,
-1900,"Education, research, related topics",370.7,1898.0,
-1901,Schools & Their Activities; Special Education,371.0,1898.0,"1902,1903,1904,1905,1906,1907,1908,1909,1910"
-1902,Teaching and teaching personnel,371.1,1901.0,
-1903,School administration and management,371.2,1901.0,
-1904,Methods of instruction and study,371.3,1901.0,
-1905,Guidance and counseling,371.4,1901.0,
-1906,School discipline,371.5,1901.0,
-1907,Physical plant,371.6,1901.0,
-1908,School health and safety,371.7,1901.0,
-1909,The student,371.8,1901.0,
-1910,Special education,371.9,1901.0,
-1911,Elementary Education,372.0,1898.0,"1912,1918,1917,1916,1915,1914,1913"
-1912,Organization and management of elementary schools; curriculums,372.1,1911.0,
-1913,Levels of elementary education,372.2,1911.0,
-1914,"Technology, science, health",372.3,1911.0,
-1915,Reading,372.4,1911.0,
-1916,Creative and manual arts,372.5,1911.0,
-1917,"Language, literature, theater",372.6,1911.0,
-1918,Mathematics,372.7,1911.0,
-1919,Secondary education,373.0,1898.0,
-1920,Adult education,374.0,1898.0,
-1921,Curricula,375.0,1898.0,
-1922,Higher Education,378.0,1898.0,"1925,1924,1923"
-1923,Organization and management; curriculums,378.1,1922.0,
-1924,Academic degrees,378.2,1922.0,
-1925,Student finances,378.3,1922.0,
-1926,Public Policy Issues In Education,379.0,1898.0,"1929,1928,1927"
-1927,"Finance, supervision, control of public education",379.1,1926.0,
-1928,Public education and the state,379.2,1926.0,
-1929,Private education and the state,379.3,1926.0,
-1930,"Commerce, Communications & Transportation",380.0,1673.0,"1934,1940,1941,1942,1946,1951,2872,1933,1935,2955"
-1931,Commerce,380.1,1930.0,
-1932,Commercial policy,381.3,1931.0,
-1933,International commerce,382.0,1930.0,
-1934,Postal communication,383.0,1930.0,
-1935,Communications; Telecommunication,384.0,1930.0,"1939,1938,1937,1936"
-1936,Telegraph,384.1,1935.0,
-1937,Computer communication,384.3,1935.0,
-1938,Wireless communication,384.5,1935.0,
-1939,Telephone,384.6,1935.0,
-1940,Railroad transportation,385.0,1930.0,
-1941,Inland waterway & ferry transportation,386.0,1930.0,
-1942,"Water, Air & Space Transportation",387.0,1930.0,"1945,1944,1943"
-1943,Ports,387.1,1942.0,
-1944,Ships,387.2,1942.0,
-1945,Ocean (marine) transportation,387.5,1942.0,
-1946,Transportation; Ground Transportation,388.0,1930.0,"1950,1949,1948,1947"
-1947,Roads and highways,388.1,1946.0,
-1948,Vehicular transportation,388.3,1946.0,
-1949,Local transportation,388.4,1946.0,
-1950,Pipeline transportation,388.5,1946.0,
-1951,Metrology & standardization,389.0,1930.0,
-1952,"Customs, Etiquette & Folklore",390.0,1673.0,"2956,1954,1965,1960,1959,1956,1955,1953"
-1953,Costume & personal appearance,391.0,1952.0,
-1954,Customs of life cycle & domestic life,392.0,1952.0,
-1955,Death customs,393.0,1952.0,
-1956,General Customs,394.0,1952.0,"1958,1957"
-1957,"Eating, drinking; using drugs",394.1,1956.0,
-1958,Special occasions,394.2,1956.0,
-1959,Etiquette (manners),395.0,1952.0,
-1960,Folklore,398.0,1952.0,"1964,1963,1962,1961"
-1961,Folk literature,398.2,1960.0,
-1962,Riddles,398.6,1960.0,
-1963,Rhymes and rhyming games,398.8,1960.0,
-1964,Proverbs,398.9,1960.0,
-1965,Customs of war & diplomacy,399.0,1952.0,
-1966,Language,400.0,,"1969,1978,1987,1996,2013,2021,2030,2039,2929,2005"
-1967,Philosophy & theory,401.0,1966.0,
-1968,Special topics,404.0,1966.0,
-1969,Linguistics,410.0,1966.0,"1970,1971,1972,1973,1974,1976,1977,1975,2957"
-1970,Writing systems,411.0,1969.0,
-1971,Etymology,412.0,1969.0,
-1972,Dictionaries,413.0,1969.0,
-1973,Phonology & phonetics,414.0,1969.0,
-1974,Grammar,415.0,1969.0,
-1975,Dialectology & historical linguistics,417.0,1969.0,
-1976,Standard usage & applied linguistics,418.0,1969.0,
-1977,Sign languages,419.0,1969.0,
-1978,English & Old English Languages,420.0,1966.0,"1984,1983,1982,1981,1980,1979,1985,1986"
-1979,English & Old English (Anglo-Saxon),420.0,1978.0,
-1980,English writing system & phonology,421.0,1978.0,
-1981,English etymology,422.0,1978.0,
-1982,English dictionaries,423.0,1978.0,
-1983,English grammar,425.0,1978.0,
-1984,English language variations,427.0,1978.0,
-1985,Standard English usage,428.0,1978.0,
-1986,Old English (Anglo-Saxon),429.0,1978.0,
-1987,German & Related Languages,430.0,1966.0,"1989,1993,1992,1991,1990,1994,1995,1988"
-1988,Germanic languages; German,430.0,1987.0,
-1989,German writing systems & phonology,431.0,1987.0,
-1990,German etymology,432.0,1987.0,
-1991,German dictionaries,433.0,1987.0,
-1992,German grammar,435.0,1987.0,
-1993,German language variations,437.0,1987.0,
-1994,Standard German usage,438.0,1987.0,
-1995,Other Germanic languages,439.0,1987.0,
-1996,French & Related Languages,440.0,1966.0,"2002,2001,2000,1999,1998,2004,1997,2003"
-1997,Romance languages; French,440.0,1996.0,
-1998,French writing systems & phonology,441.0,1996.0,
-1999,French etymology,442.0,1996.0,
-2000,French dictionaries,443.0,1996.0,
-2001,French grammar,445.0,1996.0,
-2002,French language variations,447.0,1996.0,
-2003,Standard French usage,448.0,1996.0,
-2004,Occitan & Catalan,449.0,1996.0,
-2005,"Italian, Romanian & Related Languages",450.0,1966.0,"2958,2012,2010,2009,2008,2007,2006,2011"
-2006,Italian writing systems & phonology,451.0,2005.0,
-2007,Italian etymology,452.0,2005.0,
-2008,Italian dictionaries,453.0,2005.0,
-2009,Italian grammar,455.0,2005.0,
-2010,Italian language variations,457.0,2005.0,
-2011,Standard Italian usage,458.0,2005.0,
-2012,Romanian & related languages,459.0,2005.0,
-2013,Spanish & Portuguese Languages,460.0,1966.0,"2959,2020,2018,2017,2016,2015,2014,2019"
-2014,Spanish writing systems & phonology,461.0,2013.0,
-2015,Spanish etymology,462.0,2013.0,
-2016,Spanish dictionaries,463.0,2013.0,
-2017,Spanish grammar,465.0,2013.0,
-2018,Spanish language variations,467.0,2013.0,
-2019,Standard Spanish usage,468.0,2013.0,
-2020,Portuguese,469.0,2013.0,
-2021,Latin & Italic Languages,470.0,1966.0,"2027,2028,2025,2026,2024,2023,2029,2022"
-2022,Italic languages; Latin,470.0,2021.0,
-2023,Classical Latin writing & phonology,471.0,2021.0,
-2024,Classical Latin etymology,472.0,2021.0,
-2025,Classical Latin dictionaries,473.0,2021.0,
-2026,Classical Latin grammar,475.0,2021.0,
-2027,"Old, postclassical & vulgar latin",477.0,2021.0,
-2028,Classical Latin usage,478.0,2021.0,
-2029,Other Italic languages,479.0,2021.0,
-2030,Classical & Modern Greek Languages,480.0,1966.0,"2036,2037,2038,2035,2034,2033,2032,2031"
-2031,Hellenic languages; Classical Greek,480.0,2030.0,
-2032,Classical Greek writing & phonology,481.0,2030.0,
-2033,Classical Greek etymology,482.0,2030.0,
-2034,Classical Greek dictionaries,483.0,2030.0,
-2035,Classical Greek grammar,485.0,2030.0,
-2036,Preclassical & postclassical Greek,487.0,2030.0,
-2037,Classical Greek usage,488.0,2030.0,
-2038,Other Hellenic languages,489.0,2030.0,
-2039,Other Languages,490.0,1966.0,"2046,2048,2051,2050,2040,2044,2049,2052,2960,2047"
-2040,East Indo-European & Celtic Languages,491.0,2039.0,"2042,2043,2041"
-2041,Celtic languages,491.6,2040.0,
-2042,East Slavic languages; Russian,491.7,2040.0,
-2043,Slavic languages,491.8,2040.0,
-2044,Afro-Asiatic Languages; Semitic Languages,492.0,2039.0,2045
-2045,Hebrew,492.4,2044.0,
-2046,Non-Semitic Afro-Asiatic languages,493.0,2039.0,
-2047,"Altaic, Uralic, Hyperborean & Dravidian",494.0,2039.0,
-2048,Languages of East & Southeast Asia,495.0,2039.0,
-2049,African languages,496.0,2039.0,
-2050,North American native languages,497.0,2039.0,
-2051,South American native languages,498.0,2039.0,
-2052,Austronesian & other languages,499.0,2039.0,
-2053,Science,500.0,,"2111,2076,2097,2158,2172,2873,2119,2146,2188,2931"
-2054,Natural sciences and mathemetics,500.0,2053.0,
-2055,Physical sciences,500.2,2053.0,
-2056,Natural history,508.0,2053.0,
-2057,General Principles Of Mathematics,511.0,2961.0,2058
-2058,Mathematical (symbolic) logic,511.3,2057.0,
-2059,Algebra,512.0,1918.0,2060
-2060,Foundations of algebra,512.9,2059.0,
-2061,Arithmetic,513.0,2961.0,"2063,2062"
-2062,Specific arithmetic operations,513.2,2061.0,
-2063,Numeration systems,513.5,2061.0,
-2064,Topology,514.0,1918.0,
-2065,Analysis,515.0,1918.0,
-2066,Geometry,516.0,1918.0,"2069,2068,2067"
-2067,Euclidean geometry,516.2,2066.0,
-2068,Analytic geometries,516.3,2066.0,
-2069,Non-euclidean geometries,516.9,2066.0,
-2070,Numerical analysis,518.0,1918.0,
-2071,Probabilities & Applied Mathematics,519.0,2873.0,"2075,2074,2073,2072"
-2072,Probabilities,519.2,2071.0,
-2073,Game theory,519.3,2071.0,
-2074,Applied numerical analysis,519.4,2071.0,
-2075,Statistical mathematics,519.5,2071.0,
-2076,Astronomy,520.0,2053.0,"2078,2079,2080,2090,2091,2094,2095,2096,2077"
-2077,Astronomy & allied sciences,520.0,2076.0,
-2078,Celestial mechanics,521.0,2076.0,
-2079,"Techniques, equipment & materials",522.0,2076.0,
-2080,Specific Celestial Bodies & Phenomena,523.0,2076.0,"2081,2082,2083,2084,2085,2086,2087,2088,2089"
-2081,"The universe; space, galaxies, quasars",523.1,2080.0,
-2082,Solar system,523.2,2080.0,
-2083,Moon,523.3,2080.0,
-2084,Planets,523.4,2080.0,
-2085,"Meteoroids, solar wind, zodiacal light",523.5,2080.0,
-2086,Comets,523.6,2080.0,
-2087,Sun,523.7,2080.0,
-2088,Stars,523.8,2080.0,
-2089,"Satellites and rings; eclipses, transits, occultations",523.9,2080.0,
-2090,Earth (astronomical geography),525.0,2076.0,
-2091,Mathematical Geography,526.0,2076.0,"2093,2092"
-2092,Geodetic surveying,526.3,2091.0,
-2093,Surveying,526.9,2091.0,
-2094,Celestial navigation,527.0,2076.0,
-2095,Ephemerides,528.0,2076.0,
-2096,Chronology,529.0,2076.0,
-2097,Physics,530.0,2053.0,"2099,2100,2101,2102,2106,2107,2108,2109,2098,2962"
-2098,Classical mechanics; solid mechanics,531.0,2097.0,
-2099,Fluid mechanics; liquid mechanics,532.0,2097.0,
-2100,Gas mechanics,533.0,2097.0,
-2101,Sound & related vibrations,534.0,2097.0,
-2102,Light & Infrared & Ultraviolet Phenomena,535.0,2097.0,"2105,2104,2103"
-2103,Beams,535.5,2102.0,
-2104,Color,535.6,2102.0,
-2105,Spectroscopy,535.8,2102.0,
-2106,Heat,536.0,2097.0,
-2107,Electricity & electronics,537.0,2097.0,
-2108,Magnetism,538.0,2097.0,
-2109,Modern Physics,539.0,2097.0,2110
-2110,Atomic and nuclear physics,539.7,2109.0,
-2111,Chemistry,540.0,2053.0,"2896,2118,2117,2116,2115,2114,2113,2112"
-2112,Chemistry & allied sciences,540.0,2111.0,
-2113,Physical chemistry,541.0,2111.0,
-2114,Analytical chemistry,543.0,2111.0,
-2115,Inorganic chemistry,546.0,2111.0,
-2116,Organic chemistry,547.0,2111.0,
-2117,Crystallography,548.0,2111.0,
-2118,Mineralogy,549.0,2111.0,
-2119,Earth Sciences & Geology,550.0,2053.0,"2120,2121,2131,2132,2142,2141,2143,2144,2145,2140"
-2120,Earth sciences,550.0,2119.0,
-2121,"Geology, Hydrology & Meteorology",551.0,2119.0,"2122,2123,2124,2125,2126,2127,2128,2129,2130"
-2122,Gross structure and properties of the earth,551.1,2121.0,
-2123,"Volcanoes, earthquakes, thermal waters and gases",551.2,2121.0,
-2124,Surface and exogenous processes and their agents,551.3,2121.0,
-2125,"Geomorphology and hydrosphere, water",551.4,2121.0,
-2126,Meteorology,551.5,2121.0,
-2127,Climatology and weather,551.6,2121.0,
-2128,Historical geology,551.7,2121.0,
-2129,Structural geology,551.8,2121.0,
-2130,Geochemistry,551.9,2121.0,
-2131,Petrology,552.0,2119.0,
-2132,Economic Geology,553.0,2119.0,"2136,2139,2138,2137,2135,2134,2133"
-2133,Carbonaceous materials,553.2,2132.0,
-2134,Iron,553.3,2132.0,
-2135,Metals and semimetals,553.4,2132.0,
-2136,Structural and sculptural stone,553.5,2132.0,
-2137,Other economic materials,553.6,2132.0,
-2138,Water,553.7,2132.0,
-2139,Gems,553.8,2132.0,
-2140,Earth sciences of Europe,554.0,2119.0,
-2141,Earth sciences of Asia,555.0,2119.0,
-2142,Earth sciences of Africa,556.0,2119.0,
-2143,Earth sciences of North America,557.0,2119.0,
-2144,Earth sciences of South America,558.0,2119.0,
-2145,Earth sciences of other areas,559.0,2119.0,
-2146,Fossils & Prehistoric Life,560.0,2053.0,"2147,2148,2149,2150,2151,2152,2153,2154,2156,2157"
-2147,Paleontology; paleozoology,560.0,2146.0,
-2148,Paleobotany; fossil microorganisms,561.0,2146.0,
-2149,Fossil invertebrates,562.0,2146.0,
-2150,Fossil marine & seashore invertebrates,563.0,2146.0,
-2151,Fossil mollusks & molluscoids,564.0,2146.0,
-2152,Fossil arthropods,565.0,2146.0,
-2153,Fossil chordates,566.0,2146.0,
-2154,Fossil Cold-Blooded Vertebrates; Fossil Fishes,567.0,2146.0,2155
-2155,Reptiles,567.9,2154.0,
-2156,Fossil birds,568.0,2146.0,
-2157,Fossil mammals,569.0,2146.0,
-2158,Life Sciences; Biology,570.0,2053.0,"2159,2160,2165,2168,2169,2170,2171,2162,2963"
-2159,Physiology & related subjects,571.0,2158.0,
-2160,Biochemistry,572.0,2158.0,2161
-2161,Geographic distribution of races,572.9,2160.0,
-2162,Specific Physiological Systems In Animals,573.0,2158.0,"2164,2163"
-2163,Evolution and genetics of humankind,573.2,2162.0,
-2164,Prehistoric humankind,573.3,2162.0,
-2165,Specific Parts Of & Systems In Plants,575.0,2158.0,"2167,2166"
-2166,Genetics,575.1,2165.0,
-2167,Variation,575.2,2165.0,
-2168,Genetics & evolution,576.0,2158.0,
-2169,Ecology,577.0,2158.0,
-2170,Natural history of organisms,578.0,2158.0,
-2171,"Microorganisms, fungi & algae",579.0,2158.0,
-2172,Plants (Botany),580.0,2053.0,"2173,2181,2182,2183,2184,2185,2186,2187,2964"
-2173,Specific Topics In Natural History,581.0,2172.0,"2180,2179,2178,2177,2176,2175,2174"
-2174,Physiology of plants,581.1,2173.0,
-2175,Pathology of plants,581.2,2173.0,
-2176,Development and maturation of plants,581.3,2173.0,
-2177,Anatomy and morphology,581.4,2173.0,
-2178,Economic botany,581.6,2173.0,
-2179,"Tissue, cellular, molecular botany",581.8,2173.0,
-2180,Geographic treatment of plants,581.9,2173.0,
-2181,Plants noted for characteristics & flowers,582.0,2172.0,
-2182,Dicotyledons,583.0,2172.0,
-2183,Monocotyledons,584.0,2172.0,
-2184,Gymnosperms; conifers,585.0,2172.0,
-2185,Seedless plants,586.0,2172.0,
-2186,Vascular seedless plants,587.0,2172.0,
-2187,Bryophytes,588.0,2172.0,
-2188,Animals (Zoology),590.0,2053.0,"2194,2195,2196,2197,2203,2208,2217,2965,2204"
-2189,Physiology of animals,591.1,2173.0,
-2190,Pathology of animals,591.2,2173.0,
-2191,Development and maturation of animals,591.3,2173.0,
-2192,Economic biology,591.6,2173.0,
-2193,"Tissue, cellular, molecular zoology",591.8,2173.0,
-2194,Invertebrates,592.0,2188.0,
-2195,Marine & seashore invertebrates,593.0,2188.0,
-2196,Mollusks & molluscoids,594.0,2188.0,
-2197,Arthropods,595.0,2188.0,"2202,2201,2200,2199,2198"
-2198,Worms and related animals,595.1,2197.0,
-2199,Crustaceans and chelicerates,595.3,2197.0,
-2200,Arachnids,595.4,2197.0,
-2201,Progoneata,595.6,2197.0,
-2202,Insects,595.7,2197.0,
-2203,Chordates,596.0,2188.0,
-2204,Cold-Blooded Vertebrates; Fishes,597.0,2188.0,"2207,2206,2205,2155"
-2205,Amphibians,597.6,2204.0,
-2206,Apoda (caecilians),597.7,2204.0,
-2207,Anura (salientia),597.8,2204.0,
-2208,Birds,598.0,2188.0,"2216,2215,2214,2213,2212,2211,2210,2209"
-2209,Ecology and geographic treatment of birds,598.2,2208.0,
-2210,"Charadriiformes, ciconiiformes, gruiformes",598.3,2208.0,
-2211,Anseriformes and other water birds,598.4,2208.0,
-2212,Palaeognathae,598.5,2208.0,
-2213,Galliformes and columbiformes,598.6,2208.0,
-2214,"Coliiformes, cuculiformes, piciformes, psittaciformes, trogoniformes",598.7,2208.0,
-2215,"Perching birds, apodiformes, coraciiformes",598.8,2208.0,
-2216,"Birds of prey, owls, caprimulgiformes",598.9,2208.0,
-2217,Mammals,599.0,2188.0,"2218,2219,2220,2221,2222,2223,2224,2225,2226"
-2218,Monotremes,599.1,2217.0,
-2219,Marsupials,599.2,2217.0,
-2220,Unguiculata,599.3,2217.0,
-2221,Bats,599.4,2217.0,
-2222,Cetaceans and sirenians,599.5,2217.0,
-2223,Paenungulata,599.6,2217.0,
-2224,"Ungulates, carnivores, aardvarks",599.7,2217.0,
-2225,Primates,599.8,2217.0,
-2226,Humankind and forebears,599.9,2217.0,
-2227,Technology,600.0,,"2232,2279,2353,2376,2384,2394,2404,2415,2932"
-2228,Illustrations,602.2,1454.0,
-2229,Technical drawing,604.2,1968.0,
-2230,Organizations,606.0,2227.0,
-2231,Inventions & patents,608.0,2227.0,
-2232,Medicine & Health,610.0,2227.0,"2233,2234,2247,2248,2249,2259,2269,2966,2242"
-2233,"Human anatomy, cytology & histology",611.0,2232.0,
-2234,Human Physiology,612.0,2232.0,"2240,2241,2239,2238,2237,2236,2235"
-2235,Blood and circulation,612.1,2234.0,
-2236,Respiration,612.2,2234.0,
-2237,Digestion,612.3,2234.0,
-2238,"Secretion, excretion, related functions",612.4,2234.0,
-2239,"Reproduction, development, maturation",612.6,2234.0,
-2240,"Motor functions and skin (integument), hair, nails",612.7,2234.0,
-2241,Nervous functions sensory functions,612.8,2234.0,
-2242,Personal Health & Safety,613.0,2232.0,"2245,2999,2246,2244,2243"
-2243,"Dietetics, nutrition",613.2,2242.0,
-2244,Physical fitness,613.7,2242.0,
-2245,"Substance abuse (drug abuse), smoking",613.8,2242.0,
-2246,Birth control and sex hygiene,613.9,2242.0,
-2247,Incidence & prevention of disease,614.0,2232.0,
-2248,Pharmacology & therapeutics,615.0,2232.0,
-2249,Diseases,616.0,2232.0,"2250,2251,2252,2254,2255,2256,2257,2258,2253"
-2250,Diseases of the cardiovascular system,616.1,2249.0,
-2251,Diseases of the respiratory system,616.2,2249.0,
-2252,Diseases of the digestive system,616.3,2249.0,
-2253,"Diseases of the blood-forming, lymphatic, glandular systems; diseases of the endocrine system",616.4,2249.0,
-2254,"Diseases of the skin (integument), hair, nails",616.5,2249.0,
-2255,"Diseases of the urogenital system, diseases of the urinary system",616.6,2249.0,
-2256,Diseases of the musculoskeletal system,616.7,2249.0,
-2257,Diseases of the nervous system and mental disorders,616.8,2249.0,
-2258,Other diseases,616.9,2249.0,
-2259,Surgery & Related Medical Specialties,617.0,2232.0,"2260,2261,2262,2263,2264,2265,2266,2267,2268"
-2260,Wounds and injuries,617.1,2259.0,
-2261,Results of injuries,617.2,2259.0,
-2262,Orthopedics,617.3,2259.0,
-2263,Surgery by systems,617.4,2259.0,
-2264,Regional medicine regional surgery,617.5,2259.0,
-2265,Dentistry,617.6,2259.0,
-2266,Ophthalmology,617.7,2259.0,
-2267,Otology and audiology,617.8,2259.0,
-2268,"Geriatric, pediatric, military, plastic surgery, transplantation of tissue and organs, anesthesiology",617.9,2259.0,
-2269,"Gynecology, Obstetrics, Pediatrics & Geriatrics",618.0,2232.0,"2270,2271,2272,2273,2274,2275,2276,2277,2278"
-2270,Gynecology,618.1,2269.0,
-2271,Obstetrics,618.2,2269.0,
-2272,Diseases and complications of pregnancy,618.3,2269.0,
-2273,Childbirth labor,618.4,2269.0,
-2274,Complicated labor,618.5,2269.0,
-2275,Normal perperium,618.6,2269.0,
-2276,Puerperal diseases,618.7,2269.0,
-2277,Obstetrical surgery,618.8,2269.0,
-2278,Pediatrics and geriatrics,618.9,2269.0,
-2279,Engineering,620.0,2227.0,"2280,2281,2290,2291,2295,2297,2306,2307,2313"
-2280,Engineering & allied operations,620.0,2279.0,
-2281,Applied Physics,621.0,2279.0,"2289,2288,2287,2286,2285,2284,2283,2282"
-2282,Steam engineering,621.1,2281.0,
-2283,Hydraulic-power technology,621.2,2281.0,
-2284,"Electric, electronic, magnetic, communications, computer engineering; lighting",621.3,2281.0,
-2285,Heat engineering and prime movers,621.4,2281.0,
-2286,"Pneumatic, vacuum, low-temperature technologies",621.5,2281.0,
-2287,"Fans, blowers, pumps",621.6,2281.0,
-2288,Machine engineering,621.8,2281.0,
-2289,Tools and fabricating equipment,621.9,2281.0,
-2290,Mining & related operations,622.0,2279.0,
-2291,Military & Nautical Engineering,623.0,2279.0,"2294,2293,2292"
-2292,Ordnance,623.4,2291.0,
-2293,Vehicles,623.7,2291.0,
-2294,Nautical engineering and seamanship,623.8,2291.0,
-2295,Civil Engineering,624.0,2279.0,2296
-2296,Structural engineering and underground construction,624.1,2295.0,
-2297,Engineering Of Railroads & Roads,625.0,2279.0,"2303,2305,2304,2302,2301,2300,2299,2298"
-2298,Railroads,625.1,2297.0,
-2299,Railroad rolling stock,625.2,2297.0,
-2300,"Inclined, mountain, ship railroads",625.3,2297.0,
-2301,Rapid transit systems,625.4,2297.0,
-2302,Cable and aerial railways,625.5,2297.0,
-2303,Surface rail and trolley systems,625.6,2297.0,
-2304,Roads,625.7,2297.0,
-2305,Artificial road surfaces,625.8,2297.0,
-2306,Hydraulic engineering,627.0,2279.0,
-2307,Sanitary & Municipal Engineering,628.0,2279.0,"2312,2311,2310,2309,2308"
-2308,Water supply,628.1,2307.0,
-2309,Sewage treatment and disposal,628.3,2307.0,
-2310,"Waste technology, public toilets, street cleaning",628.4,2307.0,
-2311,Pollution and industrial sanitation engineering,628.5,2307.0,
-2312,Other branches of sanitary and municipal engineering,628.9,2307.0,
-2313,Other branches of engineering,629.0,2279.0,
-2314,Agriculture & related technologies,630.0,2876.0,
-2315,Philosophy and theory,630.1,2314.0,
-2316,Miscellany and scientific principles,630.2,2314.0,
-2317,Use of agricultural structures,631.2,2904.0,
-2318,"Use of tools, machinery, apparatus, equipment",631.3,2904.0,
-2319,Soil science,631.4,2904.0,
-2320,Cultivation and harvesting,631.5,2904.0,
-2321,"Clearing, drainage, revegetation",631.6,2904.0,
-2322,Water conservation,631.7,2904.0,
-2323,Fertilizers and soil conditioners,631.8,2904.0,
-2324,"Plant injuries, diseases & pests",632.0,1788.0,
-2325,Field & Plantation Crops,633.0,1788.0,"2332,2331,2330,2329,2328,2327,2326"
-2326,Cereal grains (cereals),633.1,2325.0,
-2327,Forage crops,633.2,2325.0,
-2328,"Legumes, other forage crops",633.3,2325.0,
-2329,Fiber crops,633.5,2325.0,
-2330,"Sugar, syrup, starch crops",633.6,2325.0,
-2331,Alkaloidal crops,633.7,2325.0,
-2332,Other crops grown for industrial processing,633.8,2325.0,
-2333,"Orchards, Fruits & Forestry",634.0,1788.0,"2335,2334"
-2334,Grapes,634.8,2333.0,
-2335,Forestry,634.9,2333.0,
-2336,Garden Crops (Horticulture),635.0,1788.0,2337
-2337,Flowers and ornamental plants,635.9,2336.0,
-2338,Animal Husbandry,636.0,1788.0,"2346,2345,2344,2343,2342,2341,2340,2339"
-2339,Horses and related animals,636.1,2338.0,
-2340,Ruminants bovines cattle,636.2,2338.0,
-2341,Sheep and goats,636.3,2338.0,
-2342,Swine,636.4,2338.0,
-2343,Poultry chickens,636.5,2338.0,
-2344,Birds other than poultry,636.6,2338.0,
-2345,Dogs,636.7,2338.0,
-2346,Cats,636.8,2338.0,
-2347,Processing dairy & related products,637.0,1788.0,
-2348,Insect culture,638.0,1788.0,
-2349,"Hunting, Fishing & Conservation",639.0,1788.0,"2352,2351,2350"
-2350,"Commercial fishing, whaling, sealing",639.2,2349.0,
-2351,Culture of cold-blooded vertebrates,639.3,2349.0,
-2352,Conservation of biological resources,639.9,2349.0,
-2353,Home & Family Management,640.0,2227.0,"2354,2363,2364,2365,2366,2367,2372,2373,2374,2967"
-2354,Food & Drink,641.0,2353.0,"2362,2361,2360,2359,2358,2357,2356,2355"
-2355,Applied nutrition,641.1,2354.0,
-2356,Beverages (drinks),641.2,2354.0,
-2357,Food,641.3,2354.0,
-2358,Food preservation and storage,641.4,2354.0,
-2359,"Cooking, recipes",641.5,2354.0,
-2360,Cooking specific materials,641.6,2354.0,
-2361,Specific cooking processes and techniques,641.7,2354.0,
-2362,Cooking specific kinds of composite dishes,641.8,2354.0,
-2363,Meals & table service,642.0,2353.0,
-2364,Housing & household equipment,643.0,2353.0,
-2365,Household utilities,644.0,2353.0,
-2366,Household furnishings,645.0,2353.0,
-2367,"Sewing, Clothing & Personal Living",646.0,2353.0,"2369,2371,2370,2368"
-2368,Sewing and related operations,646.2,2367.0,
-2369,Clothing and accessories construction,646.4,2367.0,
-2370,Construction of headgear,646.5,2367.0,
-2371,Managemennt of personal and family living; grooming,646.7,2367.0,
-2372,Management of public households,647.0,2353.0,
-2373,Housekeeping,648.0,2353.0,
-2374,Child Rearing & Home Care Of Persons,649.0,2353.0,2375
-2375,Home care of sick and infirm,649.8,2374.0,
-2376,Management & Public Relations,650.0,2227.0,"2383,2382,2381,2380,2379,2378,2377"
-2377,Management & auxiliary services,650.0,2376.0,
-2378,Office services,651.0,2376.0,
-2379,Processes of written communication,652.0,2376.0,
-2380,Shorthand,653.0,2376.0,
-2381,Accounting,657.0,2376.0,
-2382,General management,658.0,2376.0,
-2383,Advertising & public relations,659.0,2376.0,
-2384,Chemical Engineering,660.0,2227.0,"2385,2387,2388,2389,2390,2391,2392,2393,2968,2386"
-2385,Industrial chemicals,661.0,2384.0,
-2386,"Explosives, fuels & related products",662.0,2384.0,
-2387,Beverage technology,663.0,2384.0,
-2388,Food technology,664.0,2384.0,
-2389,"Industrial oils, fats, waxes & gases",665.0,2384.0,
-2390,Ceramic & allied technologies,666.0,2384.0,
-2391,"Cleaning, color & coating technologies",667.0,2384.0,
-2392,Technology of other organic products,668.0,2384.0,
-2393,Metallurgy,669.0,2384.0,
-2394,Manufacturing,670.0,2227.0,"2395,2396,2397,2398,2399,2400,2401,2402,2403,2969"
-2395,Metalworking & primary metal products,671.0,2394.0,
-2396,"Iron, steel & other iron alloys",672.0,2394.0,
-2397,Nonferrous metals,673.0,2394.0,
-2398,"Lumber processing, wood products & cork",674.0,2394.0,
-2399,Leather & fur processing,675.0,2394.0,
-2400,Pulp & paper technology,676.0,2394.0,
-2401,Textiles,677.0,2394.0,
-2402,Elastomers & elastomer products,678.0,2394.0,
-2403,Other products of specific materials,679.0,2394.0,
-2404,Manufacture For Specific Uses,680.0,2227.0,"2407,2408,2409,2411,2412,2413,2414,2405,2970"
-2405,Precision Instruments & Other Devices,681.0,2404.0,2406
-2406,Instruments for measuring time,681.1,2405.0,
-2407,Small forge work (blacksmithing),682.0,2404.0,
-2408,Hardware & household appliances,683.0,2404.0,
-2409,Furnishings & Home Workshops,684.0,2404.0,2410
-2410,Furniture,684.1,2409.0,
-2411,"Leather, fur goods & related products",685.0,2404.0,
-2412,Printing & related activities,686.0,2404.0,
-2413,Clothing & accessories,687.0,2404.0,
-2414,Other final products & packaging,688.0,2404.0,
-2415,Building & Construction,690.0,2227.0,"2416,2417,2418,2419,2420,2421,2422,2424,2423"
-2416,Construction of buildings,690.0,2415.0,
-2417,Building materials,691.0,2415.0,
-2418,Auxiliary construction practices,692.0,2415.0,
-2419,Specific materials & purposes,693.0,2415.0,
-2420,Wood construction & carpentry,694.0,2415.0,
-2421,Roof covering,695.0,2415.0,
-2422,Utilities,696.0,2415.0,
-2423,"Heating, ventilating & air-conditioning",697.0,2415.0,
-2424,Detail finishing,698.0,2415.0,
-2425,Arts & Recreation,700.0,,"2426,2435,2518,2511,2446,2456,2527,2536,2600,2479"
-2426,Arts,700.0,2425.0,"2427,2428,2429,2430,2431,2433,2434,2905,2906"
-2427,The arts; fine & decorative arts,700.0,2426.0,
-2428,Philosophy of fine & decorative arts,701.0,2426.0,
-2429,Miscellany of fine & decorative arts,702.0,2426.0,
-2430,Dictionaries of fine & decorative arts,703.0,2426.0,
-2431,Special Topics In Fine & Decorative Arts,704.0,2426.0,2432
-2432,Iconography,704.9,2431.0,
-2433,Serial publications of fine & decorative arts,705.0,2426.0,
-2434,"Galleries, museums & private collections",708.0,2426.0,
-2435,Landscaping & Area Planning,710.0,2425.0,"2437,2438,2440,2441,2442,2443,2444,2445,2436,2439"
-2436,Civic & landscape art,710.0,2435.0,
-2437,Area planning,711.0,2435.0,
-2438,Landscape architecture,712.0,2435.0,
-2439,Landscape architecture of trafficways,713.0,2435.0,
-2440,Water features,714.0,2435.0,
-2441,Woody plants,715.0,2435.0,
-2442,Herbaceous plants,716.0,2435.0,
-2443,Structures in landscape architecture,717.0,2435.0,
-2444,Landscape design of cemeteries,718.0,2435.0,
-2445,Natural landscapes,719.0,2435.0,
-2446,Architecture,720.0,2425.0,"2447,2448,2449,2450,2451,2452,2453,2454,2455,2971"
-2447,Architectural structure,721.0,2446.0,
-2448,Architecture to ca. 300,722.0,2446.0,
-2449,Architecture from ca. 300 to 1399,723.0,2446.0,
-2450,Architecture from 1400,724.0,2446.0,
-2451,Public structures,725.0,2446.0,
-2452,Buildings for religious purposes,726.0,2446.0,
-2453,Buildings for education & research,727.0,2446.0,
-2454,Residential & related buildings,728.0,2446.0,
-2455,Design & decoration,729.0,2446.0,
-2456,"Sculpture, Ceramics & Metalwork",730.0,2425.0,"2461,2457,2459,2460,2462,2463,2464,2465,2467,2474"
-2457,Plastic arts; sculpture,730.0,2456.0,
-2458,Philosophy and theory of sculpture,730.1,2457.0,
-2459,"Processes, forms & subjects of sculpture",731.0,2456.0,
-2460,Sculpture to ca. 500,732.0,2456.0,
-2461,"Greek, Etruscan & Roman sculpture",733.0,2456.0,
-2462,Sculpture from ca. 500 to 1399,734.0,2456.0,
-2463,Sculpture from 1400,735.0,2456.0,
-2464,Carving & carvings,736.0,2456.0,
-2465,Numismatics & Sigillography,737.0,2456.0,2466
-2466,Coins,737.4,2465.0,
-2467,Ceramic Arts,738.0,2456.0,"2473,2472,2471,2470,2469,2468"
-2468,"Techniques, procedures, apparatus, equipment, materials",738.1,2467.0,
-2469,Porcelain,738.2,2467.0,
-2470,Earthenware and stoneware,738.3,2467.0,
-2471,Enameling and enamels,738.4,2467.0,
-2472,Mosaics,738.5,2467.0,
-2473,Ornamental bricks and tiles,738.6,2467.0,
-2474,Art Metalwork,739.0,2456.0,"2478,2477,2476,2475"
-2475,Work in precious metals,739.2,2474.0,
-2476,Ironwork,739.4,2474.0,
-2477,Work in other metals,739.5,2474.0,
-2478,Arms and armour,739.7,2474.0,
-2479,Drawing & Decorative Arts,740.0,2425.0,"2480,2484,2485,2486,2495,2504,2506,2510,2972"
-2480,Drawing & Drawings,741.0,2479.0,"2483,2482,2481,2468"
-2481,"Cartoons, caricatures, comics",741.5,2480.0,
-2482,"Graphic design, illustration and commercial art",741.6,2480.0,
-2483,Silhouettes,741.7,2480.0,
-2484,Perspective,742.0,2479.0,
-2485,Drawing & drawings by subject,743.0,2479.0,
-2486,Decorative Arts,745.0,2479.0,"2494,2493,2492,2491,2490,2489,2488,2487"
-2487,Antiques,745.1,2486.0,
-2488,Industrial art and design,745.2,2486.0,
-2489,Pure and applied design and decoration,745.4,2486.0,
-2490,Handicrafts,745.5,2486.0,
-2491,"Calligraphy, illumination, heraldic design",745.6,2486.0,
-2492,Decorative coloring,745.7,2486.0,
-2493,"Panoramas, cycloramas, dioramas",745.8,2486.0,
-2494,Other decorative arts,745.9,2486.0,
-2495,Textile Arts,746.0,2479.0,"2498,2503,2502,2501,2500,2499,2497,2496"
-2496,Yarn preparation and weaving,746.1,2495.0,
-2497,Laces and related fabrics,746.2,2495.0,
-2498,"Pictures, hangings, tapestries",746.3,2495.0,
-2499,Needle- and handwork,746.4,2495.0,
-2500,Bead embroidery,746.5,2495.0,
-2501,"Printing, painting, dyeing",746.6,2495.0,
-2502,Rugs and carpets,746.7,2495.0,
-2503,Other textile products,746.9,2495.0,
-2504,Interior Decoration,747.0,2479.0,2505
-2505,Decoration of specific rooms of residential buildings,747.7,2504.0,
-2506,Glass,748.0,2479.0,"2509,2508,2507"
-2507,Glassware,748.2,2506.0,
-2508,"Stained, painted, leaded, mosaic glass",748.5,2506.0,
-2509,Methods of decoration,748.6,2506.0,
-2510,Furniture & accessories,749.0,2479.0,
-2511,Painting,750.0,2425.0,"2908,2907,2517,2516,2515,2514,2513,2512"
-2512,Painting & paintings,750.0,2511.0,
-2513,"Techniques, equipment, materials & forms",751.0,2511.0,
-2514,"Symbolism, allegory, mythology & legend",753.0,2511.0,
-2515,Genre paintings,754.0,2511.0,
-2516,Human figures,757.0,2511.0,
-2517,Other subjects,758.0,2511.0,
-2518,Graphic Arts; Printmaking & Prints,760.0,2425.0,"2519,2526,2525,2524,2523,2522,2521,2520"
-2519,Printmaking & prints,760.0,2518.0,
-2520,Relief processes (block printing),761.0,2518.0,
-2521,Lithographic processes,763.0,2518.0,
-2522,Chromolithography & serigraphy,764.0,2518.0,
-2523,Metal engraving,765.0,2518.0,
-2524,"Mezzotinting, aquatinting & related processes",766.0,2518.0,
-2525,Etching & drypoint,767.0,2518.0,
-2526,Prints,769.0,2518.0,
-2527,"Photography, computer art, cinematography, videography",770.0,2528.0,
-2528,"Photography, Computer Art, Film, Video",770.0,2425.0,"2534,2535,2533,2532,2531,2530,2529,2527"
-2529,Metallic salt processes,772.0,2527.0,
-2530,Pigment processes of printing,773.0,2527.0,
-2531,Holography,774.0,2527.0,
-2532,Digital photography,775.0,2527.0,
-2533,Computer art (digital art),776.0,2527.0,
-2534,Fields & kinds of photography,778.0,2527.0,
-2535,Photographs,779.0,2527.0,
-2536,Music,780.0,2425.0,"2537,2546,2556,2573,2574,2583,2591,2973,2563"
-2537,General Principles & Musical Forms,781.0,2536.0,"2538,2545,2544,2543,2542,2541,2540,2539"
-2538,"Aesthetics, appreciation, taste",781.1,2537.0,
-2539,Elements of music,781.2,2537.0,
-2540,Composition,781.3,2537.0,
-2541,Techniques of music,781.4,2537.0,
-2542,Kinds of music,781.5,2537.0,
-2543,Traditions of music,781.6,2537.0,
-2544,Sacred music,781.7,2537.0,
-2545,Musical forms,781.8,2537.0,
-2546,Vocal Music,782.0,2536.0,"2548,2549,2550,2551,2552,2553,2554,2555,2547"
-2547,Dramatic vocal forms operas,782.1,2546.0,
-2548,Nondramatic vocal forms,782.2,2546.0,
-2549,Services (liturgy and ritual),782.3,2546.0,
-2550,Secular forms,782.4,2546.0,
-2551,Mixed voices,782.5,2546.0,
-2552,Women's voices,782.6,2546.0,
-2553,Children's voices,782.7,2546.0,
-2554,Men's voices,782.8,2546.0,
-2555,Other types of voices,782.9,2546.0,
-2556,Music For Single Voices; The Voice,783.0,2536.0,"2552,2553,2554,2557,2558,2559,2560,2561,2562"
-2557,Single voices in combination,783.1,2556.0,
-2558,Solo voice,783.2,2556.0,
-2559,High voice,783.3,2556.0,
-2560,Middle voice,783.4,2556.0,
-2561,Low voice,783.5,2556.0,
-2562,Other types of voice,783.9,2556.0,
-2563,Instruments & Instrumental Ensembles,784.0,2536.0,"2564,2565,2566,2567,2568,2569,2570,2571,2572"
-2564,"General principles, musical forms, instruments",784.1,2563.0,
-2565,Full (symphony) orchestra,784.2,2563.0,
-2566,Chamber orchestra,784.3,2563.0,
-2567,Light orchestra,784.4,2563.0,
-2568,Pop music,784.5,2563.0,
-2569,"Keyboard, mechanical, electronic, percussion bands",784.6,2563.0,
-2570,String orchestra,784.7,2563.0,
-2571,Wind band,784.8,2563.0,
-2572,Brass band,784.9,2563.0,
-2573,Ensembles with one instrument per part,785.0,2536.0,
-2574,Keyboard & Other Instruments,786.0,2536.0,"2582,2581,2580,2579,2578,2577,2576,2575"
-2575,Piano,786.2,2574.0,
-2576,Clavichord,786.3,2574.0,
-2577,Harpsichord,786.4,2574.0,
-2578,Keyboard wind instruments organ,786.5,2574.0,
-2579,Mechanical and aeolian instruments,786.6,2574.0,
-2580,Electrophones electronic instruments,786.7,2574.0,
-2581,Percussion instruments,786.8,2574.0,
-2582,Drums and devices used for percussion effects,786.9,2574.0,
-2583,Stringed Instruments,787.0,2536.0,"2588,2590,2589,2587,2586,2585,2584"
-2584,Violin,787.2,2583.0,
-2585,Viola,787.3,2583.0,
-2586,Cello,787.4,2583.0,
-2587,Double bass,787.5,2583.0,
-2588,Other bowed stringed instruments viol,787.6,2583.0,
-2589,"Plectral instruments, guitar",787.7,2583.0,
-2590,Harp and musical bow,787.9,2583.0,
-2591,Wind Instruments,788.0,2536.0,"2599,2598,2597,2596,2595,2594,2593,2592"
-2592,Woodwind instruments and free aerophones,788.2,2591.0,
-2593,Flute family,788.3,2591.0,
-2594,Reed instruments,788.4,2591.0,
-2595,Double-reed instruments,788.5,2591.0,
-2596,Single-reed instruments,788.6,2591.0,
-2597,Saxophone,788.7,2591.0,
-2598,Free reeds,788.8,2591.0,
-2599,Brass instruments (lip-reed instruments),788.9,2591.0,
-2600,"Sports, Games & Entertainment",790.0,2425.0,"2601,2604,2610,2619,2627,2638,2647,2651,2654,2633"
-2601,Recreational & performing arts,790.0,2600.0,
-2602,Recreational activities,790.1,2601.0,
-2603,The performing arts in general,790.2,2601.0,
-2604,Public Performances,791.0,2600.0,"2609,2608,2607,2606,2605"
-2605,Circuses,791.3,2604.0,
-2606,"Motion pictures, radio, television",791.4,2604.0,
-2607,Puppetry and toy theaters,791.5,2604.0,
-2608,Pageantry,791.6,2604.0,
-2609,Animal performances,791.8,2604.0,
-2610,Stage Presentations,792.0,2600.0,"2618,2617,2616,2615,2614,2613,2612,2611"
-2611,Tragedy and serious drama,792.1,2610.0,
-2612,Comedy and melodrama,792.2,2610.0,
-2613,Pantomime,792.3,2610.0,
-2614,Opera,792.5,2610.0,
-2615,Musical plays,792.6,2610.0,
-2616,Variety shows,792.7,2610.0,
-2617,Ballet and modern dance,792.8,2610.0,
-2618,Stage productions,792.9,2610.0,
-2619,Indoor Games & Amusements,793.0,2600.0,"2626,2625,2624,2623,2622,2621,2620"
-2620,Parties and entertainment,793.2,2619.0,
-2621,"Social, folk, national dancing",793.3,2619.0,
-2622,Games of action,793.4,2619.0,
-2623,Forfeit and trick games,793.5,2619.0,
-2624,Games not characterized by action,793.7,2619.0,
-2625,Magic and related activities,793.8,2619.0,
-2626,Other indoor diversions,793.9,2619.0,
-2627,Indoor Games Of Skill,794.0,2600.0,"2632,2631,2630,2629,2628"
-2628,Chess,794.1,2627.0,
-2629,Checkers (draughts),794.2,2627.0,
-2630,Darts,794.3,2627.0,
-2631,Bowling,794.6,2627.0,
-2632,Ball games,794.7,2627.0,
-2633,Games Of Chance,795.0,2600.0,"2637,2636,2635,2634"
-2634,Games with dice,795.1,2633.0,
-2635,Wheel and top games,795.2,2633.0,
-2636,Games dependent on drawing numbers or counters,795.3,2633.0,
-2637,Card games,795.4,2633.0,
-2638,Athletic & Outdoor Sports & Games,796.0,2600.0,"2632,2639,2640,2641,2644,2645,2646,2642,2643"
-2639,Miscellaneous games,796.1,2638.0,
-2640,Activities and games requiring equipment,796.2,2638.0,
-2641,"Weight lifting, track and field, gymnastics",796.4,2638.0,
-2642,Outdoor life,796.5,2638.0,
-2643,Cycling and related activities,796.6,2638.0,
-2644,Driving motor vehicles,796.7,2638.0,
-2645,Combat sports,796.8,2638.0,
-2646,Ice and snow sports,796.9,2638.0,
-2647,Aquatic & Air Sports,797.0,2600.0,"2650,2649,2648"
-2648,Boating,797.1,2647.0,
-2649,Swimming and diving,797.2,2647.0,
-2650,Other aquatic sports,797.3,2647.0,
-2651,Equestrian Sports & Animal Racing,798.0,2600.0,"2653,2652"
-2652,Horsemanship,798.2,2651.0,
-2653,Horse racing; flat racing,798.4,2651.0,
-2654,"Fishing, Hunting & Shooting",799.0,2600.0,"2656,2655"
-2655,Fishing,799.1,2654.0,
-2656,Hunting,799.2,2654.0,
-2657,Literature,800.0,,"2676,2685,2694,2705,2716,2726,2736,2758,2747,2658"
-2658,"Literature, Rhetoric & Criticism",800.0,2657.0,"2659,2660,2668,2910,2911,2912,2913,2914,2915"
-2659,Literature & Rhetoric,800.0,2654.0,"2676,2685,2694,2705,2716,2726,2736,2758,2747,2658"
-2660,Rhetoric & Collections Of Literature,808.0,2658.0,"2667,2666,2665,2664,2663,2662,2661"
-2661,Rhetoric of poetry,808.1,2660.0,
-2662,Rhetoric of drama,808.2,2660.0,
-2663,Rhetoric of fiction,808.3,2660.0,
-2664,Rhetoric of essays,808.4,2660.0,
-2665,Rhetoric of speech,808.5,2660.0,
-2666,Rhetoric of letters,808.6,2660.0,
-2667,Rhetoric of satire and humor,808.7,2660.0,
-2668,"History, Description & Criticism",809.0,2658.0,"2675,2674,2673,2672,2671,2670,2669"
-2669,Literary history and criticism of poetry,809.1,2668.0,
-2670,Literary history and criticism of drama,809.2,2668.0,
-2671,Literary history and criticism of fiction,809.3,2668.0,
-2672,Literary history and criticism of essays,809.4,2668.0,
-2673,Literary history and criticism of speech,809.5,2668.0,
-2674,Literary history and criticism of letters,809.6,2668.0,
-2675,Literary history and criticism of satire and humor,809.7,2668.0,
-2676,American Literature In English,810.0,2657.0,"2677,2678,2679,2680,2681,2683,2684,2974,2682"
-2677,American poetry in English,811.0,2676.0,
-2678,American drama in English,812.0,2676.0,
-2679,American fiction in English,813.0,2676.0,
-2680,American essays in English,814.0,2676.0,
-2681,American speeches in English,815.0,2676.0,
-2682,American letters in English,816.0,2676.0,
-2683,American humor & satire in English,817.0,2676.0,
-2684,American miscellaneous writings,818.0,2676.0,
-2685,English & Old English Literatures,820.0,2657.0,"2686,2687,2688,2689,2690,2691,2692,2693,2975"
-2686,English poetry,821.0,2685.0,
-2687,English drama,822.0,2685.0,
-2688,English fiction,823.0,2685.0,
-2689,English essays,824.0,2685.0,
-2690,English speeches,825.0,2685.0,
-2691,English letters,826.0,2685.0,
-2692,English humor & satire,827.0,2685.0,
-2693,English miscellaneous writings,828.0,2685.0,
-2694,German & Related Literatures,830.0,2657.0,"2704,2696,2697,2698,2699,2700,2701,2702,2703,2695"
-2695,German literature & literatures of related languages,830.0,2694.0,
-2696,German poetry,831.0,2694.0,
-2697,German drama,832.0,2694.0,
-2698,German fiction,833.0,2694.0,
-2699,German essays,834.0,2694.0,
-2700,German speeches,835.0,2694.0,
-2701,German letters,836.0,2694.0,
-2702,German humor & satire,837.0,2694.0,
-2703,German miscellaneous writings,838.0,2694.0,
-2704,Other Germanic literatures,839.0,2694.0,
-2705,French & Related Literatures,840.0,2657.0,"2706,2707,2708,2709,2710,2711,2712,2713,2714,2715"
-2706,French literature & literatures of related Romance languages,840.0,2705.0,
-2707,French poetry,841.0,2705.0,
-2708,French drama,842.0,2705.0,
-2709,French fiction,843.0,2705.0,
-2710,French essays,844.0,2705.0,
-2711,French speeches,845.0,2705.0,
-2712,French letters,846.0,2705.0,
-2713,French humor & satire,847.0,2705.0,
-2714,French miscellaneous writings,848.0,2705.0,
-2715,Occitan & catalan literatures,849.0,2705.0,
-2716,"Italian, Romanian & Related Literatures",850.0,2657.0,"2717,2718,2719,2720,2721,2722,2724,2725,2723,2976"
-2717,Italian poetry,851.0,2716.0,
-2718,Italian drama,852.0,2716.0,
-2719,Italian fiction,853.0,2716.0,
-2720,Italian essays,854.0,2716.0,
-2721,Italian speeches,855.0,2716.0,
-2722,Italian letters,856.0,2716.0,
-2723,Italian humor & satire,857.0,2716.0,
-2724,Italian miscellaneous writings,858.0,2716.0,
-2725,Romanian & related literatures,859.0,2716.0,
-2726,Spanish & Portuguese Literatures,860.0,2657.0,"2727,2728,2729,2730,2731,2732,2733,2734,2735,2977"
-2727,Spanish poetry,861.0,2726.0,
-2728,Spanish drama,862.0,2726.0,
-2729,Spanish fiction,863.0,2726.0,
-2730,Spanish essays,864.0,2726.0,
-2731,Spanish speeches,865.0,2726.0,
-2732,Spanish letters,866.0,2726.0,
-2733,Spanish humor & satire,867.0,2726.0,
-2734,Spanish miscellaneous writings,868.0,2726.0,
-2735,Portuguese literature,869.0,2726.0,
-2736,Latin & Italic Literatures,870.0,2657.0,"2738,2739,2740,2741,2742,2743,2744,2746,2745,2737"
-2737,Latin literature & literatures of related Italic languages,870.0,2736.0,
-2738,Latin poetry,871.0,2736.0,
-2739,Latin dramatic poetry & drama,872.0,2736.0,
-2740,Latin epic poetry & fiction,873.0,2736.0,
-2741,Latin lyric poetry,874.0,2736.0,
-2742,Latin speeches,875.0,2736.0,
-2743,Latin letters,876.0,2736.0,
-2744,Latin humor & satire,877.0,2736.0,
-2745,Latin miscellaneous writings,878.0,2736.0,
-2746,Literatures of other Italic languages,879.0,2736.0,
-2747,Classical & Modern Greek Literatures,880.0,2657.0,"2757,2756,2755,2754,2753,2749,2752,2751,2750,2748"
-2748,Classical Greek literature & literatures of related Hellenic languages,880.0,2747.0,
-2749,Classical Greek poetry,881.0,2747.0,
-2750,Classical Greek dramatic poetry & drama,882.0,2747.0,
-2751,Classical Greek epic poetry & fiction,883.0,2747.0,
-2752,Classical Greek lyric poetry,884.0,2747.0,
-2753,Classical Greek speeches,885.0,2747.0,
-2754,Classical Greek letters,886.0,2747.0,
-2755,Classical Greek humor & satire,887.0,2747.0,
-2756,Classical Greek miscellaneous writings,888.0,2747.0,
-2757,Modern Greek literature,889.0,2747.0,
-2758,Other Literatures,890.0,2657.0,"2760,2761,2762,2763,2765,2766,2759,2764,2767,2917"
-2759,Literatures of other specific languages and language families,890.0,2758.0,
-2760,East Indo-European & Celtic literatures,891.0,2758.0,
-2761,Afro-Asiatic literatures; Semitic literatures,892.0,2758.0,
-2762,Non-Semitic Afro-Asiatic literatures,893.0,2758.0,
-2763,Literatures of east & southeast Asia,895.0,2758.0,
-2764,African literatures,896.0,2758.0,
-2765,North American native literatures,897.0,2758.0,
-2766,South American native literatures,898.0,2758.0,
-2767,Austronesian & other literatures,899.0,2758.0,
-2768,History & Geography,900.0,,"2769,2772,2790,2798,2810,2822,2833,2843,2853,2863"
-2769,History,900.0,2768.0,"2770,2771,2918,2919,2920,2921,2922,2923,2934"
-2770,Collected accounts of events,904.0,2769.0,
-2771,World history,909.0,2769.0,
-2772,Geography & Travel,910.0,2768.0,"2786,2788,2787,2773,2774,2775,2776,2789,2979,2781"
-2773,Historical geography,911.0,2772.0,
-2774,"Atlases, maps, charts & plans",912.0,2772.0,
-2775,Geography of & travel in ancient world,913.0,2772.0,
-2776,Geography Of & Travel In Europe,914.0,2772.0,"2780,2779,2778,2777"
-2777,Britain,914.2,2776.0,
-2778,Germany,914.3,2776.0,
-2779,France,914.4,2776.0,
-2780,Italy,914.5,2776.0,
-2781,Geography Of & Travel In Asia,915.0,2772.0,"2784,2783,2782,2785"
-2782,Spain,915.6,2781.0,
-2783,Russia,915.7,2781.0,
-2784,Greece,915.8,2781.0,
-2785,Other Europe,915.9,2781.0,
-2786,Geography of & travel in Africa,916.0,2772.0,
-2787,Geography of & travel in North America,917.0,2772.0,
-2788,Geography of & travel in South America,918.0,2772.0,
-2789,Geography of & travel in other areas,919.0,2772.0,
-2790,Biography & Genealogy,920.0,2768.0,"2792,2791"
-2791,"Biography, genealogy & insignia",920.0,2790.0,
-2792,"Genealogy, Names & Insignia",929.0,2790.0,"2795,2797,2796,2794,2793"
-2793,Personal names,929.4,2792.0,
-2794,Heraldry,929.6,2792.0,
-2795,"Royal houses, peerage, gentry, orders of knighthood",929.7,2792.0,
-2796,"Awards, orders, decorations, armorial bearings, autographs",929.8,2792.0,
-2797,Forms of insignia and identification,929.9,2792.0,
-2798,History Of Ancient World (To Ca. 499),930.0,2768.0,"2806,2805,2799,2801,2802,2803,2804,2807,2808,2809"
-2799,History of ancient world to ca. 499,930.0,2798.0,
-2800,Archaeology,930.1,2799.0,
-2801,China to 420,931.0,2798.0,
-2802,Egypt to 640,932.0,2798.0,
-2803,Palestine to 70,933.0,2798.0,
-2804,India to 647,934.0,2798.0,
-2805,Mesopotamia & Iranian plateau to 637,935.0,2798.0,
-2806,Europe north & west of Italy to ca. 499,936.0,2798.0,
-2807,Italy & adjacent territories to 476,937.0,2798.0,
-2808,Greece to 323,938.0,2798.0,
-2809,Other parts of ancient world to ca. 640,939.0,2798.0,
-2810,History Of Europe,940.0,2768.0,"2819,2821,2814,2816,2813,2817,2818,2820,2980,2815"
-2811,Early history to 1453,940.1,2810.0,
-2812,1453-,940.2,2810.0,
-2813,British isles,941.0,2810.0,
-2814,England & Wales,942.0,2810.0,
-2815,Central Europe; Germany,943.0,2810.0,
-2816,France & Monaco,944.0,2810.0,
-2817,Italian peninsula & adjacent islands,945.0,2810.0,
-2818,Iberian peninsula & adjacent islands,946.0,2810.0,
-2819,Eastern Europe; Russia,947.0,2810.0,
-2820,Scandinavia,948.0,2810.0,
-2821,Other parts of Europe,949.0,2810.0,
-2822,History Of Asia,950.0,2768.0,"2823,2827,2830,2831,2832,2829,2824,2825,2828,2826"
-2823,History of Asia,950.0,2822.0,
-2824,China & adjacent areas,951.0,2822.0,
-2825,Japan,952.0,2822.0,
-2826,Arabian peninsula & adjacent areas,953.0,2822.0,
-2827,South Asia; India,954.0,2822.0,
-2828,Iran,955.0,2822.0,
-2829,Middle east (Near East),956.0,2822.0,
-2830,Siberia (Asiatic Russia),957.0,2822.0,
-2831,Central Asia,958.0,2822.0,
-2832,Southeast Asia,959.0,2822.0,
-2833,History Of Africa,960.0,2768.0,"2842,2837,2839,2840,2841,2836,2835,2834,2838,2981"
-2834,Tunisia & Libya,961.0,2833.0,
-2835,Egypt & Sudan,962.0,2833.0,
-2836,Ethiopia & Eritrea,963.0,2833.0,
-2837,Northwest African coast & offshore islands,964.0,2833.0,
-2838,Algeria,965.0,2833.0,
-2839,West Africa & offshore islands,966.0,2833.0,
-2840,Central Africa & offshore islands,967.0,2833.0,
-2841,Southern Africa; Republic of South Africa,968.0,2833.0,
-2842,South Indian ocean islands,969.0,2833.0,
-2843,History Of North America,970.0,2768.0,"2845,2844,2852,2851,2850,2849,2848,2846,2982,2847"
-2844,Canada,971.0,2843.0,
-2845,Middle America; Mexico,972.0,2843.0,
-2846,United States,973.0,2843.0,
-2847,Northeastern United States,974.0,2843.0,
-2848,Southeastern United States,975.0,2843.0,
-2849,South central United States,976.0,2843.0,
-2850,North central United States,977.0,2843.0,
-2851,Western United States,978.0,2843.0,
-2852,Great basin & Pacific slope region,979.0,2843.0,
-2853,History Of South America,980.0,2768.0,"2862,2859,2854,2855,2856,2857,2858,2860,2861,2983"
-2854,Brazil,981.0,2853.0,
-2855,Argentina,982.0,2853.0,
-2856,Chile,983.0,2853.0,
-2857,Bolivia,984.0,2853.0,
-2858,Peru,985.0,2853.0,
-2859,Colombia & Ecuador,986.0,2853.0,
-2860,Venezuela,987.0,2853.0,
-2861,Guiana,988.0,2853.0,
-2862,Paraguay & Uruguay,989.0,2853.0,
-2863,History Of Other Areas,990.0,2768.0,"2866,2984,2870,2865,2864,2867,2868,2869"
-2864,New Zealand,993.0,2863.0,
-2865,Australia,994.0,2863.0,
-2866,Melanesia; New Guinea,995.0,2863.0,
-2867,Other parts of Pacific; Polynesia,996.0,2863.0,
-2868,Atlantic Ocean islands,997.0,2863.0,
-2869,Arctic islands & Antarctica,998.0,2863.0,
-2870,Extraterrestrial worlds,999.0,2863.0,
-2871,Ball games,796.3,2638.0,
-2872,Internal Commerce (Domestic Trade),381.0,1930.0,1932
-2873,Mathematics,510.0,2053.0,"2061,2059,2064,2065,2066,2070,2071,2057,2961"
-2875,Fashion design of clothing,746.92,2503.0,
-2876,Agriculture,630.0,2932.0,"2314,2324,2325,2333,2336,2338,2348,2349,2904,2347"
-2877,Bibliographies,11.0,,
-2878,"In Italian, Romanian & related languages",55.0,1401.0,
-2879,In Iberian peninsula & adjacent islands,76.0,1422.0,
-2880,"In Italian, Romanian & related languages",85.0,1431.0,
-2881,Epistemology,121.0,,
-2882,Humankind,218.0,,
-2883,Humankind,233.0,,
-2884,International commerce (foreign trade),382.0,,
-2885,Miscellany,402.0,,
-2886,Dictionaries & encyclopedias,403.0,,
-2887,Serial publications,405.0,,
-2888,Organizations & management,406.0,,
-2889,"Education, research & related topics",407.0,,
-2890,Philosophy & theory,501.0,,
-2891,Miscellany,502.0,,
-2892,Dictionaries & encyclopedias,503.0,,
-2893,Serial publications,505.0,,
-2894,Organizations & management,506.0,,
-2895,"Education, research & related topics",507.0,,
-2896,"Techniques, equipment & materials",542.0,,
-2897,Zoology,591.0,2188.0,"2995,2193,2192,2191,2190,2189"
-2898,Philosophy & theory,601.0,,
-2899,Miscellany,602.0,,
-2900,Dictionaries & encyclopedias,603.0,,
-2901,Special topics,604.0,,
-2902,Serial publications,605.0,,
-2903,"Education, research & related topics",607.0,,
-2904,"Techniques, equipment & materials",631.0,,"2318,2317,2319,2320,2321,2322,2323"
-2905,Organizations & management,706.0,,
-2906,"Education, research & related topics",707.0,,
-2907,Color,752.0,,
-2908,Religion,755.0,,
-2909,"Techniques, equipment & materials",771.0,,
-2910,Philosophy & theory,801.0,,
-2911,Miscellany,802.0,,
-2912,Dictionaries & encyclopedias,803.0,,
-2913,Serial publications,805.0,,
-2914,Organizations & management,806.0,,
-2915,"Education, research & related topics",807.0,,
-2916,Old English (Anglo-Saxon),829.0,2975.0,
-2917,"Altaic, Uralic, Hyperborean & Dravidian",894.0,2759.0,
-2918,Philosophy & theory,901.0,,
-2919,Miscellany,902.0,,
-2920,Dictionaries & encyclopedias,903.0,,
-2921,Serial publications,905.0,,
-2922,Organizations & management,906.0,,
-2923,"Education, research & related topics",907.0,,
-2924,"Computer science, information & general works",0.0,1346.0,
-2925,Philosophy & psychology,100.0,1452.0,
-2926,Religion,200.0,1565.0,"1567,1568,1569,1570,1571,1572,1573,1574,2927,1566"
-2927,Religion,200.0,1565.0,
-2928,Social sciences,300.0,1674.0,
-2929,Language,400.0,1966.0,"2930,2889,2888,2887,2886,2885,1968,1967"
-2930,Language,400.0,1966.0,
-2931,Science,500.0,2053.0,"2895,2894,2893,2892,2891,2890,2056,2054"
-2932,Technology,600.0,2227.0,"2230,2231,2898,2899,2900,2901,2902,2903,2933"
-2933,Technology (applied sciences),600.0,2227.0,
-2934,"History, geography, & auxiliary disciplines",900.0,2769.0,
-2935,Bibliographies,11.0,1373.0,
-2936,Library & information sciences,20.0,1382.0,
-2937,"News media, journalism, and publishing",70.0,1422.0,
-2938,Manuscripts and rare books,90.0,1441.0,
-2939,Metaphysics,110.0,1459.0,
-2940,Epistemology (theory of knowledge),121.0,1468.0,
-2941,Parapsychology & occultism,130.0,1477.0,
-2942,Psychology,150.0,1502.0,
-2943,Philosophical logic,160.0,1527.0,
-2944,Ethics (moral philosophy),170.0,1535.0,
-2945,"Ancient, medieval, eastern philosophy",180.0,1545.0,
-2946,Modern western & other noneastern philosophy,190.0,1555.0,
-2947,Philosophy & theory of religion,210.0,1575.0,
-2948,Christianity,230.0,1608.0,
-2949,Other religions,290.0,1665.0,
-2950,Political science (politics & government),320.0,1718.0,
-2951,Economics,330.0,1753.0,
-2952,Law,340.0,1802.0,
-2953,Public administration & military science,350.0,1819.0,
-2954,Education,370.0,1898.0,
-2955,"Commerce, communications & transportation",380.0,1930.0,
-2956,"Customs, etiquette, folklore",390.0,1952.0,
-2957,Linguistics,410.0,1969.0,
-2958,"Italian, Dalmatian, Romanian, Rhaetian, Sardinian, Corsican",450.0,2005.0,
-2959,"Spanish, Portuguese, Galician",460.0,2013.0,
-2960,Other languages,490.0,2039.0,
-2961,Mathematics,510.0,2873.0,
-2962,Physics,530.0,2097.0,
-2963,Biology,570.0,2158.0,
-2964,Plants,580.0,2172.0,
-2965,Animals,590.0,2188.0,
-2966,Medicine & health,610.0,2232.0,
-2967,Home & family management,640.0,2353.0,
-2968,Chemical engineering & related technologies,660.0,2384.0,
-2969,Manufacturing,670.0,2394.0,
-2970,Manufacture of products for specific uses,680.0,2404.0,
-2971,Architecture,720.0,2446.0,
-2972,Graphic arts,740.0,2479.0,
-2973,Music,780.0,2536.0,
-2974,American literature in English,810.0,2676.0,
-2975,English & Old English (Anglo-Saxon) literatures,820.0,2685.0,
-2976,"Literatures of Italian, Dalmatian, Romanian, Rhaetian, Sardinian, Corsican languages",850.0,2716.0,
-2977,"Literatures of Spanish, Portuguese, Galician languages",860.0,2726.0,
-2979,Geography & travel,910.0,2772.0,
-2980,History Of Europe,940.0,2810.0,"2812,2811"
-2981,History of Africa,960.0,2833.0,
-2982,History of North America,970.0,2843.0,
-2983,History of South America,980.0,2853.0,
-2984,"History of Australasia, Pacific Ocean islands, Atlantic Ocean islands, Arctic islands, Antarctica, extraterrestrial worlds",990.0,2863.0,
-2988,Communication,302.2,1676.0,
-2990,Population,307.2,1706.0,
-2991,Personnel management,351.1,1820.0,
-2992,Programming,519.7,2071.0,
-2993,Ecology,581.5,2173.0,
-2995,Anatomy and morphology,591.4,2897.0,
-2997,Ecology,591.5,2897.0,
-2998,Reptiles,597.9,2204.0,
-2999,Special topics,613.6,2242.0,
-3000,"Techniques, procedures, apparatus, equipment, materials",741.2,2480.0,
-3001,Philosophy and theory,750.1,2512.0,
-3002,Women's voices,783.6,2556.0,
-3003,Children's voices,783.7,2556.0,
-3004,Men's voices,783.8,2556.0,
+id,english,code,hypers
+1345,"Computer Science, Information & General Works",0.0,0.0
+1346,"Computer Science, Knowledge & Systems",0.0,1345.0
+1347,Knowledge,1.0,1346.0
+1348,Intellectual life,1.1,1347.0
+1349,Scholarship and learning,1.2,1347.0
+1350,Humanities,1.3,1347.0
+1351,Research,1.4,1347.0
+1352,Controversial knowledge,1.9,1347.0
+1353,The book,2.0,1346.0
+1354,Systems,3.0,1346.0
+1355,Data Processing & Computer Science,4.0,1346.0
+1356,"Systems analysis and design, computer architecture",4.2,1355.0
+1357,Storage,4.5,1355.0
+1358,Interfacing and communications,4.6,1355.0
+1359,Peripherals,4.7,1355.0
+1360,"Computer Programming, Programs & Data",5.0,1346.0
+1361,Programming,5.1,1360.0
+1362,Programming for specific types of computers,5.2,1360.0
+1363,Programs,5.3,1360.0
+1364,Systems programming and programs,5.4,1360.0
+1365,Microprogramming and microprograms,5.6,1360.0
+1366,Data in computer systems,5.7,1360.0
+1367,Data security,5.8,1360.0
+1368,Special Computer Methods,6.0,1346.0
+1369,Artificial intelligence,6.3,1368.0
+1370,Computer pattern recognition,6.4,1368.0
+1371,Computer sound synthesis,6.5,1368.0
+1372,Computer graphics,6.6,1368.0
+1373,Bibliographies,10.0,1345.0
+1374,Bibliography,10.0,1373.0
+1375,Bibliographies of individuals,12.0,1373.0
+1376,Of anonymous & pseudonymous works,14.0,1373.0
+1377,Bibliographies of works from specific places,15.0,1373.0
+1378,Bibliographies of works on specific subjects,16.0,1373.0
+1379,General subject catalogs,17.0,1373.0
+1380,"Catalogs arranged by author, date, etc.",18.0,1373.0
+1381,Dictionary catalogs,19.0,1373.0
+1382,Library & Information Sciences,20.0,1345.0
+1383,Library relationships,21.0,1382.0
+1384,Administration of physical plant,22.0,1382.0
+1385,Personnel management,23.0,1382.0
+1386,Library operations,25.0,1382.0
+1387,Libraries for specific subjects,26.0,1382.0
+1388,General libraries,27.0,1382.0
+1389,Reading & use of other information media,28.0,1382.0
+1390,Encyclopedias & Books Of Facts,30.0,1345.0
+1391,General encyclopedic works,30.0,1390.0
+1392,Encyclopedias in American English,31.0,1390.0
+1393,Encyclopedias in English,32.0,1390.0
+1394,In other Germanic languages,33.0,1390.0
+1395,"Encyclopedias in French, Occitan & Catalan",34.0,1390.0
+1396,"In Italian, Romanian & related languages",35.0,1390.0
+1397,Encyclopedias in Spanish & Portuguese,36.0,1390.0
+1398,Encyclopedias in Slavic languages,37.0,1390.0
+1399,Encyclopedias in Scandinavian languages,38.0,1390.0
+1400,Encyclopedias in other languages,39.0,1390.0
+1401,"Magazines, Journals & Serials",50.0,1345.0
+1402,General serial publications,50.0,1401.0
+1403,Serials in American English,51.0,1401.0
+1404,Serials in English,52.0,1401.0
+1405,Serials in other Germanic languages,53.0,1401.0
+1406,"Serials in French, Occitan & Catalan",54.0,1401.0
+1407,Serials in Spanish & Portuguese,56.0,1401.0
+1408,Serials in Slavic languages,57.0,1401.0
+1409,Serials in Scandinavian languages,58.0,1401.0
+1410,Serials in other languages,59.0,1401.0
+1411,"Associations, Organizations & Museums",60.0,1345.0
+1412,General organizations & museum science,60.0,1411.0
+1413,Organizations in North America,61.0,1411.0
+1414,Organizations in British isles; in England,62.0,1411.0
+1415,Organizations in central Europe; in Germany,63.0,1411.0
+1416,Organizations in France & Monaco,64.0,1411.0
+1417,Organizations in Italy & adjacent islands,65.0,1411.0
+1418,In iberian peninsula & adjacent islands,66.0,1411.0
+1419,Organizations in eastern Europe; in Russia,67.0,1411.0
+1420,Organizations in other geographic areas,68.0,1411.0
+1421,Museum science,69.0,1411.0
+1422,"News Media, Journalism & Publishing",70.0,1345.0
+1423,Newspapers in North America,71.0,1422.0
+1424,Newspapers in British isles; in England,72.0,1422.0
+1425,Newspapers in central Europe; in Germany,73.0,1422.0
+1426,Newspapers in France & Monaco,74.0,1422.0
+1427,Newspapers in Italy & adjacent islands,75.0,1422.0
+1428,Newspapers in eastern Europe; in Russia,77.0,1422.0
+1429,Newspapers in Scandinavia,78.0,1422.0
+1430,Newspapers in other geographic areas,79.0,1422.0
+1431,Quotations,80.0,1345.0
+1432,General collections,80.0,1431.0
+1433,Collections in American English,81.0,1431.0
+1434,Collections in English,82.0,1431.0
+1435,Collections in other Germanic languages,83.0,1431.0
+1436,"Collections in French, Occitan & Catalan",84.0,1431.0
+1437,Collections in Spanish & Portuguese,86.0,1431.0
+1438,Collections in Slavic languages,87.0,1431.0
+1439,Collections in Scandinavian languages,88.0,1431.0
+1440,Collections in other languages,89.0,1431.0
+1441,Manuscripts & Rare Books,90.0,1345.0
+1442,Manuscripts,91.0,1441.0
+1443,Block books,92.0,1441.0
+1444,Incunabula,93.0,1441.0
+1445,Printed books,94.0,1441.0
+1446,Books notable for bindings,95.0,1441.0
+1447,Books notable for illustrations,96.0,1441.0
+1448,Books notable for ownership or origin,97.0,1441.0
+1449,"Prohibited works, forgeries & hoaxes",98.0,1441.0
+1450,Books notable for format,99.0,1441.0
+1451,Philosophy & Psychology,100.0,0.0
+1452,Philosophy,100.0,1451.0
+1453,Theory of philosophy,101.0,1452.0
+1454,Miscellany,102.0,1452.0
+1455,Dictionaries & encyclopedias,103.0,1452.0
+1456,Serial publications,105.0,1452.0
+1457,Organizations & management,106.0,1452.0
+1458,"Education, research & related topics",107.0,1452.0
+1459,Metaphysics,110.0,1451.0
+1460,Ontology,111.0,1459.0
+1461,Cosmology,113.0,1459.0
+1462,Space,114.0,1459.0
+1463,Time,115.0,1459.0
+1464,Change,116.0,1459.0
+1465,Structure,117.0,1459.0
+1466,Force & energy,118.0,1459.0
+1467,Number & quantity,119.0,1459.0
+1468,Epistemology,120.0,1451.0
+1469,"Epistemology, causation & humankind",120.0,1468.0
+1470,Causation,122.0,1468.0
+1471,Determinism & indeterminism,123.0,1468.0
+1472,Teleology,124.0,1468.0
+1473,The self,126.0,1468.0
+1474,The unconscious & the subconscious,127.0,1468.0
+1475,Humankind,128.0,1468.0
+1476,Origin & destiny of individual souls,129.0,1468.0
+1477,Parapsychology & Occultism,130.0,1451.0
+1478,Parapsychological & occult methods,131.0,1477.0
+1479,Specific Topics In Parapsychology & Occultism,133.0,1477.0
+1480,Apparitions,133.1,1479.0
+1481,Divinatory arts,133.3,1479.0
+1482,Demonology and witchcraft,133.4,1479.0
+1483,Astrology,133.5,1479.0
+1484,Palmistry,133.6,1479.0
+1485,Psychic phenomena,133.8,1479.0
+1486,Spiritualism,133.9,1479.0
+1487,Dreams & mysteries,135.0,1477.0
+1488,Divinatory graphology,137.0,1477.0
+1489,Physiognomy,138.0,1477.0
+1490,Phrenology,139.0,1477.0
+1491,Philosophical Schools Of Thought,140.0,1451.0
+1492,Specific philosophical schools,140.0,1491.0
+1493,Idealism & related systems,141.0,1491.0
+1494,Critical philosophy,142.0,1491.0
+1495,Bergsonism & intuitionism,143.0,1491.0
+1496,Humanism & related systems,144.0,1491.0
+1497,Sensationalism,145.0,1491.0
+1498,Naturalism & related systems,146.0,1491.0
+1499,Pantheism & related systems,147.0,1491.0
+1500,"Eclecticism, liberalism & traditionalism",148.0,1491.0
+1501,Other philosophical systems,149.0,1491.0
+1502,Psychology,150.0,1451.0
+1503,"Perception, Movement, Emotions & Drives",152.0,1502.0
+1504,Sensory perception,152.1,1503.0
+1505,"Movements and motor functions, facial expressions, laterality",152.3,1503.0
+1506,Emotions and feelings,152.4,1503.0
+1507,Physiological drives,152.5,1503.0
+1508,"Quantitative threshold, discrimination, reaction-time studies",152.8,1503.0
+1509,Mental Processes & Intelligence,153.0,1502.0
+1510,Memory and learning,153.1,1509.0
+1511,Formation and association of ideas,153.2,1509.0
+1512,Imagination and imagery,153.3,1509.0
+1513,Knowledge (cognition),153.4,1509.0
+1514,Communication,153.6,1509.0
+1515,Perceptual processes,153.7,1509.0
+1516,Will (volition),153.8,1509.0
+1517,Intelligence and aptitudes,153.9,1509.0
+1518,Subconscious & Altered States,154.0,1502.0
+1519,The subconscious,154.2,1518.0
+1520,"Daydreams, fantasies, reveries",154.3,1518.0
+1521,Altered states of concsiousness,154.4,1518.0
+1522,Sleep phenomena,154.6,1518.0
+1523,Hypnotism,154.7,1518.0
+1524,Differential & developmental psychology,155.0,1502.0
+1525,Comparative psychology,156.0,1502.0
+1526,Applied psychology,158.0,1502.0
+1527,Philosophical Logic,160.0,1451.0
+1528,Induction,161.0,1527.0
+1529,Deduction,162.0,1527.0
+1530,Fallacies & sources of error,165.0,1527.0
+1531,Syllogisms,166.0,1527.0
+1532,Hypotheses,167.0,1527.0
+1533,Argument & persuasion,168.0,1527.0
+1534,Analogy,169.0,1527.0
+1535,Ethics,170.0,1451.0
+1536,Ethical systems,171.0,1535.0
+1537,Political ethics,172.0,1535.0
+1538,Ethics of family relationships,173.0,1535.0
+1539,Occupational ethics,174.0,1535.0
+1540,Ethics of recreation & leisure,175.0,1535.0
+1541,Ethics of sex & reproduction,176.0,1535.0
+1542,Ethics of social relations,177.0,1535.0
+1543,Ethics of consumption,178.0,1535.0
+1544,Other ethical norms,179.0,1535.0
+1545,"Ancient, Medieval & Eastern Philosophy",180.0,1451.0
+1546,Eastern philosophy,181.0,1545.0
+1547,Pre-Socratic Greek philosophies,182.0,1545.0
+1548,Socratic & related philosophies,183.0,1545.0
+1549,Platonic philosophy,184.0,1545.0
+1550,Aristotelian philosophy,185.0,1545.0
+1551,Skeptic & Neoplatonic philosophies,186.0,1545.0
+1552,Epicurean philosophy,187.0,1545.0
+1553,Stoic philosophy,188.0,1545.0
+1554,Medieval western philosophy,189.0,1545.0
+1555,Modern Western Philosophy,190.0,1451.0
+1556,Philosophy of United States & Canada,191.0,1555.0
+1557,Philosophy of British isles,192.0,1555.0
+1558,Philosophy of Germany & Austria,193.0,1555.0
+1559,Philosophy of France,194.0,1555.0
+1560,Philosophy of Italy,195.0,1555.0
+1561,Philosophy of Spain & Portugal,196.0,1555.0
+1562,Philosophy of former Soviet Union,197.0,1555.0
+1563,Philosophy of Scandinavia,198.0,1555.0
+1564,Philosophy in other geographic areas,199.0,1555.0
+1565,Religion,200.0,0.0
+1566,Religious mythology & social theology,201.0,1565.0
+1567,Doctrines,202.0,1565.0
+1568,Public worship & other practices,203.0,1565.0
+1569,"Religious experience, life & practice",204.0,1565.0
+1570,Religious ethics,205.0,1565.0
+1571,Leaders & organization,206.0,1565.0
+1572,Missions & religious education,207.0,1565.0
+1573,Sources,208.0,1565.0
+1574,Sects & reform movements,209.0,1565.0
+1575,Philosophy & Theory Of Religion,210.0,1565.0
+1576,Concepts of god,211.0,1575.0
+1577,"Existence, knowability & attributes of god",212.0,1575.0
+1578,Creation,213.0,1575.0
+1579,Theodicy,214.0,1575.0
+1580,Science & religion,215.0,1575.0
+1581,The Bible,220.0,1565.0
+1582,Bible,220.0,1581.0
+1583,Origins and authenticity,220.1,1582.0
+1584,Encyclopedias and topical dictionaries,220.3,1582.0
+1585,"Original texts, early versions, early translations",220.4,1582.0
+1586,Modern versions and translations,220.5,1582.0
+1587,Interpretation and criticism (exegesis),220.6,1582.0
+1588,Commentaries,220.7,1582.0
+1589,Nonreligious subjects treated in bible,220.8,1582.0
+1590,"Geography, history, chronology, persons of bible lands in bible times",220.9,1582.0
+1591,Old Testament (Tanakh),221.0,1581.0
+1592,Historical books of Old Testament,222.0,1581.0
+1593,Poetic books of Old Testament,223.0,1581.0
+1594,Prophetic books of Old Testament,224.0,1581.0
+1595,New Testament,225.0,1581.0
+1596,Gospels & Acts,226.0,1581.0
+1597,Matthew,226.2,1596.0
+1598,Mark,226.3,1596.0
+1599,Luke,226.4,1596.0
+1600,John,226.5,1596.0
+1601,Acts of the apostles,226.6,1596.0
+1602,Miracles,226.7,1596.0
+1603,Parables,226.8,1596.0
+1604,Sermon on the mount,226.9,1596.0
+1605,Epistles,227.0,1581.0
+1606,Revelation (apocalypse),228.0,1581.0
+1607,Apocrypha & pseudepigrapha,229.0,1581.0
+1608,Christianity & Christian Theology,230.0,1565.0
+1609,God,231.0,1608.0
+1610,Jesus Christ & his family,232.0,1608.0
+1611,Salvation & grace,234.0,1608.0
+1612,Spiritual beings,235.0,1608.0
+1613,Eschatology,236.0,1608.0
+1614,Creeds & catechisms,238.0,1608.0
+1615,Apologetics & polemics,239.0,1608.0
+1616,Christian Practice & Observance,240.0,1565.0
+1617,Christian moral & devotional theology,240.0,1616.0
+1618,Christian ethics,241.0,1616.0
+1619,Devotional literature,242.0,1616.0
+1620,Evangelistic writings for individuals,243.0,1616.0
+1621,Use of art in Christianity,246.0,1616.0
+1622,Church furnishings & articles,247.0,1616.0
+1623,"Christian experience, practice & life",248.0,1616.0
+1624,Christian observances in family life,249.0,1616.0
+1625,Christian pastoral practices & religious orders,250.0,1626.0
+1626,Christian Orders & Local Church,250.0,1565.0
+1627,Preaching,251.0,1625.0
+1628,Texts of sermons,252.0,1625.0
+1629,Pastoral office & work,253.0,1625.0
+1630,Parish administration,254.0,1625.0
+1631,Religious congregations & orders,255.0,1625.0
+1632,Pastoral care of families & kinds of persons,259.0,1625.0
+1633,Christian social and ecclesiastical theology,260.0,1634.0
+1634,Social & Ecclesiastical Theology,260.0,1565.0
+1635,Social theology,261.0,1633.0
+1636,Ecclesiology,262.0,1633.0
+1637,"Days, times & places of observance",263.0,1633.0
+1638,Public worship,264.0,1633.0
+1639,"Sacraments, other rites & acts",265.0,1633.0
+1640,Missions,266.0,1633.0
+1641,Associations for religious work,267.0,1633.0
+1642,Religious education,268.0,1633.0
+1643,Spiritual renewal,269.0,1633.0
+1644,History Of Christianity,270.0,1565.0
+1645,"History, geographic treatment, biography of Christianity",270.0,1644.0
+1646,Religious orders in church history,271.0,1644.0
+1647,Persecutions in church history,272.0,1644.0
+1648,Doctrinal controversies & heresies,273.0,1644.0
+1649,History of Christianity in Europe,274.0,1644.0
+1650,History of Christianity in Asia,275.0,1644.0
+1651,History of Christianity in Africa,276.0,1644.0
+1652,History of Christianity in North America,277.0,1644.0
+1653,History of Christianity in South America,278.0,1644.0
+1654,History of Christianity in other areas,279.0,1644.0
+1655,Christian Denominations,280.0,1565.0
+1656,Denominations and sects of Christian church,280.0,1655.0
+1657,Early church & eastern churches,281.0,1655.0
+1658,Roman catholic church,282.0,1655.0
+1659,Anglican churches,283.0,1655.0
+1660,Protestants of continental origin,284.0,1655.0
+1661,"Presbyterian, Reformed & Congregational",285.0,1655.0
+1662,"Baptist, Disciples of Christ & Adventist",286.0,1655.0
+1663,Methodist & related churches,287.0,1655.0
+1664,Other denominations & sects,289.0,1655.0
+1665,Other Religions,290.0,1565.0
+1666,Greek & Roman religion,292.0,1665.0
+1667,Germanic religion,293.0,1665.0
+1668,Religions of Indic origin,294.0,1665.0
+1669,Zoroastrianism,295.0,1665.0
+1670,Judaism,296.0,1665.0
+1671,"Islam, Babism & Bahai faith",297.0,1665.0
+1672,Religions not provided for elsewhere,299.0,1665.0
+1673,Social Sciences,300.0,0.0
+1674,"Social Sciences, Sociology & Anthropology",300.0,1673.0
+1675,Sociology & anthropology,301.0,1674.0
+1676,Social Interaction,302.0,1674.0
+1677,Social interaction within groups,302.3,1676.0
+1678,Social interaction between groups,302.4,1676.0
+1679,Relation of the individual to society,302.5,1676.0
+1680,Social Processes,303.0,1674.0
+1681,Coordination and control,303.3,1680.0
+1682,Social change,303.4,1680.0
+1683,Conflict,303.6,1680.0
+1684,Factors Affecting Social Behavior,304.0,1674.0
+1685,Human ecology,304.2,1684.0
+1686,Genetic factors,304.5,1684.0
+1687,Population,304.6,1684.0
+1688,Movement of people,304.8,1684.0
+1689,Social Groups,305.0,1674.0
+1690,Age groups,305.2,1689.0
+1691,Men and women,305.3,1689.0
+1692,Women,305.4,1689.0
+1693,Social classes,305.5,1689.0
+1694,Religious groups,305.6,1689.0
+1695,Language groups,305.7,1689.0
+1696,"Racial, ethnic, national groups",305.8,1689.0
+1697,Occupational and miscellaneous groups,305.9,1689.0
+1698,Culture & Institutions,306.0,1674.0
+1699,Political institutions,306.2,1698.0
+1700,Economic institutions,306.3,1698.0
+1701,Specific types of culture,306.4,1698.0
+1702,Religious institutions,306.6,1698.0
+1703,Institutions pertaining to relations of the sexes,306.7,1698.0
+1704,Marriage and family,306.8,1698.0
+1705,Institutions pertaining to death,306.9,1698.0
+1706,Communities,307.0,1674.0
+1707,Community planning and development,307.1,1706.0
+1708,Community structure,307.3,1706.0
+1709,Specific kinds of communities,307.7,1706.0
+1710,Statistics,310.0,1673.0
+1711,Collections of general statistics,310.0,1710.0
+1712,General statistics of Europe,314.0,1710.0
+1713,General statistics of Asia,315.0,1710.0
+1714,General statistics of Africa,316.0,1710.0
+1715,General statistics of North America,317.0,1710.0
+1716,General statistics of South America,318.0,1710.0
+1717,General statistics of other areas,319.0,1710.0
+1718,Political Science,320.0,1673.0
+1719,The state,320.1,2950.0
+1720,Comparative,320.3,2950.0
+1721,Structure and functions of government,320.4,2950.0
+1722,Political ideologies,320.5,2950.0
+1723,Local government,320.8,2950.0
+1724,Political situation and conditions,320.9,2950.0
+1725,Systems Of Governments & States,321.0,1718.0
+1726,Pure democracy,321.4,1725.0
+1727,Elitist systems,321.5,1725.0
+1728,Democratic systems,321.8,1725.0
+1729,Authoritarian systems,321.9,1725.0
+1730,Relation Of State To Organized Groups,322.0,1718.0
+1731,Political action groups,322.4,1730.0
+1732,Civil & Political Rights,323.0,1718.0
+1733,"Civil rights of non-dominant aggregates, political rights of non-dominant aggregates",323.1,1732.0
+1734,Civil and political rights of other social aggregates,323.3,1732.0
+1735,Specific civil rights; limitation and suspension of civil rights,323.4,1732.0
+1736,Political rights,323.5,1732.0
+1737,Citizenship and related topics,323.6,1732.0
+1738,The Political Process,324.0,1718.0
+1739,"International party organizations, auxiliaries, activities",324.1,1738.0
+1740,Political parties,324.2,1738.0
+1741,Nomination of candidates,324.5,1738.0
+1742,Election systems and procedures; suffrage,324.6,1738.0
+1743,Conduct of election campaigns,324.7,1738.0
+1744,Historical and geographic treatment of elections,324.9,1738.0
+1745,International migration & colonization,325.0,1718.0
+1746,Slavery & emancipation,326.0,1718.0
+1747,International Relations,327.0,1718.0
+1748,General topics of international relations; spies,327.1,1747.0
+1749,Diplomacy,327.2,1747.0
+1750,The Legislative Process,328.0,1718.0
+1751,Initiative and referendum,328.2,1750.0
+1752,Legislative bodies,328.3,1750.0
+1753,Economics,330.0,1673.0
+1754,Systems and theories,330.1,1753.0
+1755,Economic situation and conditions,330.9,1753.0
+1756,Labor Economics,331.0,1753.0
+1757,Labor force and market,331.1,1756.0
+1758,Compensation and other conditions of employment,331.2,1756.0
+1759,Workers of specific age groups,331.3,1756.0
+1760,Women workers,331.4,1756.0
+1761,Special categories of workers other than by age or sex,331.5,1756.0
+1762,"Categories of workers by racial, ethnic, national origin",331.6,1756.0
+1763,Labor by industry and occupation,331.7,1756.0
+1764,"Labor unions, labor-management bargaining and disputes",331.8,1756.0
+1765,Financial Economics,332.0,1753.0
+1766,Banks and banking,332.1,1765.0
+1767,Credit and loan institutions,332.3,1765.0
+1768,Money,332.4,1765.0
+1769,Stocks,332.6,1765.0
+1770,Credit,332.7,1765.0
+1771,Interest and discount,332.8,1765.0
+1772,Economics Of Land & Energy,333.0,1753.0
+1773,Public ownership and control of land and other natural resources,333.1,1772.0
+1774,Ownership and control of land and natural resources by nongovernmental groups,333.2,1772.0
+1775,Individual (private) ownership and control of land and other natural resources,333.3,1772.0
+1776,Rental and leasing of land and other natural resources,333.5,1772.0
+1777,Natural resources and energy,333.7,1772.0
+1778,Subsurface resources,333.8,1772.0
+1779,Other natural resources,333.9,1772.0
+1780,Cooperatives,334.0,1753.0
+1781,Socialism & related systems,335.0,1753.0
+1782,Public Finance,336.0,1753.0
+1783,Nontax revenues,336.1,1782.0
+1784,Taxes and taxation,336.2,1782.0
+1785,"Public borrowing, debt, expenditure",336.3,1782.0
+1786,International economics,337.0,1753.0
+1787,Production,338.0,1753.0
+1788,Agriculture,338.1,1787.0
+1789,Extraction of minerals,338.2,1787.0
+1790,Other extractive industries,338.3,1787.0
+1791,Secondary industries and services,338.4,1787.0
+1792,General production economics,338.5,1787.0
+1793,Organization of production,338.6,1787.0
+1794,Business enterprises and their structure,338.7,1787.0
+1795,"Combinations, trusts",338.8,1787.0
+1796,Economic development and growth,338.9,1787.0
+1797,Macroeconomics & Related Topics,339.0,1753.0
+1798,Distribution of income and wealth,339.2,1797.0
+1799,"National product, wealth, income accounts and accounting",339.3,1797.0
+1800,"Factors affecting national product, wealth, income",339.4,1797.0
+1801,Macroeconomic policy,339.5,1797.0
+1802,Law,340.0,1673.0
+1803,Legal systems,340.5,1802.0
+1804,Conflict of laws,340.9,1802.0
+1805,Law Of Nations,341.0,1802.0
+1806,Law regarding relations between states,341.3,1805.0
+1807,Law regarding jurisdiction and jurisdictional relations of states,341.4,1805.0
+1808,Law of disputes and conflicts between states,341.5,1805.0
+1809,Law of war,341.6,1805.0
+1810,Law of international cooperation,341.7,1805.0
+1811,Constitutional & administrative law,342.0,1802.0
+1812,"Military, tax, trade & industrial law",343.0,1802.0
+1813,"Labor, social, education & cultural law",344.0,1802.0
+1814,Criminal law,345.0,1802.0
+1815,Private law,346.0,1802.0
+1816,Civil procedure & courts,347.0,1802.0
+1817,"Laws, regulations & cases",348.0,1802.0
+1818,Law of specific jurisdictions & areas,349.0,1802.0
+1819,Public Administration & Military Science,350.0,1673.0
+1820,Public Administration,351.0,1819.0
+1821,Civil service examinations,351.3,1820.0
+1822,Government work force,351.4,1820.0
+1823,Pensions,351.5,1820.0
+1824,Civil service system (merit system),351.6,1820.0
+1825,Administration of specific fields,351.8,1820.0
+1826,Malfunctioning of administration,351.9,1820.0
+1827,General Considerations Of Public Administration,352.0,1819.0
+1828,Property and financial management and related topics,352.1,1827.0
+1829,Police,352.2,1827.0
+1830,Fire and accident protection,352.3,1827.0
+1831,Safeguarding public health,352.4,1827.0
+1832,Regulation and control of public buildings,352.5,1827.0
+1833,Environmental sanitation and related activities,352.6,1827.0
+1834,Housing and public works,352.7,1827.0
+1835,Miscellaneous fields,352.9,1827.0
+1836,Specific fields of public administration,353.0,1819.0
+1837,Administration of economy & environment,354.0,1819.0
+1838,Military Science,355.0,1819.0
+1839,Military life and customs,355.1,1838.0
+1840,Military resources,355.2,1838.0
+1841,Organization and personnel of military forces,355.3,1838.0
+1842,Military operations,355.4,1838.0
+1843,Military training,355.5,1838.0
+1844,Military administration,355.6,1838.0
+1845,Military installations and reservations,355.7,1838.0
+1846,Military equipment and supplies (matériel),355.8,1838.0
+1847,Infantry forces & warfare,356.0,1819.0
+1848,Mounted forces & warfare,357.0,1819.0
+1849,Air & Other Specialized Forces,358.0,1819.0
+1850,Guided missile forces and warfare,358.1,1849.0
+1851,Air forces and warfare,358.4,1849.0
+1852,Sea Forces & Warfare,359.0,1819.0
+1853,Naval life and customs,359.1,1852.0
+1854,Naval resources,359.2,1852.0
+1855,Organization and personnel of naval forces,359.3,1852.0
+1856,Naval operations,359.4,1852.0
+1857,Naval training,359.5,1852.0
+1858,Naval administration,359.6,1852.0
+1859,Naval installations and reservations,359.7,1852.0
+1860,Naval equipment and supplies (matériel),359.8,1852.0
+1861,Specialized combat forces; engineering and related forces,359.9,1852.0
+1862,Social Problems & Social Services,360.0,1673.0
+1863,Social problems & services; associations,360.0,1862.0
+1864,Social Problems & Social Welfare In General,361.0,1862.0
+1865,Social problems,361.1,1864.0
+1866,Social action,361.2,1864.0
+1867,Social work,361.3,1864.0
+1868,Group work,361.4,1864.0
+1869,Governmental action,361.6,1864.0
+1870,Private action,361.7,1864.0
+1871,Community action,361.8,1864.0
+1872,Social Welfare Problems & Services,362.0,1862.0
+1873,Physical illness,362.1,1872.0
+1874,Mental and emotional illnesses and disturbances,362.2,1872.0
+1875,Mental retardation,362.3,1872.0
+1876,Other Social Problems & Services,363.0,1862.0
+1877,Public safety programs,363.1,1876.0
+1878,Policy services,363.2,1876.0
+1879,Other aspects of public safety,363.3,1876.0
+1880,Controversies related to public morals and customs,363.4,1876.0
+1881,Housing,363.5,1876.0
+1882,Public utilities and related services,363.6,1876.0
+1883,Environmental problems and services; ecology; pollution,363.7,1876.0
+1884,Food supply,363.8,1876.0
+1885,Population problems,363.9,1876.0
+1886,Criminology,364.0,1862.0
+1887,Criminal offenses,364.1,1886.0
+1888,Causes of crime and delinquency,364.2,1886.0
+1889,Offenders,364.3,1886.0
+1890,Prevention of crime and delinquency,364.4,1886.0
+1891,Penology,364.6,1886.0
+1892,Discharged offenders,364.8,1886.0
+1893,Penal & related institutions,365.0,1862.0
+1894,Associations,366.0,1862.0
+1895,General clubs,367.0,1862.0
+1896,Insurance,368.0,1862.0
+1897,Miscellaneous kinds of associations,369.0,1862.0
+1898,Education,370.0,1673.0
+1899,"Philosophy, theories, general aspects",370.1,1898.0
+1900,"Education, research, related topics",370.7,1898.0
+1901,Schools & Their Activities; Special Education,371.0,1898.0
+1902,Teaching and teaching personnel,371.1,1901.0
+1903,School administration and management,371.2,1901.0
+1904,Methods of instruction and study,371.3,1901.0
+1905,Guidance and counseling,371.4,1901.0
+1906,School discipline,371.5,1901.0
+1907,Physical plant,371.6,1901.0
+1908,School health and safety,371.7,1901.0
+1909,The student,371.8,1901.0
+1910,Special education,371.9,1901.0
+1911,Elementary Education,372.0,1898.0
+1912,Organization and management of elementary schools; curriculums,372.1,1911.0
+1913,Levels of elementary education,372.2,1911.0
+1914,"Technology, science, health",372.3,1911.0
+1915,Reading,372.4,1911.0
+1916,Creative and manual arts,372.5,1911.0
+1917,"Language, literature, theater",372.6,1911.0
+1918,Mathematics,372.7,1911.0
+1919,Secondary education,373.0,1898.0
+1920,Adult education,374.0,1898.0
+1921,Curricula,375.0,1898.0
+1922,Higher Education,378.0,1898.0
+1923,Organization and management; curriculums,378.1,1922.0
+1924,Academic degrees,378.2,1922.0
+1925,Student finances,378.3,1922.0
+1926,Public Policy Issues In Education,379.0,1898.0
+1927,"Finance, supervision, control of public education",379.1,1926.0
+1928,Public education and the state,379.2,1926.0
+1929,Private education and the state,379.3,1926.0
+1930,"Commerce, Communications & Transportation",380.0,1673.0
+1931,Commerce,380.1,1930.0
+1932,Commercial policy,381.3,1931.0
+1933,International commerce,382.0,1930.0
+1934,Postal communication,383.0,1930.0
+1935,Communications; Telecommunication,384.0,1930.0
+1936,Telegraph,384.1,1935.0
+1937,Computer communication,384.3,1935.0
+1938,Wireless communication,384.5,1935.0
+1939,Telephone,384.6,1935.0
+1940,Railroad transportation,385.0,1930.0
+1941,Inland waterway & ferry transportation,386.0,1930.0
+1942,"Water, Air & Space Transportation",387.0,1930.0
+1943,Ports,387.1,1942.0
+1944,Ships,387.2,1942.0
+1945,Ocean (marine) transportation,387.5,1942.0
+1946,Transportation; Ground Transportation,388.0,1930.0
+1947,Roads and highways,388.1,1946.0
+1948,Vehicular transportation,388.3,1946.0
+1949,Local transportation,388.4,1946.0
+1950,Pipeline transportation,388.5,1946.0
+1951,Metrology & standardization,389.0,1930.0
+1952,"Customs, Etiquette & Folklore",390.0,1673.0
+1953,Costume & personal appearance,391.0,1952.0
+1954,Customs of life cycle & domestic life,392.0,1952.0
+1955,Death customs,393.0,1952.0
+1956,General Customs,394.0,1952.0
+1957,"Eating, drinking; using drugs",394.1,1956.0
+1958,Special occasions,394.2,1956.0
+1959,Etiquette (manners),395.0,1952.0
+1960,Folklore,398.0,1952.0
+1961,Folk literature,398.2,1960.0
+1962,Riddles,398.6,1960.0
+1963,Rhymes and rhyming games,398.8,1960.0
+1964,Proverbs,398.9,1960.0
+1965,Customs of war & diplomacy,399.0,1952.0
+1966,Language,400.0,0.0
+1967,Philosophy & theory,401.0,1966.0
+1968,Special topics,404.0,1966.0
+1969,Linguistics,410.0,1966.0
+1970,Writing systems,411.0,1969.0
+1971,Etymology,412.0,1969.0
+1972,Dictionaries,413.0,1969.0
+1973,Phonology & phonetics,414.0,1969.0
+1974,Grammar,415.0,1969.0
+1975,Dialectology & historical linguistics,417.0,1969.0
+1976,Standard usage & applied linguistics,418.0,1969.0
+1977,Sign languages,419.0,1969.0
+1978,English & Old English Languages,420.0,1966.0
+1979,English & Old English (Anglo-Saxon),420.0,1978.0
+1980,English writing system & phonology,421.0,1978.0
+1981,English etymology,422.0,1978.0
+1982,English dictionaries,423.0,1978.0
+1983,English grammar,425.0,1978.0
+1984,English language variations,427.0,1978.0
+1985,Standard English usage,428.0,1978.0
+1986,Old English (Anglo-Saxon),429.0,1978.0
+1987,German & Related Languages,430.0,1966.0
+1988,Germanic languages; German,430.0,1987.0
+1989,German writing systems & phonology,431.0,1987.0
+1990,German etymology,432.0,1987.0
+1991,German dictionaries,433.0,1987.0
+1992,German grammar,435.0,1987.0
+1993,German language variations,437.0,1987.0
+1994,Standard German usage,438.0,1987.0
+1995,Other Germanic languages,439.0,1987.0
+1996,French & Related Languages,440.0,1966.0
+1997,Romance languages; French,440.0,1996.0
+1998,French writing systems & phonology,441.0,1996.0
+1999,French etymology,442.0,1996.0
+2000,French dictionaries,443.0,1996.0
+2001,French grammar,445.0,1996.0
+2002,French language variations,447.0,1996.0
+2003,Standard French usage,448.0,1996.0
+2004,Occitan & Catalan,449.0,1996.0
+2005,"Italian, Romanian & Related Languages",450.0,1966.0
+2006,Italian writing systems & phonology,451.0,2005.0
+2007,Italian etymology,452.0,2005.0
+2008,Italian dictionaries,453.0,2005.0
+2009,Italian grammar,455.0,2005.0
+2010,Italian language variations,457.0,2005.0
+2011,Standard Italian usage,458.0,2005.0
+2012,Romanian & related languages,459.0,2005.0
+2013,Spanish & Portuguese Languages,460.0,1966.0
+2014,Spanish writing systems & phonology,461.0,2013.0
+2015,Spanish etymology,462.0,2013.0
+2016,Spanish dictionaries,463.0,2013.0
+2017,Spanish grammar,465.0,2013.0
+2018,Spanish language variations,467.0,2013.0
+2019,Standard Spanish usage,468.0,2013.0
+2020,Portuguese,469.0,2013.0
+2021,Latin & Italic Languages,470.0,1966.0
+2022,Italic languages; Latin,470.0,2021.0
+2023,Classical Latin writing & phonology,471.0,2021.0
+2024,Classical Latin etymology,472.0,2021.0
+2025,Classical Latin dictionaries,473.0,2021.0
+2026,Classical Latin grammar,475.0,2021.0
+2027,"Old, postclassical & vulgar latin",477.0,2021.0
+2028,Classical Latin usage,478.0,2021.0
+2029,Other Italic languages,479.0,2021.0
+2030,Classical & Modern Greek Languages,480.0,1966.0
+2031,Hellenic languages; Classical Greek,480.0,2030.0
+2032,Classical Greek writing & phonology,481.0,2030.0
+2033,Classical Greek etymology,482.0,2030.0
+2034,Classical Greek dictionaries,483.0,2030.0
+2035,Classical Greek grammar,485.0,2030.0
+2036,Preclassical & postclassical Greek,487.0,2030.0
+2037,Classical Greek usage,488.0,2030.0
+2038,Other Hellenic languages,489.0,2030.0
+2039,Other Languages,490.0,1966.0
+2040,East Indo-European & Celtic Languages,491.0,2039.0
+2041,Celtic languages,491.6,2040.0
+2042,East Slavic languages; Russian,491.7,2040.0
+2043,Slavic languages,491.8,2040.0
+2044,Afro-Asiatic Languages; Semitic Languages,492.0,2039.0
+2045,Hebrew,492.4,2044.0
+2046,Non-Semitic Afro-Asiatic languages,493.0,2039.0
+2047,"Altaic, Uralic, Hyperborean & Dravidian",494.0,2039.0
+2048,Languages of East & Southeast Asia,495.0,2039.0
+2049,African languages,496.0,2039.0
+2050,North American native languages,497.0,2039.0
+2051,South American native languages,498.0,2039.0
+2052,Austronesian & other languages,499.0,2039.0
+2053,Science,500.0,0.0
+2054,Natural sciences and mathemetics,500.0,2053.0
+2055,Physical sciences,500.2,2053.0
+2056,Natural history,508.0,2053.0
+2057,General Principles Of Mathematics,511.0,2961.0
+2058,Mathematical (symbolic) logic,511.3,2057.0
+2059,Algebra,512.0,1918.0
+2060,Foundations of algebra,512.9,2059.0
+2061,Arithmetic,513.0,2961.0
+2062,Specific arithmetic operations,513.2,2061.0
+2063,Numeration systems,513.5,2061.0
+2064,Topology,514.0,1918.0
+2065,Analysis,515.0,1918.0
+2066,Geometry,516.0,1918.0
+2067,Euclidean geometry,516.2,2066.0
+2068,Analytic geometries,516.3,2066.0
+2069,Non-euclidean geometries,516.9,2066.0
+2070,Numerical analysis,518.0,1918.0
+2071,Probabilities & Applied Mathematics,519.0,2873.0
+2072,Probabilities,519.2,2071.0
+2073,Game theory,519.3,2071.0
+2074,Applied numerical analysis,519.4,2071.0
+2075,Statistical mathematics,519.5,2071.0
+2076,Astronomy,520.0,2053.0
+2077,Astronomy & allied sciences,520.0,2076.0
+2078,Celestial mechanics,521.0,2076.0
+2079,"Techniques, equipment & materials",522.0,2076.0
+2080,Specific Celestial Bodies & Phenomena,523.0,2076.0
+2081,"The universe; space, galaxies, quasars",523.1,2080.0
+2082,Solar system,523.2,2080.0
+2083,Moon,523.3,2080.0
+2084,Planets,523.4,2080.0
+2085,"Meteoroids, solar wind, zodiacal light",523.5,2080.0
+2086,Comets,523.6,2080.0
+2087,Sun,523.7,2080.0
+2088,Stars,523.8,2080.0
+2089,"Satellites and rings; eclipses, transits, occultations",523.9,2080.0
+2090,Earth (astronomical geography),525.0,2076.0
+2091,Mathematical Geography,526.0,2076.0
+2092,Geodetic surveying,526.3,2091.0
+2093,Surveying,526.9,2091.0
+2094,Celestial navigation,527.0,2076.0
+2095,Ephemerides,528.0,2076.0
+2096,Chronology,529.0,2076.0
+2097,Physics,530.0,2053.0
+2098,Classical mechanics; solid mechanics,531.0,2097.0
+2099,Fluid mechanics; liquid mechanics,532.0,2097.0
+2100,Gas mechanics,533.0,2097.0
+2101,Sound & related vibrations,534.0,2097.0
+2102,Light & Infrared & Ultraviolet Phenomena,535.0,2097.0
+2103,Beams,535.5,2102.0
+2104,Color,535.6,2102.0
+2105,Spectroscopy,535.8,2102.0
+2106,Heat,536.0,2097.0
+2107,Electricity & electronics,537.0,2097.0
+2108,Magnetism,538.0,2097.0
+2109,Modern Physics,539.0,2097.0
+2110,Atomic and nuclear physics,539.7,2109.0
+2111,Chemistry,540.0,2053.0
+2112,Chemistry & allied sciences,540.0,2111.0
+2113,Physical chemistry,541.0,2111.0
+2114,Analytical chemistry,543.0,2111.0
+2115,Inorganic chemistry,546.0,2111.0
+2116,Organic chemistry,547.0,2111.0
+2117,Crystallography,548.0,2111.0
+2118,Mineralogy,549.0,2111.0
+2119,Earth Sciences & Geology,550.0,2053.0
+2120,Earth sciences,550.0,2119.0
+2121,"Geology, Hydrology & Meteorology",551.0,2119.0
+2122,Gross structure and properties of the earth,551.1,2121.0
+2123,"Volcanoes, earthquakes, thermal waters and gases",551.2,2121.0
+2124,Surface and exogenous processes and their agents,551.3,2121.0
+2125,"Geomorphology and hydrosphere, water",551.4,2121.0
+2126,Meteorology,551.5,2121.0
+2127,Climatology and weather,551.6,2121.0
+2128,Historical geology,551.7,2121.0
+2129,Structural geology,551.8,2121.0
+2130,Geochemistry,551.9,2121.0
+2131,Petrology,552.0,2119.0
+2132,Economic Geology,553.0,2119.0
+2133,Carbonaceous materials,553.2,2132.0
+2134,Iron,553.3,2132.0
+2135,Metals and semimetals,553.4,2132.0
+2136,Structural and sculptural stone,553.5,2132.0
+2137,Other economic materials,553.6,2132.0
+2138,Water,553.7,2132.0
+2139,Gems,553.8,2132.0
+2140,Earth sciences of Europe,554.0,2119.0
+2141,Earth sciences of Asia,555.0,2119.0
+2142,Earth sciences of Africa,556.0,2119.0
+2143,Earth sciences of North America,557.0,2119.0
+2144,Earth sciences of South America,558.0,2119.0
+2145,Earth sciences of other areas,559.0,2119.0
+2146,Fossils & Prehistoric Life,560.0,2053.0
+2147,Paleontology; paleozoology,560.0,2146.0
+2148,Paleobotany; fossil microorganisms,561.0,2146.0
+2149,Fossil invertebrates,562.0,2146.0
+2150,Fossil marine & seashore invertebrates,563.0,2146.0
+2151,Fossil mollusks & molluscoids,564.0,2146.0
+2152,Fossil arthropods,565.0,2146.0
+2153,Fossil chordates,566.0,2146.0
+2154,Fossil Cold-Blooded Vertebrates; Fossil Fishes,567.0,2146.0
+2155,Reptiles,567.9,2154.0
+2156,Fossil birds,568.0,2146.0
+2157,Fossil mammals,569.0,2146.0
+2158,Life Sciences; Biology,570.0,2053.0
+2159,Physiology & related subjects,571.0,2158.0
+2160,Biochemistry,572.0,2158.0
+2161,Geographic distribution of races,572.9,2160.0
+2162,Specific Physiological Systems In Animals,573.0,2158.0
+2163,Evolution and genetics of humankind,573.2,2162.0
+2164,Prehistoric humankind,573.3,2162.0
+2165,Specific Parts Of & Systems In Plants,575.0,2158.0
+2166,Genetics,575.1,2165.0
+2167,Variation,575.2,2165.0
+2168,Genetics & evolution,576.0,2158.0
+2169,Ecology,577.0,2158.0
+2170,Natural history of organisms,578.0,2158.0
+2171,"Microorganisms, fungi & algae",579.0,2158.0
+2172,Plants (Botany),580.0,2053.0
+2173,Specific Topics In Natural History,581.0,2172.0
+2174,Physiology of plants,581.1,2173.0
+2175,Pathology of plants,581.2,2173.0
+2176,Development and maturation of plants,581.3,2173.0
+2177,Anatomy and morphology,581.4,2173.0
+2178,Economic botany,581.6,2173.0
+2179,"Tissue, cellular, molecular botany",581.8,2173.0
+2180,Geographic treatment of plants,581.9,2173.0
+2181,Plants noted for characteristics & flowers,582.0,2172.0
+2182,Dicotyledons,583.0,2172.0
+2183,Monocotyledons,584.0,2172.0
+2184,Gymnosperms; conifers,585.0,2172.0
+2185,Seedless plants,586.0,2172.0
+2186,Vascular seedless plants,587.0,2172.0
+2187,Bryophytes,588.0,2172.0
+2188,Animals (Zoology),590.0,2053.0
+2189,Physiology of animals,591.1,2173.0
+2190,Pathology of animals,591.2,2173.0
+2191,Development and maturation of animals,591.3,2173.0
+2192,Economic biology,591.6,2173.0
+2193,"Tissue, cellular, molecular zoology",591.8,2173.0
+2194,Invertebrates,592.0,2188.0
+2195,Marine & seashore invertebrates,593.0,2188.0
+2196,Mollusks & molluscoids,594.0,2188.0
+2197,Arthropods,595.0,2188.0
+2198,Worms and related animals,595.1,2197.0
+2199,Crustaceans and chelicerates,595.3,2197.0
+2200,Arachnids,595.4,2197.0
+2201,Progoneata,595.6,2197.0
+2202,Insects,595.7,2197.0
+2203,Chordates,596.0,2188.0
+2204,Cold-Blooded Vertebrates; Fishes,597.0,2188.0
+2205,Amphibians,597.6,2204.0
+2206,Apoda (caecilians),597.7,2204.0
+2207,Anura (salientia),597.8,2204.0
+2208,Birds,598.0,2188.0
+2209,Ecology and geographic treatment of birds,598.2,2208.0
+2210,"Charadriiformes, ciconiiformes, gruiformes",598.3,2208.0
+2211,Anseriformes and other water birds,598.4,2208.0
+2212,Palaeognathae,598.5,2208.0
+2213,Galliformes and columbiformes,598.6,2208.0
+2214,"Coliiformes, cuculiformes, piciformes, psittaciformes, trogoniformes",598.7,2208.0
+2215,"Perching birds, apodiformes, coraciiformes",598.8,2208.0
+2216,"Birds of prey, owls, caprimulgiformes",598.9,2208.0
+2217,Mammals,599.0,2188.0
+2218,Monotremes,599.1,2217.0
+2219,Marsupials,599.2,2217.0
+2220,Unguiculata,599.3,2217.0
+2221,Bats,599.4,2217.0
+2222,Cetaceans and sirenians,599.5,2217.0
+2223,Paenungulata,599.6,2217.0
+2224,"Ungulates, carnivores, aardvarks",599.7,2217.0
+2225,Primates,599.8,2217.0
+2226,Humankind and forebears,599.9,2217.0
+2227,Technology,600.0,0.0
+2228,Illustrations,602.2,1454.0
+2229,Technical drawing,604.2,1968.0
+2230,Organizations,606.0,2227.0
+2231,Inventions & patents,608.0,2227.0
+2232,Medicine & Health,610.0,2227.0
+2233,"Human anatomy, cytology & histology",611.0,2232.0
+2234,Human Physiology,612.0,2232.0
+2235,Blood and circulation,612.1,2234.0
+2236,Respiration,612.2,2234.0
+2237,Digestion,612.3,2234.0
+2238,"Secretion, excretion, related functions",612.4,2234.0
+2239,"Reproduction, development, maturation",612.6,2234.0
+2240,"Motor functions and skin (integument), hair, nails",612.7,2234.0
+2241,Nervous functions sensory functions,612.8,2234.0
+2242,Personal Health & Safety,613.0,2232.0
+2243,"Dietetics, nutrition",613.2,2242.0
+2244,Physical fitness,613.7,2242.0
+2245,"Substance abuse (drug abuse), smoking",613.8,2242.0
+2246,Birth control and sex hygiene,613.9,2242.0
+2247,Incidence & prevention of disease,614.0,2232.0
+2248,Pharmacology & therapeutics,615.0,2232.0
+2249,Diseases,616.0,2232.0
+2250,Diseases of the cardiovascular system,616.1,2249.0
+2251,Diseases of the respiratory system,616.2,2249.0
+2252,Diseases of the digestive system,616.3,2249.0
+2253,"Diseases of the blood-forming, lymphatic, glandular systems; diseases of the endocrine system",616.4,2249.0
+2254,"Diseases of the skin (integument), hair, nails",616.5,2249.0
+2255,"Diseases of the urogenital system, diseases of the urinary system",616.6,2249.0
+2256,Diseases of the musculoskeletal system,616.7,2249.0
+2257,Diseases of the nervous system and mental disorders,616.8,2249.0
+2258,Other diseases,616.9,2249.0
+2259,Surgery & Related Medical Specialties,617.0,2232.0
+2260,Wounds and injuries,617.1,2259.0
+2261,Results of injuries,617.2,2259.0
+2262,Orthopedics,617.3,2259.0
+2263,Surgery by systems,617.4,2259.0
+2264,Regional medicine regional surgery,617.5,2259.0
+2265,Dentistry,617.6,2259.0
+2266,Ophthalmology,617.7,2259.0
+2267,Otology and audiology,617.8,2259.0
+2268,"Geriatric, pediatric, military, plastic surgery, transplantation of tissue and organs, anesthesiology",617.9,2259.0
+2269,"Gynecology, Obstetrics, Pediatrics & Geriatrics",618.0,2232.0
+2270,Gynecology,618.1,2269.0
+2271,Obstetrics,618.2,2269.0
+2272,Diseases and complications of pregnancy,618.3,2269.0
+2273,Childbirth labor,618.4,2269.0
+2274,Complicated labor,618.5,2269.0
+2275,Normal perperium,618.6,2269.0
+2276,Puerperal diseases,618.7,2269.0
+2277,Obstetrical surgery,618.8,2269.0
+2278,Pediatrics and geriatrics,618.9,2269.0
+2279,Engineering,620.0,2227.0
+2280,Engineering & allied operations,620.0,2279.0
+2281,Applied Physics,621.0,2279.0
+2282,Steam engineering,621.1,2281.0
+2283,Hydraulic-power technology,621.2,2281.0
+2284,"Electric, electronic, magnetic, communications, computer engineering; lighting",621.3,2281.0
+2285,Heat engineering and prime movers,621.4,2281.0
+2286,"Pneumatic, vacuum, low-temperature technologies",621.5,2281.0
+2287,"Fans, blowers, pumps",621.6,2281.0
+2288,Machine engineering,621.8,2281.0
+2289,Tools and fabricating equipment,621.9,2281.0
+2290,Mining & related operations,622.0,2279.0
+2291,Military & Nautical Engineering,623.0,2279.0
+2292,Ordnance,623.4,2291.0
+2293,Vehicles,623.7,2291.0
+2294,Nautical engineering and seamanship,623.8,2291.0
+2295,Civil Engineering,624.0,2279.0
+2296,Structural engineering and underground construction,624.1,2295.0
+2297,Engineering Of Railroads & Roads,625.0,2279.0
+2298,Railroads,625.1,2297.0
+2299,Railroad rolling stock,625.2,2297.0
+2300,"Inclined, mountain, ship railroads",625.3,2297.0
+2301,Rapid transit systems,625.4,2297.0
+2302,Cable and aerial railways,625.5,2297.0
+2303,Surface rail and trolley systems,625.6,2297.0
+2304,Roads,625.7,2297.0
+2305,Artificial road surfaces,625.8,2297.0
+2306,Hydraulic engineering,627.0,2279.0
+2307,Sanitary & Municipal Engineering,628.0,2279.0
+2308,Water supply,628.1,2307.0
+2309,Sewage treatment and disposal,628.3,2307.0
+2310,"Waste technology, public toilets, street cleaning",628.4,2307.0
+2311,Pollution and industrial sanitation engineering,628.5,2307.0
+2312,Other branches of sanitary and municipal engineering,628.9,2307.0
+2313,Other branches of engineering,629.0,2279.0
+2314,Agriculture & related technologies,630.0,2876.0
+2315,Philosophy and theory,630.1,2314.0
+2316,Miscellany and scientific principles,630.2,2314.0
+2317,Use of agricultural structures,631.2,2904.0
+2318,"Use of tools, machinery, apparatus, equipment",631.3,2904.0
+2319,Soil science,631.4,2904.0
+2320,Cultivation and harvesting,631.5,2904.0
+2321,"Clearing, drainage, revegetation",631.6,2904.0
+2322,Water conservation,631.7,2904.0
+2323,Fertilizers and soil conditioners,631.8,2904.0
+2324,"Plant injuries, diseases & pests",632.0,1788.0
+2325,Field & Plantation Crops,633.0,1788.0
+2326,Cereal grains (cereals),633.1,2325.0
+2327,Forage crops,633.2,2325.0
+2328,"Legumes, other forage crops",633.3,2325.0
+2329,Fiber crops,633.5,2325.0
+2330,"Sugar, syrup, starch crops",633.6,2325.0
+2331,Alkaloidal crops,633.7,2325.0
+2332,Other crops grown for industrial processing,633.8,2325.0
+2333,"Orchards, Fruits & Forestry",634.0,1788.0
+2334,Grapes,634.8,2333.0
+2335,Forestry,634.9,2333.0
+2336,Garden Crops (Horticulture),635.0,1788.0
+2337,Flowers and ornamental plants,635.9,2336.0
+2338,Animal Husbandry,636.0,1788.0
+2339,Horses and related animals,636.1,2338.0
+2340,Ruminants bovines cattle,636.2,2338.0
+2341,Sheep and goats,636.3,2338.0
+2342,Swine,636.4,2338.0
+2343,Poultry chickens,636.5,2338.0
+2344,Birds other than poultry,636.6,2338.0
+2345,Dogs,636.7,2338.0
+2346,Cats,636.8,2338.0
+2347,Processing dairy & related products,637.0,1788.0
+2348,Insect culture,638.0,1788.0
+2349,"Hunting, Fishing & Conservation",639.0,1788.0
+2350,"Commercial fishing, whaling, sealing",639.2,2349.0
+2351,Culture of cold-blooded vertebrates,639.3,2349.0
+2352,Conservation of biological resources,639.9,2349.0
+2353,Home & Family Management,640.0,2227.0
+2354,Food & Drink,641.0,2353.0
+2355,Applied nutrition,641.1,2354.0
+2356,Beverages (drinks),641.2,2354.0
+2357,Food,641.3,2354.0
+2358,Food preservation and storage,641.4,2354.0
+2359,"Cooking, recipes",641.5,2354.0
+2360,Cooking specific materials,641.6,2354.0
+2361,Specific cooking processes and techniques,641.7,2354.0
+2362,Cooking specific kinds of composite dishes,641.8,2354.0
+2363,Meals & table service,642.0,2353.0
+2364,Housing & household equipment,643.0,2353.0
+2365,Household utilities,644.0,2353.0
+2366,Household furnishings,645.0,2353.0
+2367,"Sewing, Clothing & Personal Living",646.0,2353.0
+2368,Sewing and related operations,646.2,2367.0
+2369,Clothing and accessories construction,646.4,2367.0
+2370,Construction of headgear,646.5,2367.0
+2371,Managemennt of personal and family living; grooming,646.7,2367.0
+2372,Management of public households,647.0,2353.0
+2373,Housekeeping,648.0,2353.0
+2374,Child Rearing & Home Care Of Persons,649.0,2353.0
+2375,Home care of sick and infirm,649.8,2374.0
+2376,Management & Public Relations,650.0,2227.0
+2377,Management & auxiliary services,650.0,2376.0
+2378,Office services,651.0,2376.0
+2379,Processes of written communication,652.0,2376.0
+2380,Shorthand,653.0,2376.0
+2381,Accounting,657.0,2376.0
+2382,General management,658.0,2376.0
+2383,Advertising & public relations,659.0,2376.0
+2384,Chemical Engineering,660.0,2227.0
+2385,Industrial chemicals,661.0,2384.0
+2386,"Explosives, fuels & related products",662.0,2384.0
+2387,Beverage technology,663.0,2384.0
+2388,Food technology,664.0,2384.0
+2389,"Industrial oils, fats, waxes & gases",665.0,2384.0
+2390,Ceramic & allied technologies,666.0,2384.0
+2391,"Cleaning, color & coating technologies",667.0,2384.0
+2392,Technology of other organic products,668.0,2384.0
+2393,Metallurgy,669.0,2384.0
+2394,Manufacturing,670.0,2227.0
+2395,Metalworking & primary metal products,671.0,2394.0
+2396,"Iron, steel & other iron alloys",672.0,2394.0
+2397,Nonferrous metals,673.0,2394.0
+2398,"Lumber processing, wood products & cork",674.0,2394.0
+2399,Leather & fur processing,675.0,2394.0
+2400,Pulp & paper technology,676.0,2394.0
+2401,Textiles,677.0,2394.0
+2402,Elastomers & elastomer products,678.0,2394.0
+2403,Other products of specific materials,679.0,2394.0
+2404,Manufacture For Specific Uses,680.0,2227.0
+2405,Precision Instruments & Other Devices,681.0,2404.0
+2406,Instruments for measuring time,681.1,2405.0
+2407,Small forge work (blacksmithing),682.0,2404.0
+2408,Hardware & household appliances,683.0,2404.0
+2409,Furnishings & Home Workshops,684.0,2404.0
+2410,Furniture,684.1,2409.0
+2411,"Leather, fur goods & related products",685.0,2404.0
+2412,Printing & related activities,686.0,2404.0
+2413,Clothing & accessories,687.0,2404.0
+2414,Other final products & packaging,688.0,2404.0
+2415,Building & Construction,690.0,2227.0
+2416,Construction of buildings,690.0,2415.0
+2417,Building materials,691.0,2415.0
+2418,Auxiliary construction practices,692.0,2415.0
+2419,Specific materials & purposes,693.0,2415.0
+2420,Wood construction & carpentry,694.0,2415.0
+2421,Roof covering,695.0,2415.0
+2422,Utilities,696.0,2415.0
+2423,"Heating, ventilating & air-conditioning",697.0,2415.0
+2424,Detail finishing,698.0,2415.0
+2425,Arts & Recreation,700.0,0.0
+2426,Arts,700.0,2425.0
+2427,The arts; fine & decorative arts,700.0,2426.0
+2428,Philosophy of fine & decorative arts,701.0,2426.0
+2429,Miscellany of fine & decorative arts,702.0,2426.0
+2430,Dictionaries of fine & decorative arts,703.0,2426.0
+2431,Special Topics In Fine & Decorative Arts,704.0,2426.0
+2432,Iconography,704.9,2431.0
+2433,Serial publications of fine & decorative arts,705.0,2426.0
+2434,"Galleries, museums & private collections",708.0,2426.0
+2435,Landscaping & Area Planning,710.0,2425.0
+2436,Civic & landscape art,710.0,2435.0
+2437,Area planning,711.0,2435.0
+2438,Landscape architecture,712.0,2435.0
+2439,Landscape architecture of trafficways,713.0,2435.0
+2440,Water features,714.0,2435.0
+2441,Woody plants,715.0,2435.0
+2442,Herbaceous plants,716.0,2435.0
+2443,Structures in landscape architecture,717.0,2435.0
+2444,Landscape design of cemeteries,718.0,2435.0
+2445,Natural landscapes,719.0,2435.0
+2446,Architecture,720.0,2425.0
+2447,Architectural structure,721.0,2446.0
+2448,Architecture to ca. 300,722.0,2446.0
+2449,Architecture from ca. 300 to 1399,723.0,2446.0
+2450,Architecture from 1400,724.0,2446.0
+2451,Public structures,725.0,2446.0
+2452,Buildings for religious purposes,726.0,2446.0
+2453,Buildings for education & research,727.0,2446.0
+2454,Residential & related buildings,728.0,2446.0
+2455,Design & decoration,729.0,2446.0
+2456,"Sculpture, Ceramics & Metalwork",730.0,2425.0
+2457,Plastic arts; sculpture,730.0,2456.0
+2458,Philosophy and theory of sculpture,730.1,2457.0
+2459,"Processes, forms & subjects of sculpture",731.0,2456.0
+2460,Sculpture to ca. 500,732.0,2456.0
+2461,"Greek, Etruscan & Roman sculpture",733.0,2456.0
+2462,Sculpture from ca. 500 to 1399,734.0,2456.0
+2463,Sculpture from 1400,735.0,2456.0
+2464,Carving & carvings,736.0,2456.0
+2465,Numismatics & Sigillography,737.0,2456.0
+2466,Coins,737.4,2465.0
+2467,Ceramic Arts,738.0,2456.0
+2468,"Techniques, procedures, apparatus, equipment, materials",738.1,2467.0
+2469,Porcelain,738.2,2467.0
+2470,Earthenware and stoneware,738.3,2467.0
+2471,Enameling and enamels,738.4,2467.0
+2472,Mosaics,738.5,2467.0
+2473,Ornamental bricks and tiles,738.6,2467.0
+2474,Art Metalwork,739.0,2456.0
+2475,Work in precious metals,739.2,2474.0
+2476,Ironwork,739.4,2474.0
+2477,Work in other metals,739.5,2474.0
+2478,Arms and armour,739.7,2474.0
+2479,Drawing & Decorative Arts,740.0,2425.0
+2480,Drawing & Drawings,741.0,2479.0
+2481,"Cartoons, caricatures, comics",741.5,2480.0
+2482,"Graphic design, illustration and commercial art",741.6,2480.0
+2483,Silhouettes,741.7,2480.0
+2484,Perspective,742.0,2479.0
+2485,Drawing & drawings by subject,743.0,2479.0
+2486,Decorative Arts,745.0,2479.0
+2487,Antiques,745.1,2486.0
+2488,Industrial art and design,745.2,2486.0
+2489,Pure and applied design and decoration,745.4,2486.0
+2490,Handicrafts,745.5,2486.0
+2491,"Calligraphy, illumination, heraldic design",745.6,2486.0
+2492,Decorative coloring,745.7,2486.0
+2493,"Panoramas, cycloramas, dioramas",745.8,2486.0
+2494,Other decorative arts,745.9,2486.0
+2495,Textile Arts,746.0,2479.0
+2496,Yarn preparation and weaving,746.1,2495.0
+2497,Laces and related fabrics,746.2,2495.0
+2498,"Pictures, hangings, tapestries",746.3,2495.0
+2499,Needle- and handwork,746.4,2495.0
+2500,Bead embroidery,746.5,2495.0
+2501,"Printing, painting, dyeing",746.6,2495.0
+2502,Rugs and carpets,746.7,2495.0
+2503,Other textile products,746.9,2495.0
+2504,Interior Decoration,747.0,2479.0
+2505,Decoration of specific rooms of residential buildings,747.7,2504.0
+2506,Glass,748.0,2479.0
+2507,Glassware,748.2,2506.0
+2508,"Stained, painted, leaded, mosaic glass",748.5,2506.0
+2509,Methods of decoration,748.6,2506.0
+2510,Furniture & accessories,749.0,2479.0
+2511,Painting,750.0,2425.0
+2512,Painting & paintings,750.0,2511.0
+2513,"Techniques, equipment, materials & forms",751.0,2511.0
+2514,"Symbolism, allegory, mythology & legend",753.0,2511.0
+2515,Genre paintings,754.0,2511.0
+2516,Human figures,757.0,2511.0
+2517,Other subjects,758.0,2511.0
+2518,Graphic Arts; Printmaking & Prints,760.0,2425.0
+2519,Printmaking & prints,760.0,2518.0
+2520,Relief processes (block printing),761.0,2518.0
+2521,Lithographic processes,763.0,2518.0
+2522,Chromolithography & serigraphy,764.0,2518.0
+2523,Metal engraving,765.0,2518.0
+2524,"Mezzotinting, aquatinting & related processes",766.0,2518.0
+2525,Etching & drypoint,767.0,2518.0
+2526,Prints,769.0,2518.0
+2527,"Photography, computer art, cinematography, videography",770.0,2528.0
+2528,"Photography, Computer Art, Film, Video",770.0,2425.0
+2529,Metallic salt processes,772.0,2527.0
+2530,Pigment processes of printing,773.0,2527.0
+2531,Holography,774.0,2527.0
+2532,Digital photography,775.0,2527.0
+2533,Computer art (digital art),776.0,2527.0
+2534,Fields & kinds of photography,778.0,2527.0
+2535,Photographs,779.0,2527.0
+2536,Music,780.0,2425.0
+2537,General Principles & Musical Forms,781.0,2536.0
+2538,"Aesthetics, appreciation, taste",781.1,2537.0
+2539,Elements of music,781.2,2537.0
+2540,Composition,781.3,2537.0
+2541,Techniques of music,781.4,2537.0
+2542,Kinds of music,781.5,2537.0
+2543,Traditions of music,781.6,2537.0
+2544,Sacred music,781.7,2537.0
+2545,Musical forms,781.8,2537.0
+2546,Vocal Music,782.0,2536.0
+2547,Dramatic vocal forms operas,782.1,2546.0
+2548,Nondramatic vocal forms,782.2,2546.0
+2549,Services (liturgy and ritual),782.3,2546.0
+2550,Secular forms,782.4,2546.0
+2551,Mixed voices,782.5,2546.0
+2552,Women's voices,782.6,2546.0
+2553,Children's voices,782.7,2546.0
+2554,Men's voices,782.8,2546.0
+2555,Other types of voices,782.9,2546.0
+2556,Music For Single Voices; The Voice,783.0,2536.0
+2557,Single voices in combination,783.1,2556.0
+2558,Solo voice,783.2,2556.0
+2559,High voice,783.3,2556.0
+2560,Middle voice,783.4,2556.0
+2561,Low voice,783.5,2556.0
+2562,Other types of voice,783.9,2556.0
+2563,Instruments & Instrumental Ensembles,784.0,2536.0
+2564,"General principles, musical forms, instruments",784.1,2563.0
+2565,Full (symphony) orchestra,784.2,2563.0
+2566,Chamber orchestra,784.3,2563.0
+2567,Light orchestra,784.4,2563.0
+2568,Pop music,784.5,2563.0
+2569,"Keyboard, mechanical, electronic, percussion bands",784.6,2563.0
+2570,String orchestra,784.7,2563.0
+2571,Wind band,784.8,2563.0
+2572,Brass band,784.9,2563.0
+2573,Ensembles with one instrument per part,785.0,2536.0
+2574,Keyboard & Other Instruments,786.0,2536.0
+2575,Piano,786.2,2574.0
+2576,Clavichord,786.3,2574.0
+2577,Harpsichord,786.4,2574.0
+2578,Keyboard wind instruments organ,786.5,2574.0
+2579,Mechanical and aeolian instruments,786.6,2574.0
+2580,Electrophones electronic instruments,786.7,2574.0
+2581,Percussion instruments,786.8,2574.0
+2582,Drums and devices used for percussion effects,786.9,2574.0
+2583,Stringed Instruments,787.0,2536.0
+2584,Violin,787.2,2583.0
+2585,Viola,787.3,2583.0
+2586,Cello,787.4,2583.0
+2587,Double bass,787.5,2583.0
+2588,Other bowed stringed instruments viol,787.6,2583.0
+2589,"Plectral instruments, guitar",787.7,2583.0
+2590,Harp and musical bow,787.9,2583.0
+2591,Wind Instruments,788.0,2536.0
+2592,Woodwind instruments and free aerophones,788.2,2591.0
+2593,Flute family,788.3,2591.0
+2594,Reed instruments,788.4,2591.0
+2595,Double-reed instruments,788.5,2591.0
+2596,Single-reed instruments,788.6,2591.0
+2597,Saxophone,788.7,2591.0
+2598,Free reeds,788.8,2591.0
+2599,Brass instruments (lip-reed instruments),788.9,2591.0
+2600,"Sports, Games & Entertainment",790.0,2425.0
+2601,Recreational & performing arts,790.0,2600.0
+2602,Recreational activities,790.1,2601.0
+2603,The performing arts in general,790.2,2601.0
+2604,Public Performances,791.0,2600.0
+2605,Circuses,791.3,2604.0
+2606,"Motion pictures, radio, television",791.4,2604.0
+2607,Puppetry and toy theaters,791.5,2604.0
+2608,Pageantry,791.6,2604.0
+2609,Animal performances,791.8,2604.0
+2610,Stage Presentations,792.0,2600.0
+2611,Tragedy and serious drama,792.1,2610.0
+2612,Comedy and melodrama,792.2,2610.0
+2613,Pantomime,792.3,2610.0
+2614,Opera,792.5,2610.0
+2615,Musical plays,792.6,2610.0
+2616,Variety shows,792.7,2610.0
+2617,Ballet and modern dance,792.8,2610.0
+2618,Stage productions,792.9,2610.0
+2619,Indoor Games & Amusements,793.0,2600.0
+2620,Parties and entertainment,793.2,2619.0
+2621,"Social, folk, national dancing",793.3,2619.0
+2622,Games of action,793.4,2619.0
+2623,Forfeit and trick games,793.5,2619.0
+2624,Games not characterized by action,793.7,2619.0
+2625,Magic and related activities,793.8,2619.0
+2626,Other indoor diversions,793.9,2619.0
+2627,Indoor Games Of Skill,794.0,2600.0
+2628,Chess,794.1,2627.0
+2629,Checkers (draughts),794.2,2627.0
+2630,Darts,794.3,2627.0
+2631,Bowling,794.6,2627.0
+2632,Ball games,794.7,2627.0
+2633,Games Of Chance,795.0,2600.0
+2634,Games with dice,795.1,2633.0
+2635,Wheel and top games,795.2,2633.0
+2636,Games dependent on drawing numbers or counters,795.3,2633.0
+2637,Card games,795.4,2633.0
+2638,Athletic & Outdoor Sports & Games,796.0,2600.0
+2639,Miscellaneous games,796.1,2638.0
+2640,Activities and games requiring equipment,796.2,2638.0
+2641,"Weight lifting, track and field, gymnastics",796.4,2638.0
+2642,Outdoor life,796.5,2638.0
+2643,Cycling and related activities,796.6,2638.0
+2644,Driving motor vehicles,796.7,2638.0
+2645,Combat sports,796.8,2638.0
+2646,Ice and snow sports,796.9,2638.0
+2647,Aquatic & Air Sports,797.0,2600.0
+2648,Boating,797.1,2647.0
+2649,Swimming and diving,797.2,2647.0
+2650,Other aquatic sports,797.3,2647.0
+2651,Equestrian Sports & Animal Racing,798.0,2600.0
+2652,Horsemanship,798.2,2651.0
+2653,Horse racing; flat racing,798.4,2651.0
+2654,"Fishing, Hunting & Shooting",799.0,2600.0
+2655,Fishing,799.1,2654.0
+2656,Hunting,799.2,2654.0
+2657,Literature,800.0,0.0
+2658,"Literature, Rhetoric & Criticism",800.0,2657.0
+2659,Literature & Rhetoric,800.0,2654.0
+2660,Rhetoric & Collections Of Literature,808.0,2658.0
+2661,Rhetoric of poetry,808.1,2660.0
+2662,Rhetoric of drama,808.2,2660.0
+2663,Rhetoric of fiction,808.3,2660.0
+2664,Rhetoric of essays,808.4,2660.0
+2665,Rhetoric of speech,808.5,2660.0
+2666,Rhetoric of letters,808.6,2660.0
+2667,Rhetoric of satire and humor,808.7,2660.0
+2668,"History, Description & Criticism",809.0,2658.0
+2669,Literary history and criticism of poetry,809.1,2668.0
+2670,Literary history and criticism of drama,809.2,2668.0
+2671,Literary history and criticism of fiction,809.3,2668.0
+2672,Literary history and criticism of essays,809.4,2668.0
+2673,Literary history and criticism of speech,809.5,2668.0
+2674,Literary history and criticism of letters,809.6,2668.0
+2675,Literary history and criticism of satire and humor,809.7,2668.0
+2676,American Literature In English,810.0,2657.0
+2677,American poetry in English,811.0,2676.0
+2678,American drama in English,812.0,2676.0
+2679,American fiction in English,813.0,2676.0
+2680,American essays in English,814.0,2676.0
+2681,American speeches in English,815.0,2676.0
+2682,American letters in English,816.0,2676.0
+2683,American humor & satire in English,817.0,2676.0
+2684,American miscellaneous writings,818.0,2676.0
+2685,English & Old English Literatures,820.0,2657.0
+2686,English poetry,821.0,2685.0
+2687,English drama,822.0,2685.0
+2688,English fiction,823.0,2685.0
+2689,English essays,824.0,2685.0
+2690,English speeches,825.0,2685.0
+2691,English letters,826.0,2685.0
+2692,English humor & satire,827.0,2685.0
+2693,English miscellaneous writings,828.0,2685.0
+2694,German & Related Literatures,830.0,2657.0
+2695,German literature & literatures of related languages,830.0,2694.0
+2696,German poetry,831.0,2694.0
+2697,German drama,832.0,2694.0
+2698,German fiction,833.0,2694.0
+2699,German essays,834.0,2694.0
+2700,German speeches,835.0,2694.0
+2701,German letters,836.0,2694.0
+2702,German humor & satire,837.0,2694.0
+2703,German miscellaneous writings,838.0,2694.0
+2704,Other Germanic literatures,839.0,2694.0
+2705,French & Related Literatures,840.0,2657.0
+2706,French literature & literatures of related Romance languages,840.0,2705.0
+2707,French poetry,841.0,2705.0
+2708,French drama,842.0,2705.0
+2709,French fiction,843.0,2705.0
+2710,French essays,844.0,2705.0
+2711,French speeches,845.0,2705.0
+2712,French letters,846.0,2705.0
+2713,French humor & satire,847.0,2705.0
+2714,French miscellaneous writings,848.0,2705.0
+2715,Occitan & catalan literatures,849.0,2705.0
+2716,"Italian, Romanian & Related Literatures",850.0,2657.0
+2717,Italian poetry,851.0,2716.0
+2718,Italian drama,852.0,2716.0
+2719,Italian fiction,853.0,2716.0
+2720,Italian essays,854.0,2716.0
+2721,Italian speeches,855.0,2716.0
+2722,Italian letters,856.0,2716.0
+2723,Italian humor & satire,857.0,2716.0
+2724,Italian miscellaneous writings,858.0,2716.0
+2725,Romanian & related literatures,859.0,2716.0
+2726,Spanish & Portuguese Literatures,860.0,2657.0
+2727,Spanish poetry,861.0,2726.0
+2728,Spanish drama,862.0,2726.0
+2729,Spanish fiction,863.0,2726.0
+2730,Spanish essays,864.0,2726.0
+2731,Spanish speeches,865.0,2726.0
+2732,Spanish letters,866.0,2726.0
+2733,Spanish humor & satire,867.0,2726.0
+2734,Spanish miscellaneous writings,868.0,2726.0
+2735,Portuguese literature,869.0,2726.0
+2736,Latin & Italic Literatures,870.0,2657.0
+2737,Latin literature & literatures of related Italic languages,870.0,2736.0
+2738,Latin poetry,871.0,2736.0
+2739,Latin dramatic poetry & drama,872.0,2736.0
+2740,Latin epic poetry & fiction,873.0,2736.0
+2741,Latin lyric poetry,874.0,2736.0
+2742,Latin speeches,875.0,2736.0
+2743,Latin letters,876.0,2736.0
+2744,Latin humor & satire,877.0,2736.0
+2745,Latin miscellaneous writings,878.0,2736.0
+2746,Literatures of other Italic languages,879.0,2736.0
+2747,Classical & Modern Greek Literatures,880.0,2657.0
+2748,Classical Greek literature & literatures of related Hellenic languages,880.0,2747.0
+2749,Classical Greek poetry,881.0,2747.0
+2750,Classical Greek dramatic poetry & drama,882.0,2747.0
+2751,Classical Greek epic poetry & fiction,883.0,2747.0
+2752,Classical Greek lyric poetry,884.0,2747.0
+2753,Classical Greek speeches,885.0,2747.0
+2754,Classical Greek letters,886.0,2747.0
+2755,Classical Greek humor & satire,887.0,2747.0
+2756,Classical Greek miscellaneous writings,888.0,2747.0
+2757,Modern Greek literature,889.0,2747.0
+2758,Other Literatures,890.0,2657.0
+2759,Literatures of other specific languages and language families,890.0,2758.0
+2760,East Indo-European & Celtic literatures,891.0,2758.0
+2761,Afro-Asiatic literatures; Semitic literatures,892.0,2758.0
+2762,Non-Semitic Afro-Asiatic literatures,893.0,2758.0
+2763,Literatures of east & southeast Asia,895.0,2758.0
+2764,African literatures,896.0,2758.0
+2765,North American native literatures,897.0,2758.0
+2766,South American native literatures,898.0,2758.0
+2767,Austronesian & other literatures,899.0,2758.0
+2768,History & Geography,900.0,0.0
+2769,History,900.0,2768.0
+2770,Collected accounts of events,904.0,2769.0
+2771,World history,909.0,2769.0
+2772,Geography & Travel,910.0,2768.0
+2773,Historical geography,911.0,2772.0
+2774,"Atlases, maps, charts & plans",912.0,2772.0
+2775,Geography of & travel in ancient world,913.0,2772.0
+2776,Geography Of & Travel In Europe,914.0,2772.0
+2777,Britain,914.2,2776.0
+2778,Germany,914.3,2776.0
+2779,France,914.4,2776.0
+2780,Italy,914.5,2776.0
+2781,Geography Of & Travel In Asia,915.0,2772.0
+2782,Spain,915.6,2781.0
+2783,Russia,915.7,2781.0
+2784,Greece,915.8,2781.0
+2785,Other Europe,915.9,2781.0
+2786,Geography of & travel in Africa,916.0,2772.0
+2787,Geography of & travel in North America,917.0,2772.0
+2788,Geography of & travel in South America,918.0,2772.0
+2789,Geography of & travel in other areas,919.0,2772.0
+2790,Biography & Genealogy,920.0,2768.0
+2791,"Biography, genealogy & insignia",920.0,2790.0
+2792,"Genealogy, Names & Insignia",929.0,2790.0
+2793,Personal names,929.4,2792.0
+2794,Heraldry,929.6,2792.0
+2795,"Royal houses, peerage, gentry, orders of knighthood",929.7,2792.0
+2796,"Awards, orders, decorations, armorial bearings, autographs",929.8,2792.0
+2797,Forms of insignia and identification,929.9,2792.0
+2798,History Of Ancient World (To Ca. 499),930.0,2768.0
+2799,History of ancient world to ca. 499,930.0,2798.0
+2800,Archaeology,930.1,2799.0
+2801,China to 420,931.0,2798.0
+2802,Egypt to 640,932.0,2798.0
+2803,Palestine to 70,933.0,2798.0
+2804,India to 647,934.0,2798.0
+2805,Mesopotamia & Iranian plateau to 637,935.0,2798.0
+2806,Europe north & west of Italy to ca. 499,936.0,2798.0
+2807,Italy & adjacent territories to 476,937.0,2798.0
+2808,Greece to 323,938.0,2798.0
+2809,Other parts of ancient world to ca. 640,939.0,2798.0
+2810,History Of Europe,940.0,2768.0
+2811,Early history to 1453,940.1,2810.0
+2812,1453-,940.2,2810.0
+2813,British isles,941.0,2810.0
+2814,England & Wales,942.0,2810.0
+2815,Central Europe; Germany,943.0,2810.0
+2816,France & Monaco,944.0,2810.0
+2817,Italian peninsula & adjacent islands,945.0,2810.0
+2818,Iberian peninsula & adjacent islands,946.0,2810.0
+2819,Eastern Europe; Russia,947.0,2810.0
+2820,Scandinavia,948.0,2810.0
+2821,Other parts of Europe,949.0,2810.0
+2822,History Of Asia,950.0,2768.0
+2823,History of Asia,950.0,2822.0
+2824,China & adjacent areas,951.0,2822.0
+2825,Japan,952.0,2822.0
+2826,Arabian peninsula & adjacent areas,953.0,2822.0
+2827,South Asia; India,954.0,2822.0
+2828,Iran,955.0,2822.0
+2829,Middle east (Near East),956.0,2822.0
+2830,Siberia (Asiatic Russia),957.0,2822.0
+2831,Central Asia,958.0,2822.0
+2832,Southeast Asia,959.0,2822.0
+2833,History Of Africa,960.0,2768.0
+2834,Tunisia & Libya,961.0,2833.0
+2835,Egypt & Sudan,962.0,2833.0
+2836,Ethiopia & Eritrea,963.0,2833.0
+2837,Northwest African coast & offshore islands,964.0,2833.0
+2838,Algeria,965.0,2833.0
+2839,West Africa & offshore islands,966.0,2833.0
+2840,Central Africa & offshore islands,967.0,2833.0
+2841,Southern Africa; Republic of South Africa,968.0,2833.0
+2842,South Indian ocean islands,969.0,2833.0
+2843,History Of North America,970.0,2768.0
+2844,Canada,971.0,2843.0
+2845,Middle America; Mexico,972.0,2843.0
+2846,United States,973.0,2843.0
+2847,Northeastern United States,974.0,2843.0
+2848,Southeastern United States,975.0,2843.0
+2849,South central United States,976.0,2843.0
+2850,North central United States,977.0,2843.0
+2851,Western United States,978.0,2843.0
+2852,Great basin & Pacific slope region,979.0,2843.0
+2853,History Of South America,980.0,2768.0
+2854,Brazil,981.0,2853.0
+2855,Argentina,982.0,2853.0
+2856,Chile,983.0,2853.0
+2857,Bolivia,984.0,2853.0
+2858,Peru,985.0,2853.0
+2859,Colombia & Ecuador,986.0,2853.0
+2860,Venezuela,987.0,2853.0
+2861,Guiana,988.0,2853.0
+2862,Paraguay & Uruguay,989.0,2853.0
+2863,History Of Other Areas,990.0,2768.0
+2864,New Zealand,993.0,2863.0
+2865,Australia,994.0,2863.0
+2866,Melanesia; New Guinea,995.0,2863.0
+2867,Other parts of Pacific; Polynesia,996.0,2863.0
+2868,Atlantic Ocean islands,997.0,2863.0
+2869,Arctic islands & Antarctica,998.0,2863.0
+2870,Extraterrestrial worlds,999.0,2863.0
+2871,Ball games,796.3,2638.0
+2872,Internal Commerce (Domestic Trade),381.0,1930.0
+2873,Mathematics,510.0,2053.0
+2875,Fashion design of clothing,746.92,2503.0
+2876,Agriculture,630.0,2932.0
+2877,Bibliographies,11.0,0.0
+2878,"In Italian, Romanian & related languages",55.0,1401.0
+2879,In Iberian peninsula & adjacent islands,76.0,1422.0
+2880,"In Italian, Romanian & related languages",85.0,1431.0
+2881,Epistemology,121.0,0.0
+2882,Humankind,218.0,0.0
+2883,Humankind,233.0,0.0
+2884,International commerce (foreign trade),382.0,0.0
+2885,Miscellany,402.0,0.0
+2886,Dictionaries & encyclopedias,403.0,0.0
+2887,Serial publications,405.0,0.0
+2888,Organizations & management,406.0,0.0
+2889,"Education, research & related topics",407.0,0.0
+2890,Philosophy & theory,501.0,0.0
+2891,Miscellany,502.0,0.0
+2892,Dictionaries & encyclopedias,503.0,0.0
+2893,Serial publications,505.0,0.0
+2894,Organizations & management,506.0,0.0
+2895,"Education, research & related topics",507.0,0.0
+2896,"Techniques, equipment & materials",542.0,0.0
+2897,Zoology,591.0,2188.0
+2898,Philosophy & theory,601.0,0.0
+2899,Miscellany,602.0,0.0
+2900,Dictionaries & encyclopedias,603.0,0.0
+2901,Special topics,604.0,0.0
+2902,Serial publications,605.0,0.0
+2903,"Education, research & related topics",607.0,0.0
+2904,"Techniques, equipment & materials",631.0,0.0
+2905,Organizations & management,706.0,0.0
+2906,"Education, research & related topics",707.0,0.0
+2907,Color,752.0,0.0
+2908,Religion,755.0,0.0
+2909,"Techniques, equipment & materials",771.0,0.0
+2910,Philosophy & theory,801.0,0.0
+2911,Miscellany,802.0,0.0
+2912,Dictionaries & encyclopedias,803.0,0.0
+2913,Serial publications,805.0,0.0
+2914,Organizations & management,806.0,0.0
+2915,"Education, research & related topics",807.0,0.0
+2916,Old English (Anglo-Saxon),829.0,2975.0
+2917,"Altaic, Uralic, Hyperborean & Dravidian",894.0,2759.0
+2918,Philosophy & theory,901.0,0.0
+2919,Miscellany,902.0,0.0
+2920,Dictionaries & encyclopedias,903.0,0.0
+2921,Serial publications,905.0,0.0
+2922,Organizations & management,906.0,0.0
+2923,"Education, research & related topics",907.0,0.0
+2924,"Computer science, information & general works",0.0,1346.0
+2925,Philosophy & psychology,100.0,1452.0
+2926,Religion,200.0,1565.0
+2927,Religion,200.0,1565.0
+2928,Social sciences,300.0,1674.0
+2929,Language,400.0,1966.0
+2930,Language,400.0,1966.0
+2931,Science,500.0,2053.0
+2932,Technology,600.0,2227.0
+2933,Technology (applied sciences),600.0,2227.0
+2934,"History, geography, & auxiliary disciplines",900.0,2769.0
+2935,Bibliographies,11.0,1373.0
+2936,Library & information sciences,20.0,1382.0
+2937,"News media, journalism, and publishing",70.0,1422.0
+2938,Manuscripts and rare books,90.0,1441.0
+2939,Metaphysics,110.0,1459.0
+2940,Epistemology (theory of knowledge),121.0,1468.0
+2941,Parapsychology & occultism,130.0,1477.0
+2942,Psychology,150.0,1502.0
+2943,Philosophical logic,160.0,1527.0
+2944,Ethics (moral philosophy),170.0,1535.0
+2945,"Ancient, medieval, eastern philosophy",180.0,1545.0
+2946,Modern western & other noneastern philosophy,190.0,1555.0
+2947,Philosophy & theory of religion,210.0,1575.0
+2948,Christianity,230.0,1608.0
+2949,Other religions,290.0,1665.0
+2950,Political science (politics & government),320.0,1718.0
+2951,Economics,330.0,1753.0
+2952,Law,340.0,1802.0
+2953,Public administration & military science,350.0,1819.0
+2954,Education,370.0,1898.0
+2955,"Commerce, communications & transportation",380.0,1930.0
+2956,"Customs, etiquette, folklore",390.0,1952.0
+2957,Linguistics,410.0,1969.0
+2958,"Italian, Dalmatian, Romanian, Rhaetian, Sardinian, Corsican",450.0,2005.0
+2959,"Spanish, Portuguese, Galician",460.0,2013.0
+2960,Other languages,490.0,2039.0
+2961,Mathematics,510.0,2873.0
+2962,Physics,530.0,2097.0
+2963,Biology,570.0,2158.0
+2964,Plants,580.0,2172.0
+2965,Animals,590.0,2188.0
+2966,Medicine & health,610.0,2232.0
+2967,Home & family management,640.0,2353.0
+2968,Chemical engineering & related technologies,660.0,2384.0
+2969,Manufacturing,670.0,2394.0
+2970,Manufacture of products for specific uses,680.0,2404.0
+2971,Architecture,720.0,2446.0
+2972,Graphic arts,740.0,2479.0
+2973,Music,780.0,2536.0
+2974,American literature in English,810.0,2676.0
+2975,English & Old English (Anglo-Saxon) literatures,820.0,2685.0
+2976,"Literatures of Italian, Dalmatian, Romanian, Rhaetian, Sardinian, Corsican languages",850.0,2716.0
+2977,"Literatures of Spanish, Portuguese, Galician languages",860.0,2726.0
+2979,Geography & travel,910.0,2772.0
+2980,History Of Europe,940.0,2810.0
+2981,History of Africa,960.0,2833.0
+2982,History of North America,970.0,2843.0
+2983,History of South America,980.0,2853.0
+2984,"History of Australasia, Pacific Ocean islands, Atlantic Ocean islands, Arctic islands, Antarctica, extraterrestrial worlds",990.0,2863.0
+2988,Communication,302.2,1676.0
+2990,Population,307.2,1706.0
+2991,Personnel management,351.1,1820.0
+2992,Programming,519.7,2071.0
+2993,Ecology,581.5,2173.0
+2995,Anatomy and morphology,591.4,2897.0
+2997,Ecology,591.5,2897.0
+2998,Reptiles,597.9,2204.0
+2999,Special topics,613.6,2242.0
+3000,"Techniques, procedures, apparatus, equipment, materials",741.2,2480.0
+3001,Philosophy and theory,750.1,2512.0
+3002,Women's voices,783.6,2556.0
+3003,Children's voices,783.7,2556.0
+3004,Men's voices,783.8,2556.0
